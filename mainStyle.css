@@ -1,0 +1,6 @@
+.copyRight {
+    position: fixed;
+    left: 35px;
+    bottom: 45px;
+    width: calc(100% - 70px);
+}
