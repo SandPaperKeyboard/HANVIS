@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
 import Main from "./container/Main";
+import College from './container/College';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Router>
           <Routes>
             <Route path="/" element={<Main />} ></Route>
+            <Route path="/college" element={<College />} />
           </Routes>
         </Router>
       </div>

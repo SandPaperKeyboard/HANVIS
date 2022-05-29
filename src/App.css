@@ -40,26 +40,67 @@
 .Header {
   position: fixed;
   width: 100%;
-  margin-left: 20px; 
   padding:10px 0;
   font-size:20px;
   background-color:#3d414c;
   text-align:center;
   color:#fff;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.Header .Header-logo {
+  margin-left: 60px;
 }
 
 .Header .Header-root {
-  position: relative;
-  max-width: 140px;
+  max-width: 160px;
 }
 
 .Header .Header-nav {
-  margin-left: 300px;
+  margin-top: 20px;
+  margin-right: 100px;
 }
 
 .Header .Header-link {
   max-width: 100px;
-  margin-left: 50px;
+  margin-left: 100px;
+}
+
+.Starter {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: max(0px, 50%);
+  transform: translateX(-50%);
+}
+
+.Starter .Starter-explain {
+  overflow: auto;
+  border: 1px solid blue;
+  width: 500px;
+  height: 500px;
+  max-height: 500px;
+
+  text-align: center;
+}
+
+.Starter .Starter-next {
+  position: static;
+  width: 50px;
+  margin-left: 20px;
+}
+
+.Starter .Starter-next-button {
+  position: static;
+  width: 70px;
+  height: 500px;
+}
+
+.Eagle {
+  position: fixed;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -100%);
 }

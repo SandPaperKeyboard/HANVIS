@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 
 import Header from "../component/Header";
 import Starter from '../component/Starter';
-import Eagle from '../component/Eagle';
 
-class Main extends Component {
+class College extends Component {
     constructor(props)
     {
         super(props);
@@ -25,11 +24,9 @@ class Main extends Component {
         return (
             <div>
                 <Header />
-                <Starter />
-                <Eagle />
             </div>
         )
     }
 }
 
-export default Main;
+export default College;
