@@ -58,6 +58,7 @@
 }
 
 .Header .Header-nav {
+  display: inline-block;
   margin-top: 20px;
   margin-right: 100px;
 }

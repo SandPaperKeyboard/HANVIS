@@ -18,6 +18,9 @@ const Header = () => (
             <a href="https://hiclass.hannam.ac.kr/learningx/main" target="_blank" rel="noopener noreferrer">
                 <img src={logo} className="Header-link" alt="하이클래스"/>
             </a>
+            <Link to="/service_center">
+                <img src={logo} className="Header-link" alt="고객센터"/>
+            </Link>
         </div>
     </div>
 )

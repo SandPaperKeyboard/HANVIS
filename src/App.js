@@ -6,6 +6,9 @@ import './App.css';
 
 import Main from "./container/Main";
 import College from './container/College';
+import ServiceCenter from './container/ServiceCenter';
+import Survey from './container/Survey';
+import Result from './container/Result';
 
 class App extends Component {
   render() {
@@ -15,6 +18,9 @@ class App extends Component {
           <Routes>
             <Route path="/" element={<Main />} ></Route>
             <Route path="/college" element={<College />} />
+            <Route path="/service_center" element={<ServiceCenter />} />
+            <Route path="/survey" element={<Survey />} />
+            <Route path="/result" element={<Result />} />
           </Routes>
         </Router>
       </div>
