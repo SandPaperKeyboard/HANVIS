@@ -16,7 +16,7 @@ const Starter = () => (
             ㅅㅂ 살려줘<br/>
         </div>
         <Link to="/college" className='Starter-next'>
-            <img src={nextLogo} className='Starter-next-button'/>
+            <img src={nextLogo} className='Starter-next-button' alt="Next"/>
         </Link>
     </div>
 )

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Header from "../component/Header";
-import Starter from '../component/Starter';
+import CollegeSelector from '../component/CollegeSelector';
 
 class College extends Component {
     constructor(props)
@@ -24,6 +24,7 @@ class College extends Component {
         return (
             <div>
                 <Header />
+                <CollegeSelector />
             </div>
         )
     }

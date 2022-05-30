@@ -5,7 +5,7 @@ import eaglePic from "../img/logo2.gif";
 
 const Eagle = () => (
     <div className="Eagle">
-        <img src={eaglePic} className="Eagle-picture"/>
+        <img src={eaglePic} className="Eagle-picture" alt="Eagle"/>
     </div>
 )
 
