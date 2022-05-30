@@ -12,6 +12,7 @@ const Header = () => (
             <a href="http://www.hannam.ac.kr/kor/main/" target="_blank" rel="noopener noreferrer">
                 <img src={logo} className="Header-link" alt="한남대학교"/>
             </a>
+            
             <a href="https://my.hnu.kr/html/main/sso.html" target="_blank" rel="noopener noreferrer">
                 <img src={logo} className="Header-link" alt="하이포탈"/>
             </a>

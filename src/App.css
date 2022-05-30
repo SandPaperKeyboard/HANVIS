@@ -58,14 +58,17 @@
 }
 
 .Header .Header-nav {
-  display: inline-block;
+  display: block;
   margin-top: 20px;
   margin-right: 100px;
 }
 
+.Header .Header-nav>a {
+  margin-left: 100px;
+}
+
 .Header .Header-link {
   max-width: 100px;
-  margin-left: 100px;
 }
 
 .Starter {
