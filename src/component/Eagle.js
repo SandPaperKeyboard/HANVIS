@@ -5,7 +5,7 @@ import eaglePic from "../img/Eagle-picture-lookup.png";
 
 const Eagle = () => (
     <div className="Eagle">
-        <img src={eaglePic} className="Eagle-picture"/>
+        <img src={eaglePic} className="Eagle-picture" alt="Eagle"/>
     </div>
 )
 

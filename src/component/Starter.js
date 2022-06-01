@@ -15,9 +15,9 @@ const Starter = () => (
             알갔으면 당장 시작하라! 뽥!<br/><br/><br/>
             ㅅㅂ 살려줘<br/>
         </div>
-            <Link to="/college" className='Starter-next'>
-                <img src={nextLogo} className='Starter-next-button'/>
-            </Link>
+        <Link to="/college" className='Starter-next'>
+            <img src={nextLogo} className='Starter-next-button' alt='다음으로'/>
+        </Link>
     </div>
 )
 
