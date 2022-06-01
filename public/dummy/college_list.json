@@ -1,0 +1,250 @@
+{
+  "collegeList": [
+    {
+      "id": 1001,
+      "title": "국어국문-창작학과", 
+      "collegeId" : 1, 
+      "dateCreated" : "20220531000000"
+    }, 
+    {
+      "id": 1002,
+      "title": "영어영문학과", 
+      "collegeId" : 1
+    }, 
+    {
+      "id": 1003,
+      "title": "일어일문학과", 
+      "collegeId" : 1
+    }, 
+    {
+      "id": 1004,
+      "title": "프랑스어문학과", 
+      "collegeId" : 1
+    }, 
+    {
+      "id": 1005,
+      "title": "문헌정보학과", 
+      "collegeId" : 1
+    }, 
+    {
+      "id": 1006,
+      "title": "사학과", 
+      "collegeId" : 1
+    }, 
+    {
+      "id": 1007,
+      "title": "기독교학과", 
+      "collegeId" : 1
+    }, 
+    {
+      "id": 1008,
+      "title": "철학상담학과", 
+      "collegeId" : 1
+    }, 
+    {
+      "id": 2001,
+      "title": "국어교육학과", 
+      "collegeId" : 2
+    }, 
+    {
+      "id": 2002,
+      "title": "영어교육학과", 
+      "collegeId" : 2
+    }, 
+    {
+      "id": 2003,
+      "title": "역사학과", 
+      "collegeId" : 2
+    }, 
+    {
+      "id": 2004,
+      "title": "수학교육과", 
+      "collegeId" : 2
+    }, 
+    {
+      "id": 3001,
+      "title": "정보통신학과", 
+      "collegeId" : 3
+    }, 
+    {
+      "id": 3002,
+      "title": "전기전자공학과", 
+      "collegeId" : 3
+    },
+    {
+      "id": 3003,
+      "title": "멀티미디어학과", 
+      "collegeId" : 3
+    },
+    {
+      "id": 3004,
+      "title": "건축학과-건축공학전공", 
+      "collegeId" : 3
+    },
+    {
+      "id": 3005,
+      "title": "건축학과-토목환경공학전공", 
+      "collegeId" : 3
+    },
+    {
+      "id": 3006,
+      "title": "신소재공학과", 
+      "collegeId" : 3
+    },
+    {
+      "id": 3007,
+      "title": "화학공학과", 
+      "collegeId" : 3
+    },
+    {
+      "id": 4001,
+      "title": "컴퓨터공학과", 
+      "collegeId" : 4
+    }, 
+    {
+      "id": 4002,
+      "title": "산업경역공학과", 
+      "collegeId" : 4
+    }, 
+    {
+      "id": 4003,
+      "title": "AI융합학과", 
+      "collegeId" : 4
+    }, 
+    {
+      "id": 4004,
+      "title": "수학과", 
+      "collegeId" : 4
+    }, 
+    {
+      "id": 4005,
+      "title": "빅데이터응용학과", 
+      "collegeId" : 4
+    }, 
+    {
+      "id": 5001,
+      "title": "경영학과", 
+      "collegeId" : 5
+    }, 
+    {
+      "id": 5002,
+      "title": "회계학과", 
+      "collegeId" : 5
+    }, 
+    {
+      "id": 5003,
+      "title": "무역학과", 
+      "collegeId" : 5
+    }, 
+    {
+      "id": 5004,
+      "title": "경제학과", 
+      "collegeId" : 5
+    }, 
+    {
+      "id": 5005,
+      "title": "중국경제통상학과", 
+      "collegeId" : 5
+    }, 
+    {
+      "id": 5006,
+      "title": "글로벌IT경영전공학과", 
+      "collegeId" : 5
+    }, 
+    {
+      "id": 5007,
+      "title": "비즈니스통계학과", 
+      "collegeId" : 5
+    }, 
+    {
+      "id": 6001,
+      "title": "사회적경제기업학과", 
+      "collegeId" : 6
+    }, 
+    {
+      "id": 6002,
+      "title": "상담심리학과", 
+      "collegeId" : 6
+    }, 
+    {
+      "id": 6003,
+      "title": "아동복지학과", 
+      "collegeId" : 6
+    }, 
+    {
+      "id": 6004,
+      "title": "사회복지학과", 
+      "collegeId" : 6
+    }, 
+    {
+      "id": 6005,
+      "title": "정치-언론학과", 
+      "collegeId" : 6
+    }, 
+    {
+      "id": 6006,
+      "title": "경찰학과", 
+      "collegeId" : 6
+    }, 
+    {
+      "id": 6007,
+      "title": "행정학과", 
+      "collegeId" : 6
+    }, 
+    {
+      "id": 7001,
+      "title": "생명시스템과학과", 
+      "collegeId" : 7
+    }, 
+    {
+      "id": 7002,
+      "title": "식품영양학과", 
+      "collegeId" : 7
+    }, 
+    {
+      "id": 7003,
+      "title": "화학과", 
+      "collegeId" : 7
+    }, 
+    {
+      "id": 7004,
+      "title": "간호학과", 
+      "collegeId" : 7
+    }, 
+    {
+      "id": 7005,
+      "title": "스포츠학과", 
+      "collegeId" : 7
+    }, 
+    {
+      "id": 8001,
+      "title": "융합디자인학과", 
+      "collegeId" : 8
+    }, 
+    {
+      "id": 8002,
+      "title": "생명시스템과학과", 
+      "collegeId" : 8
+    }, 
+    {
+      "id": 8003,
+      "title": "회화학과", 
+      "collegeId" : 8
+    }, 
+    {
+      "id": 8004,
+      "title": "의류학과", 
+      "collegeId" : 8
+    }, 
+    {
+      "id": 8005,
+      "title": "미디어영상학과", 
+      "collegeId" : 8
+    }, 
+    {
+      "id": 9001,
+      "title": "린튼글로벌스쿨", 
+      "collegeId" : 9
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 // import {Link} from "react-router-dom";
 
-import eaglePic from "../img/logo2.gif";
+import eaglePic from "../img/Eagle-picture-lookup.png";
 
 const Eagle = () => (
     <div className="Eagle">

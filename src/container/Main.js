@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from "../component/Header";
 import Starter from '../component/Starter';
 import Eagle from '../component/Eagle';
+//import Footer from '../component/Footer';
 
 class Main extends Component {
     constructor(props)
@@ -28,6 +29,7 @@ class Main extends Component {
                 <Starter />
                 <Eagle />
             </div>
+                    
         )
     }
 }

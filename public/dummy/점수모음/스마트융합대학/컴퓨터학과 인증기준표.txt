@@ -1,0 +1,172 @@
+//는 비고 내용
+1000점 이상
+
+컴퓨터학과 인증기준표 (
+  취업 850점
+  졸업 후 기업(4대 보험가입 기업) 취업, 대학원 진학, 군 입대가 확정시
+
+  전공자격증 및 취득 점수표 [
+    ** 전공자격증 관련 인증점수는 중복일 경우 최대 600점까지 부여한다.
+    400점 {
+      국제 자격증:
+      ● CISA(Certified Information Systems Auditor)
+      ● CISSP(Certified Information System Security)
+    }
+    300점 {
+      국내 자격증:
+      ● 중등학교정교사 2급
+      ● 정보처리기사 
+      ● 전자계산기조직응용기사
+      ● 전자계산기기사
+      ● 정보보호전문가(SIS) 1급
+      ● 웹프로그래머(WPC) 1급
+      ● 네트워크관리사 1급
+      ● 인터넷보안전문가 자격증 1급
+      ● 정보보호기사
+
+      국제 자격증:
+      ■ MS계열 국제자격증
+      <IT Professional>
+      ● MCSE Microsoft Certified Solutions Expert (MCSE) 
+      ● MCSA Microsoft Certified Solutions Associate (MCSA) 
+      ● MCITP Microsoft Certified IT Professional (MCITP) 
+      ● MCTS Microsoft Certified Technology Specialist (MCTS) 
+      ● MTA Microsoft Technology Associate (MTA) 
+      ● MCDST The Microsoft Certified Desktop Support Technician (MCDST) 
+      ● MCDBA The Microsoft Certified Database Administrator (MCDBA) 
+      <Developer>
+      ● MCSD Microsoft Certified Solutions Developer (MCSD) 
+      ● MCPD Microsoft Certified Professional Developer (MCPD) 
+      ● MTA Microsoft Technology Associate (MTA) 
+      ● MCAD The Microsoft Certified Application Developer (MCAD)
+
+      ■ ORACLE 사 국제공인 자격증
+      <DB 분야>             
+      ● OCP (Oracle Certified Professional) 
+      <Java 프로그래밍 분야>
+      ● OCJAP(Oracle Certified Associate Java Programmer)
+      ● OCPJP(Oracle Certified Professinal Java Programmer)
+      ● OCWCD(Oracle Certified Web Component Developer) (구, SCWCD)
+      ● OCBCD(Oracle Certified Business Component Developer) (구, SCBCD)
+      ● <Oracle Solaris Admin 분야>
+      ● OCSA(Certified Solaris Administrator) (구, SCSA)
+      ● OCNA(Oracle Certified Network Administrator) (구, SCNA)
+          
+      ■ CISCO 사 국제자격증           
+      ●  CCNA(Cisco Certification Network Associate) 
+      ●  CCNP(Network Professional) 
+      ●  CCDA(Cisco Certification Design Associate)
+      ●  CCDP(Design Professional)
+      ●  CCIE(Internetworking Engineering)
+      ●  CCSP(Cisco Certified Security Professional) 
+    }
+    100점 {
+      ● 사무자동화산업기사
+      ● 정보처리산업기사
+      ● 전자계산기조직응용산업기사
+      ● 웹디자인산업기사
+      ● 정보보안산업기사(SIS) 2급
+      ● 리눅스마스터 1급
+      ● 네트워크관리사2급
+      ● 인터넷보안전문가 자격증 2급
+      ● 웹프로그래머(WPC) 2급
+    }
+    50점 {
+      ● 정보처리기능사
+      ● 정보기기운용기능사
+      ● 전자계산기기능사
+      ● 멀티미디어콘텐츠제작전문가
+      ● 게임프로그램전문가
+      ● 게임그래픽전문가
+      ● 컴퓨터활용 1급
+      ● 리눅스마스터 2급
+      ● 전산회계기능사
+      ● 컴퓨터그래픽스운용기능사
+      ● 컴퓨터운용사
+      ● 정보시스템감리사
+      ● 웹디자인기능사
+      ● 웹프로그래머(WPC) 3급
+    }
+    국가고시 {
+      5급 공무원은 1차 합격 900점, 
+      2차 합격 1000점, 
+      7급 공무원은 1차 합격 800점, 최종 합격 1000점, 
+      9급 공무원은 1차 합격 700점, 최종 합격 1000점
+    } 
+    정보관리기술사, 컴퓨터시스템응용기술사, 전자계산기술사의 경우 1차 합격은 900점, 2차 합격은 1000점을 부여한다.
+  ]
+
+  외국어 능력 [
+    TOEIC {
+      400~499 - 100점
+      500~599 - 200점
+      600~699 - 300점
+      700~799 - 400점
+      800이상 - 500점
+    }
+
+    JLPT 2급은 인증점수 350점, 1급은 500점에 해당
+    TOPCIT 취득점수 2배의 점수를 인정
+  ]
+
+  상담실적 [
+    매학기 1회당 10점씩
+    4년 재학 중 매학기 1회씩 총 8회 상담 참석 시 80점을 부여
+    그 외 추가 상담을 실시한 경우를 포함하여 최대 150점까지 부여
+  ]
+
+  학과 행사 참여 실적 [
+    학과의 세미나, 현장견학에 참여하면 1회당 30점
+    학과 임원활동, MT, 체육대회, 학술제 등 학과 행사에 참여하면 1회당 20점을 부여
+    최대 150점까지 부여
+  ]
+
+  취업훈련 참가 실적 [
+    취업훈련 참가 횟수 {
+      1회 - 50점
+      2회 - 100점
+      3회 이상 - 150점
+      학생인재개발처 취업지원본부 취업지원팀의 취업훈련․교육프로그램에 한함  
+    }
+  ]
+
+  해외연수 실적 [
+    연수기간 {
+      50일 이상 - 2점/일
+      40-49일 - 80점
+      30-39일 - 50점
+      중복하여 인정하며 최대 200점을 부여한다.
+    }
+  ]
+
+  인턴쉽 [
+    인턴쉽기간 {
+      50일 이상 - 2점/일
+      40-49일 - 80점
+      30-39일 - 50점
+      인턴쉽 개시전 학과장 상담을 통해 전공관련 업체로 인정을 받은 곳에서 30일 이상 근무시 인정한다.
+      중복하여 인정하며 최대 300점을 부여한다. 
+    }
+  ]
+
+  S/W 공모전 [
+    전국 {
+      1등 - 600점
+      2등 - 400점
+      3등 - 300점
+    }
+    교내 {
+      1등 - 300점
+      2등 - 200점
+      3등 - 100점
+    }
+    인증점수는 중복 합산하지 않으므로 하나의 공모전에서 최대 400점 획득 가능
+    공모전 2회 참가시 최대 600점을 부여
+    교외 공모전은 인증점수 100% 부여
+    교내 공모전은 학과장 재량에 따라 반영비율을 정할 수 있다. 
+  ]
+
+  졸업작품전 입상 [
+    졸업작품전 입상자에게 100점을 부여한다. 
+  ]
+)

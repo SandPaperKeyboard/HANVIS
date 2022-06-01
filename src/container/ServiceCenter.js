@@ -22,7 +22,9 @@ class ServiceCenter extends Component {
     render() {
         return (
             <div>
-                <Header />
+                <div>
+                    <Header />
+                </div>
             </div>
         )
     }

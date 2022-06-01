@@ -38,11 +38,11 @@
 }
 
 .Header {
-  position: fixed;
+  position: relative;
   width: 100%;
   padding:10px 0;
   font-size:20px;
-  background-color:#3d414c;
+  background-color: #001F1D;
   text-align:center;
   color:#fff;
   display: flex;
@@ -68,7 +68,7 @@
 }
 
 .Header .Header-link {
-  max-width: 100px;
+  max-width: 150px;
 }
 
 .Starter {
@@ -107,4 +107,6 @@
   top: 100%;
   left: 50%;
   transform: translate(-50%, -100%);
+  width: 50%;
+  height: 50%;
 }

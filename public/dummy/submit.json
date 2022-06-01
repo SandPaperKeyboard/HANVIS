@@ -1,0 +1,11 @@
+{
+  "Requirements":[
+    {
+      "id": 1001,
+      "title": "국어국문-창작학과", 
+      "collegeId" : 1, 
+      "dateCreated" : "20220531000000"
+    }
+  ]
+
+}
