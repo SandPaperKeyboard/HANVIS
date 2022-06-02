@@ -24,12 +24,11 @@ class Main extends Component {
 
     render() {
         return (
-            <div>
+            <div className='Background'>
                 <Header />
                 <Starter />
                 <Eagle />
             </div>
-                    
         )
     }
 }

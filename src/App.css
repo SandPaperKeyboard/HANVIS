@@ -1,5 +1,10 @@
 ul {list-style:none; padding-left:0px;}
 
+@font-face {
+  font-family: 'SCDream5';
+  src: url('./fonts/S-Core_Dream_OTF/SCDream5.otf');
+}
+
 .App {
   text-align: center;
 }
@@ -86,18 +91,39 @@ ul {list-style:none; padding-left:0px;}
 .Starter .Starter-explain {
   position: relative;
   overflow: auto;
-  border: 1px solid blue;
-  height: 400px;
-  min-width: 500px;
-
+  border: 5px solid #855600;
+  background-color: bisque;
   text-align: center;
+
+  height: 350px;
+  min-width: 400px;
+
+  justify-content: center;
+
+  display: flex;
+  align-items: center;
+}
+
+.Starter .Starter-explain .Starter-explain-text {
+  
+  align-items: center;
+  font-family: 'SCDream5';
 }
 
 .Starter .Starter-next-button {
   position: relative;
-  width: 700px;
-  height: 70px;
+  width: 25vw;
   margin-top: 20px;
+}
+
+.Background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 1450px;
+  background-color: #EDD3ED;
+  background-size: cover;
 }
 
 .Eagle {
