@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import axios from "axios/index";
 
 import Header from "../component/Header";
 import CollegeSelector from '../component/CollegeSelector';
 //import { useParams } from 'react-router-dom';
 
-class College extends Component {
+class College extends component {
     // constructor(props)
     // {
     //     super(props);

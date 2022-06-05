@@ -18,7 +18,7 @@ const Starter = () => (
                 </ul>
             </div>
         </div>
-        <Link to="/college" className='Starter-next'>
+        <Link to='/college/1001' className='Starter-next'>
             <img src={nextLogo} className='Starter-next-button' alt='다음으로'/>
         </Link>
     </div>
