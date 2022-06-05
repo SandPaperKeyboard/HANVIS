@@ -1,31 +1,37 @@
-import React, { Component } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import axios from 'axios/index';
 
 import Header from "../component/Header";
+import SurveyQuestion from '../component/SurveyQuestion';
 
-class Main extends Component {
-    constructor(props)
-    {
-        super(props);
-        this.start = {};
-    }
+const Survey = () => {
+    let { surveyCode } = useParams();
+    const [department, setDepartment] = useState({});
 
-    componentDidMount()
-    {
+    useEffect(() => {
+        const apiUrl = '/dummy/college_list.json';
 
-    }
-
-    componentDidUpdate()
-    {
-
-    }
-
-    render() {
-        return (
-            <div>
-                <Header />
-            </div>
-        )
-    }
+        axios.get(apiUrl)
+        .then(table => {
+            setDepartment({
+                department : table.data.collegeList.find( 
+                    d => ( d.id === parseInt(surveyCode) ) 
+                )
+            });
+        }).catch(
+            error => {
+                console.log(error);
+            }
+        );
+    }, []);
+    
+    return (
+        <div>
+            <Header />
+            <SurveyQuestion props={department}/>
+        </div>
+    );
 }
 
-export default Main;
+export default Survey;

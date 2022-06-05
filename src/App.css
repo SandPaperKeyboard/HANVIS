@@ -82,59 +82,71 @@ ul {list-style:none; padding-left:0px;}
 .Starter {
   position: relative;
   display: block;
-  justify-content: center;
   margin-top: 20px;
-  margin-left: max(0px, 50%);
-  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .Starter .Starter-explain {
   position: relative;
+  display: flex;
   overflow: auto;
   border: 5px solid #855600;
   background-color: bisque;
-  text-align: center;
-
   height: 350px;
-  min-width: 400px;
+  min-width: 50vw;
 
   justify-content: center;
-
-  display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .Starter .Starter-explain .Starter-explain-text {
-  
   align-items: center;
   font-family: 'SCDream5';
 }
 
 .Starter .Starter-next-button {
   position: relative;
+  display: block;
   width: 25vw;
   margin-top: 20px;
 }
 
 .Background {
   position: absolute;
+  display: block;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 1450px;
+  width: 100%;
+  height: 100%;
   background-color: #EDD3ED;
   background-size: cover;
+  overflow: auto;
 }
 
 .Eagle {
   position: relative;
-  top: 500px;
-  left: 50%;
-  transform: translate(-50%, -100%);
-  z-index: -10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
 }
 
 .Eagle-picture {
   max-width: 50vw;
   max-height: 50vh;
+}
+
+.SurveyQuestion {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  border: #001F1D;
+  border-width: thick;
 }

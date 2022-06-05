@@ -17,10 +17,9 @@ class App extends Component {
         <Router>
           <Routes>
             <Route path="/" element={<Main />} ></Route>
-            <Route path="/college" element={<College />} />
             <Route path="/college/:collegeId" element={<College />} />
             <Route path="/service_center" element={<ServiceCenter />} />
-            <Route path="/survey" element={<Survey />} />
+            <Route path="/survey/:surveyCode" element={<Survey />} />
             <Route path="/result" element={<Result />} />
           </Routes>
         </Router>
