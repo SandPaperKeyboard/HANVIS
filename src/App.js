@@ -9,6 +9,7 @@ import College from './container/College';
 import ServiceCenter from './container/ServiceCenter';
 import Survey from './container/Survey';
 import Result from './container/Result';
+import NextPage1 from './component/next1';
 
 class App extends Component {
   render() {
@@ -16,11 +17,12 @@ class App extends Component {
       <div className='App'>
         <Router>
           <Routes>
-            <Route path="/" element={<Main />} ></Route>
+            <Route path="/" element={<Main />} />
             <Route path="/college" element={<College />} />
             <Route path="/college/:collegeId" element={<College />} />
+            <Route path="/next1" element={<NextPage1 />} />
             <Route path="/service_center" element={<ServiceCenter />} />
-            <Route path="/survey" element={<Survey />} />
+            <Route path="/survey/:surveyId" element={<Survey />} />
             <Route path="/result" element={<Result />} />
           </Routes>
         </Router>

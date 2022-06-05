@@ -1,16 +1,18 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
+import Header from './Header';
 
-// Link to = 다음 페이지로 넘어가는 js파일을 넣어줄 것!
-const CollegeSelector = () => (
-    <div className="College">
+const NextPage1 = () => (
+    <div className="Next1">
+
+        <Header />
         <Link to="/">
             <button>문과대학</button>
         </Link>
         <br/>
         <Link to="/next1">
-            <button>국어국문학과</button>
-            <button>영어영문학과</button>
+            <button>2어국문학과</button>
+            <button>3어영문학과</button>
         </Link>
         <br/>
         <Link to="/next1">
@@ -24,7 +26,8 @@ const CollegeSelector = () => (
             <button>기독교학과</button>
             <button>철학상담학과</button>
         </Link>
+
     </div>
 )
 
-export default CollegeSelector;
+export default NextPage1;
