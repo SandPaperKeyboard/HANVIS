@@ -25,11 +25,13 @@ const Survey = () => {
             }
         );
     }, []);
+
+    console.dir(department.department);
     
     return (
         <div>
             <Header />
-            <SurveyQuestion props={department}/>
+            <SurveyQuestion props={department.surveyCategory}/>
         </div>
     );
 }

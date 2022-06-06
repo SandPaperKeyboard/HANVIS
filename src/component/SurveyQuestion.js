@@ -1,11 +1,12 @@
 import React from 'react';
 
 
-const SurveyQuestion = (props) => {
+const SurveyQuestion = (data) => {
 
     // 학점 계산 프로세스
     function calcGrades() {
-        console.dir(props);
+        //console.dir(data.props.department);
+        //console.dir(props);
         return (
             <div className="SurveyQuestion-problem">
                 <div></div>
