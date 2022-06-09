@@ -1,0 +1,133 @@
+ul {list-style:none; padding-left:0px;}
+
+@font-face {
+  font-family: 'SCDream5';
+  src: url('./fonts/S-Core_Dream_OTF/SCDream5.otf');
+}
+
+.App {
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Header {
+  position: flex;
+  display: block;
+  width: 100%;
+  padding:10px 0;
+  font-size:20px;
+  background-color: #001F1D;
+  text-align:center;
+  color:#fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Header .Header-logo {
+  margin-left: 60px;
+}
+
+@media (max-width: 990px) {
+  .Header .Header-logo {
+    display: none;
+  }
+}
+
+.Header .Header-root {
+  max-width: 160px;
+}
+
+.Header .Header-nav {
+  float: right;
+  margin-right: 60px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.Header .Header-nav>a {
+  margin-left: 100px;
+}
+
+.Header .Header-link {
+  max-width: 150px;
+}
+
+.Starter {
+  position: relative;
+  display: block;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Starter .Starter-explain {
+  position: relative;
+  display: flex;
+  overflow: auto;
+  border: 5px solid #855600;
+  background-color: bisque;
+  height: 350px;
+  min-width: 50vw;
+  z-index: 500;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Starter .Starter-explain .Starter-explain-text {
+  align-items: center;
+  font-family: 'SCDream5';
+}
+
+.Starter .Starter-next-button {
+  position: relative;
+  display: block;
+  width: 25vw;
+  margin-top: 20px;
+}
+
+.Background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #EDD3ED;
+  background-size: cover;
+  overflow: auto;
+}
+
+.Eagle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.Eagle-picture {
+  max-width: 50vw;
+  max-height: 50vh;
+}
+
+.SurveyQuestion {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  border: #001F1D;
+  border-width: thick;
+}
