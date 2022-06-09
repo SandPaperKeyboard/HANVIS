@@ -3,6 +3,7 @@ import React from 'react';
 import Header from "../component/Header";
 import Starter from '../component/Starter';
 import Eagle from '../component/Eagle';
+import NavBar from '../component/navbar/NavBar';
 //import Footer from '../component/Footer';
 
 const Main = () => {
@@ -16,3 +17,5 @@ const Main = () => {
 }
 
 export default Main;
+
+//
