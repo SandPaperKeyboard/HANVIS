@@ -1,10 +1,101 @@
 import React from 'react';
+import './CollegeSelector.css'
 import { Link } from "react-router-dom";
+import {motion} from 'framer-motion'
+
+//import styled from "styled-components";
 
 // Link to = 다음 페이지로 넘어가는 js파일을 넣어줄 것!
+//아코디언 메뉴 활용
+
+function CollegeSelector() {
+  return (
+    <>
+      <div>
+        <details>
+          <summary>공과대학</summary>
+          <ul>
+            <li>
+              <Link to="/IaC">정보통신학과</Link>
+            </li>
+            <li>전기전자공학과</li>
+            <li>[토목건축공학부] 건축공학전공</li>
+            <li>[토목건축공학부] 토목환경공학전공</li>
+            <li>신소재공학과</li>
+            <li>화학공학과</li>
+            <li>기계공학과</li>
+          </ul>
+        </details>
+      </div>
+      <div>
+        <details>
+          <summary>스마트융합대학</summary>
+          <ul>
+            <li>컴퓨터공학과</li>
+            <li>산업경영공학과</li>
+            <li>AI융합학과</li>
+            <li>수학과</li>
+            <li>빅데이터응용학과</li>
+          </ul>
+        </details>
+      </div>
+    </>
+  );
+}
+
+export default CollegeSelector;
+
+
+/*  //2022-06-07 내가 트라이한 방법
 const CollegeSelector = () => (
     <div className="College">
-        <Link to="/">
+        <Link to="/Main">
+            <button>돌아가기</button>
+        </Link>
+        <Link to="/LiberalArts">
+            <button>문과대학</button>
+        </Link>
+        <br/>
+        <Link to="/next1">
+            <button>사범대학</button>
+        </Link>
+        <br/>
+        <Link to="/next1">
+            <button>공과대학</button>
+        </Link>
+        <br/>
+        <Link to="/next1">
+            <button>스마트융합대학</button>
+        </Link>
+        <br/>
+        <Link to="/next1">
+            <button>경상대학</button>
+        </Link>
+        <br/>
+        <Link to="/next1">
+            <button>사회과학대학</button>
+        </Link>
+        <br/>
+        <Link to="/next1">
+            <button>생명나노과학대학</button>
+        </Link>
+        <br/>
+        <Link to="/next1">
+            <button>아트디자인테크놀로지대학</button>
+        </Link>
+        <br/>
+        <Link to="/next1">
+            <button>린튼글로벌스쿨</button>
+        </Link>
+    </div>
+)
+
+export default CollegeSelector;
+*/
+
+/*
+    <div className="College">
+        <Link to="/college">
             <button>문과대학</button>
         </Link>
         <br/>
@@ -25,6 +116,4 @@ const CollegeSelector = () => (
             <button>철학상담학과</button>
         </Link>
     </div>
-)
-
-export default CollegeSelector;
+*/

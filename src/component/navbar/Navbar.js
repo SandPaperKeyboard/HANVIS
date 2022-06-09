@@ -1,109 +1,40 @@
-import React, { useState, useEffect } from 'react';
-import { Menu, Button } from 'antd';
-import styled from 'styled-components';
-import { BrowserView, MobileView } from 'react-device-detect';
-import { MenuOutlined, MenuFoldOutlined } from '@ant-design/icons';
-import { Link } from 'react-router-dom';
+import classes from './NavBar.module.css'
+import MobileNavigation from './MobileNavigation'
+import Navigation from './Navigation'
 
-const MenuList = styled.div`
-  display: flex;
-  justify-content: space-between;
-`;
-
-const NavTop = styled.div`
-  display: flex;
-  justify-content: flex-end;
-  button {
-    background: black;
-    border: none;
-  }
-`;
-
-function NavBar() {
-
-  const [toggleMenu, setToggleMenu] = useState(false)
-  const [toggleBar, setToggleBar] = useState(true)
-
-  const toggleChange = () => {
-    setToggleMenu(!toggleMenu)
-    setToggleBar(!toggleBar)
-  }
-
-  const onMenuClick = () => {
-    setToggleMenu(!toggleMenu)
-    setToggleBar(!toggleBar)
-  }
-
-  return(
-    <div>
-      { /* web */ }
-      <BrowserView>
-        <MenuList>
-          <Menu selectedKeys="mail" mode="horizontal">
-            <Menu.Item key="subs">
-              구독하기
-            </Menu.Item>
-            <Menu.Item key="product">
-              상품 보기
-            </Menu.Item>
-            <Menu.Item key="cs">
-              고객센터
-            </Menu.Item>
-          </Menu>
-          <Menu mode="horizontal">
-            <Menu.Item key="signin">
-              <Link to="/login">
-              로그인
-              </Link>
-            </Menu.Item>
-            <Menu.Item key="signup">
-              <Link to="/signup">
-              회원가입
-              </Link>
-            </Menu.Item>
-          </Menu>
-        </MenuList>
-      </BrowserView>
-      
-      { /* mobile */ }
-      <MobileView>
-        <NavTop>
-          <Button type="primary" onClick={toggleChange} style={{ marginBottom: 16 }}>
-            { toggleBar ? <MenuOutlined /> : <MenuFoldOutlined /> }
-          </Button>
-        </NavTop>
-        { toggleMenu &&
-          <Menu
-            defaultSelectedKeys={['1']}
-            mode="inline"
-            theme="light"
-            inlineCollapsed={toggleBar}
-            onClick={onMenuClick}
-          >
-            <Menu.Item key="subs">
-              구독하기
-            </Menu.Item>
-            <Menu.Item key="product">
-              상품 보기
-            </Menu.Item>
-            <Menu.Item key="cs">
-              고객센터
-            </Menu.Item>
-            <Menu.Item key="signin">
-              <Link to="/login">
-              로그인
-              </Link>
-            </Menu.Item>
-            <Menu.Item key="signup">
-              <Link to="/signup">
-              회원가입
-              </Link>
-            </Menu.Item>
-          </Menu>
-        }
-      </MobileView>
+const NavBar = () => {
+  return (
+    <div className={classes.NavBar}>
+      <Navigation />
+      <MobileNavigation />
     </div>
   )
 }
 
 export default NavBar;
+
+
+
+/*
+const Header = () => (
+    <div className="Header">
+        <Link to="/" className="Header-logo">
+            <img src={hanvisLogo} className="Header-root" alt="HANVIS"/>
+        </Link>
+        <div className="Header-nav">
+            <a href="http://www.hannam.ac.kr/kor/main/" target="_blank" rel="noopener noreferrer">
+                <img src={homeLogo} className="Header-link" alt="한남대학교"/>
+            </a>
+            <a href="https://my.hnu.kr/html/main/sso.html" target="_blank" rel="noopener noreferrer">
+                <img src={hiporLogo} className="Header-link" alt="하이포탈"/>
+            </a>
+            <a href="https://hiclass.hannam.ac.kr/learningx/main" target="_blank" rel="noopener noreferrer">
+                <img src={hiclLogo} className="Header-link" alt="하이클래스"/>
+            </a>
+            <Link to="/service_center">
+                <img src={scLogo} className="Header-link" alt="고객센터"/>
+            </Link>
+        </div>
+    </div>
+)
+*/

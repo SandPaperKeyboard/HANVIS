@@ -12,23 +12,6 @@ const Survey = () => {
     useEffect(() => {
         const apiUrl = '/dummy/college_list.json';
 
-<<<<<<< HEAD
-    }
-
-    componentDidUpdate()
-    {
-
-    }
-
-    render() {
-        return (
-            <div>
-                <Header />
-                
-            </div>
-        )
-    }
-=======
         axios.get(apiUrl)
         .then(table => {
             setDepartment({
@@ -49,7 +32,6 @@ const Survey = () => {
             <SurveyQuestion props={department}/>
         </div>
     );
->>>>>>> 361da10daee9615373029eaa8817884a78f0d911
 }
 
 export default Survey;
