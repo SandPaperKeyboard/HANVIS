@@ -1,0 +1,85 @@
+.NavBar {
+  background: #001F1D;
+  height: 80px;
+  width: 100%;
+  position: static;
+  z-index: 999;
+  opacity: 0.9;
+  display: flex;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavBar nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.NavBar nav ul li {
+  display: inline-block;
+  margin: 1.5vw;
+}
+
+.NavBar nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.NavBar a:hover {
+  border-bottom: 5px solid #8c1cd1;
+}
+
+.NavBar .MobileNavigation {
+  display: none;
+}
+
+.hanvis {
+  margin-left: 20px;
+  float: left;
+}
+
+@media (max-width: 990px) {
+  .NavBar .Navigation {
+    display: none;
+  }
+
+  .NavBar .MobileNavigation {
+    display: flex;
+    align-items: center;
+    z-index: 999;
+  }
+
+  .NavBar .MobileNavigation .Hamburger {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+  }
+
+  .NavBar nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    background: #001F1D;
+    border-top: 2px solid #8c1cd1;
+    
+  }
+
+  .NavBar nav ul li {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .NavBar {
+    opacity: 1;
+  }
+
+  .NavBar a:hover {
+    border-bottom: none;
+    color: #8c1cd1;
+  }
+}
