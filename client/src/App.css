@@ -10,15 +10,6 @@ ul {list-style:none; padding-left:0px;}
 }
 
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-
-
-
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -141,3 +132,4 @@ ul {list-style:none; padding-left:0px;}
   border: #001F1D;
   border-width: thick;
 }
+

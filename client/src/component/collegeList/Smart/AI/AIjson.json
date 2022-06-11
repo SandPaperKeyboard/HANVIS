@@ -1,0 +1,161 @@
+{
+    "title": "AI융합학과",
+    "description": "AI융합학과 졸업점수 계산하기",
+    "logoPosition": "right",
+    "pages": [
+     {
+      "name": "page1",
+      "elements": [
+       {
+        "type": "radiogroup",
+        "name": "question1",
+        "title": "성적",
+        "choices": [
+         {
+          "value": "200",
+          "text": "4.0 이상"
+         },
+         {
+          "value": "150",
+          "text": "3.5 ~ 4.0"
+         },
+         {
+          "value": "100",
+          "text": "3.0 ~ 3.5"
+         },
+         {
+          "value": "50",
+          "text": "2.5 ~ 3.0"
+         },
+         {
+          "value": "0",
+          "text": "2.5 이하"
+         }
+        ]
+       },
+       {
+        "type": "radiogroup",
+        "name": "question17",
+        "title": "캡스톤디자인",
+        "choices": [
+         {
+          "value": "200",
+          "text": "A 이상"
+         },
+         {
+          "value": "150",
+          "text": "B 이상"
+         },
+         {
+          "value": "100",
+          "text": "C 이상"
+         }
+        ]
+       }
+      ],
+      "title": "1. 교과과정"
+     },
+     {
+      "name": "page2",
+      "elements": [
+       {
+        "type": "checkbox",
+        "name": "question5",
+        "title": "TOEIC",
+        "choices": [
+         {
+          "value": "200",
+          "text": "700점 이상"
+         },
+         {
+          "value": "150",
+          "text": "600점 ~ 700점"
+         },
+         {
+          "value": "100",
+          "text": "500점 ~ 600점"
+         },
+         {
+          "value": "0",
+          "text": "500점 미만"
+         },
+         "item5"
+        ]
+       }
+      ],
+      "title": "국제화",
+      "description": "외국어능력"
+     },
+     {
+      "name": "page6",
+      "elements": [
+       {
+        "type": "boolean",
+        "name": "question2",
+        "title": "취업(건강보험에 가입된 경우에 한함)",
+        "labelTrue": "Yes",
+        "labelFalse": "No"
+       },
+       {
+        "type": "checkbox",
+        "name": "question7",
+        "title": "대학원 진학",
+        "choices": [
+         {
+          "value": "item1",
+          "text": "타교 대학원"
+         },
+         {
+          "value": "item4",
+          "text": "자교 대학원"
+         }
+        ]
+       },
+       {
+        "type": "rating",
+        "name": "question3",
+        "title": "전공 관련 기사자격증",
+        "rateMax": 4
+       },
+       {
+        "type": "rating",
+        "name": "question4",
+        "title": "전공 관련 산업기사자격증",
+        "rateMax": 4
+       },
+       {
+        "type": "rating",
+        "name": "question6",
+        "title": "전공 관련 기능사자격증",
+        "rateMax": 4
+       }
+      ],
+      "title": "취업"
+     },
+     {
+      "name": "page4",
+      "elements": [
+       {
+        "type": "dropdown",
+        "name": "question8",
+        "title": "타학과 전공 이수",
+        "choices": [
+         {
+          "value": "item1",
+          "text": "다전공"
+         },
+         {
+          "value": "item2",
+          "text": "부전공"
+         },
+         {
+          "value": "item3",
+          "text": "마이크로디그리(2개 이상)"
+         }
+        ]
+       }
+      ],
+      "title": "다전공 관련"
+     }
+    ]
+   }

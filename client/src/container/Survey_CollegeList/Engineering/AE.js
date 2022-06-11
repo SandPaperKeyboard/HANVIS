@@ -1,9 +1,9 @@
-// Industry & Management
-// 산업경영공학과
+//architectural engineering
+//[토목건축공학부] 건축공학전공
 
 import SurveyQuestion from '../../SurveyQuestion'
 
-const IM = () => {
+const AE = () => {
   return (
     <div>
       <SurveyQuestion />
@@ -11,4 +11,4 @@ const IM = () => {
   )
 }
 
-export default IM;
+export default AE;

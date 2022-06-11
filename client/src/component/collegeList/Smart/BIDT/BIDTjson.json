@@ -1,0 +1,18 @@
+{
+    "title": "빅데이터응용학과",
+    "description": "빅데이터응용학과 졸업점수 계산하기",
+    "logoPosition": "right",
+    "pages": [
+     {
+      "name": "page1",
+      "elements": [
+       {
+        "type": "html",
+        "name": "question1",
+        "title": "안내문",
+        "html": "<h2> 현재 페이지 준비중 입니다. </h2>"
+       }
+      ]
+     }
+    ]
+   }

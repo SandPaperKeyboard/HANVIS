@@ -1,0 +1,656 @@
+{
+    "locale": "ko",
+    "title": "컴퓨터공학과",
+    "description": "컴퓨터공학과 졸업점수 계산하기",
+    "logoPosition": "right",
+    "pages": [
+     {
+      "name": "page1",
+      "elements": [
+       {
+        "type": "boolean",
+        "name": "question2",
+        "title": "졸업 후 기업 취업, 대학원 진학, 군 입대 확정이 된 상태입니까?"
+       }
+      ],
+      "title": "취업"
+     },
+     {
+      "name": "page2",
+      "elements": [
+       {
+        "type": "checkbox",
+        "name": "취득한 자격증을 클릭해주세요.",
+        "title": {
+         "ko": "취득한 국제 자격증을 클릭해주세요."
+        },
+        "choices": [
+         {
+          "value": "1",
+          "text": {
+           "ko": "CISA (Certified Information Systems Auditor)"
+          }
+         },
+         {
+          "value": "2",
+          "text": {
+           "ko": "CISSP (Certified Information System Security)"
+          }
+         },
+         {
+          "value": "3",
+          "text": {
+           "ko": "MCSE (Microsoft Certified Solutions Expert)"
+          }
+         },
+         {
+          "value": "4",
+          "text": {
+           "ko": "MCSA (Microsoft Certified Solutions Associate)"
+          }
+         },
+         {
+          "value": "5",
+          "text": {
+           "ko": "MCITP (Microsoft Certified IT Professional)"
+          }
+         },
+         {
+          "value": "6",
+          "text": {
+           "ko": "MCTS (Microsoft Certified Technology Specialist)"
+          }
+         },
+         {
+          "value": "7",
+          "text": {
+           "ko": "MTA (Microsoft Technology Associate)"
+          }
+         },
+         {
+          "value": "8",
+          "text": {
+           "ko": "MCDST (The Microsoft Certified Desktop Support Technician)"
+          }
+         },
+         {
+          "value": "9",
+          "text": {
+           "ko": "MCDBA (The Microsoft Certified Database Administrator)"
+          }
+         },
+         {
+          "value": "10",
+          "text": {
+           "ko": "MCSD (Microsoft Certified Solutions Developer)"
+          }
+         },
+         {
+          "value": "11",
+          "text": {
+           "ko": "MCPD (Microsoft Certified Professional Developer)"
+          }
+         },
+         {
+          "value": "12",
+          "text": {
+           "ko": " MTA (Microsoft Technology Associate)"
+          }
+         },
+         {
+          "value": "13",
+          "text": {
+           "ko": "MCAD (The Microsoft Certified Application Developer)"
+          }
+         },
+         {
+          "value": "14",
+          "text": {
+           "ko": "OCP (Oracle Certified Professional)"
+          }
+         },
+         {
+          "value": "15",
+          "text": {
+           "ko": "OCJAP (Oracle Certified Associate Java Programmer)"
+          }
+         },
+         {
+          "value": "16",
+          "text": {
+           "ko": "OCPJP (Oracle Certified Professinal Java Programmer)"
+          }
+         },
+         {
+          "value": "17",
+          "text": {
+           "ko": "OCWCD (Oracle Certified Web Component Developer)"
+          }
+         },
+         {
+          "value": "18",
+          "text": {
+           "ko": "OCBCD (Oracle Certified Business Component Developer)"
+          }
+         },
+         {
+          "value": "19",
+          "text": {
+           "ko": "OCSA (Certified Solaris Administrator)"
+          }
+         },
+         {
+          "value": "20",
+          "text": {
+           "ko": "OCNA (Oracle Certified Network Administrator)"
+          }
+         }
+        ]
+       },
+       {
+        "type": "checkbox",
+        "name": "question3",
+        "title": {
+         "ko": "취득한 국내 자격증을 클릭해주세요."
+        },
+        "choices": [
+         {
+          "value": "1",
+          "text": {
+           "ko": "중등학교정교사 2급"
+          }
+         },
+         {
+          "value": "2",
+          "text": {
+           "ko": "정보처리기사"
+          }
+         },
+         {
+          "value": "3",
+          "text": {
+           "ko": "전자계산기조직응용기사"
+          }
+         },
+         {
+          "value": "4",
+          "text": {
+           "ko": "전자계산기기사"
+          }
+         },
+         {
+          "value": "5",
+          "text": {
+           "ko": "정보보호전문가(SIS) 1급"
+          }
+         },
+         {
+          "value": "6",
+          "text": {
+           "ko": "웹프로그래머(WPC) 1급"
+          }
+         },
+         {
+          "value": "7",
+          "text": {
+           "ko": "네트워크관리사 1급"
+          }
+         },
+         {
+          "value": "8",
+          "text": {
+           "ko": "인터넷보안전문가 자격증 1급"
+          }
+         },
+         {
+          "value": "9",
+          "text": {
+           "ko": "정보보호기사"
+          }
+         },
+         {
+          "value": "10",
+          "text": {
+           "ko": "사무자동화산업기사"
+          }
+         },
+         {
+          "value": "11",
+          "text": {
+           "ko": "정보처리산업기사"
+          }
+         },
+         {
+          "value": "12",
+          "text": {
+           "ko": "전자계산기조직응용산업기사"
+          }
+         },
+         {
+          "value": "13",
+          "text": {
+           "ko": "웹디자인산업기사"
+          }
+         },
+         {
+          "value": "14",
+          "text": {
+           "ko": "정보보안산업기사(SIS) 2급"
+          }
+         },
+         {
+          "value": "15",
+          "text": {
+           "ko": "리눅스마스터 1급"
+          }
+         },
+         {
+          "value": "16",
+          "text": {
+           "ko": "네트워크관리사2급"
+          }
+         },
+         {
+          "value": "17",
+          "text": {
+           "ko": "인터넷보안전문가 자격증 2급"
+          }
+         },
+         {
+          "value": "18",
+          "text": {
+           "ko": "웹프로그래머(WPC) 2급"
+          }
+         },
+         {
+          "value": "19",
+          "text": {
+           "ko": "정보처리기능사"
+          }
+         },
+         {
+          "value": "20",
+          "text": {
+           "ko": "정보기기운용기능사"
+          }
+         },
+         {
+          "value": "21",
+          "text": {
+           "ko": "전자계산기기능사"
+          }
+         },
+         {
+          "value": "22",
+          "text": {
+           "ko": "멀티미디어콘텐츠제작전문가"
+          }
+         },
+         {
+          "value": "23",
+          "text": {
+           "ko": "게임프로그램전문가"
+          }
+         },
+         {
+          "value": "24",
+          "text": {
+           "ko": "게임그래픽전문가"
+          }
+         },
+         {
+          "value": "25",
+          "text": {
+           "ko": "컴퓨터활용능력 1급"
+          }
+         },
+         {
+          "value": "26",
+          "text": {
+           "ko": "리눅스마스터 2급"
+          }
+         },
+         {
+          "value": "27",
+          "text": {
+           "ko": "전산회계기능사"
+          }
+         },
+         {
+          "value": "28",
+          "text": {
+           "ko": "컴퓨터그래픽스운용기능사"
+          }
+         },
+         {
+          "value": "29",
+          "text": {
+           "ko": "컴퓨터운용사"
+          }
+         },
+         {
+          "value": "30",
+          "text": {
+           "ko": "정보시스템감리사"
+          }
+         },
+         {
+          "value": "31",
+          "text": {
+           "ko": "웹디자인기능사"
+          }
+         },
+         {
+          "value": "32",
+          "text": {
+           "ko": "웹프로그래머(WPC) 3급"
+          }
+         }
+        ]
+       },
+       {
+        "type": "dropdown",
+        "name": "question4",
+        "title": {
+         "ko": "취득한 국가고시를 클릭해주세요."
+        },
+        "choices": [
+         {
+          "value": "1",
+          "text": {
+           "ko": "9급 공무원 1차 합격"
+          }
+         },
+         {
+          "value": "2",
+          "text": {
+           "ko": "9급 공무원 최종합격"
+          }
+         },
+         {
+          "value": "3",
+          "text": {
+           "ko": "7급 공무원 1차 합격"
+          }
+         },
+         {
+          "value": "4",
+          "text": {
+           "ko": "7급 공무원 최종 합격"
+          }
+         },
+         {
+          "value": "5",
+          "text": {
+           "ko": "5급 공무원 1차 합격"
+          }
+         },
+         {
+          "value": "6",
+          "text": {
+           "ko": "5급 공무원 2차 합격"
+          }
+         }
+        ]
+       }
+      ],
+      "title": {
+       "ko": "전공관련 자격증"
+      },
+      "description": {
+       "ko": "전공 자격증"
+      }
+     },
+     {
+      "name": "page3",
+      "elements": [
+       {
+        "type": "checkbox",
+        "name": "question2",
+        "title": {
+         "ko": "TOEIC 점수"
+        },
+        "choices": [
+         {
+          "value": "100",
+          "text": {
+           "ko": "400 ~ 499"
+          }
+         },
+         {
+          "value": "200",
+          "text": {
+           "ko": "500 ~ 599"
+          }
+         },
+         {
+          "value": "300",
+          "text": {
+           "ko": "600 ~ 699"
+          }
+         },
+         {
+          "value": "400",
+          "text": {
+           "ko": "700 ~ 799"
+          }
+         },
+         {
+          "value": "500",
+          "text": {
+           "ko": "800점 이상"
+          }
+         }
+        ]
+       },
+       {
+        "type": "dropdown",
+        "name": "question5",
+        "title": {
+         "ko": "JLPT"
+        },
+        "choices": [
+         {
+          "value": "500",
+          "text": {
+           "ko": "JLPT 1급"
+          }
+         },
+         {
+          "value": "350",
+          "text": {
+           "ko": "JLPT 2급"
+          }
+         }
+        ]
+       }
+      ],
+      "title": {
+       "ko": "외국어 능력"
+      },
+      "description": {
+       "ko": "TOEIC & JLPT"
+      }
+     },
+     {
+      "name": "page4",
+      "elements": [
+       {
+        "type": "rating",
+        "name": "question7",
+        "title": {
+         "ko": "상담횟수"
+        },
+        "rateMax": 15
+       }
+      ],
+      "title": {
+       "ko": "상담실적"
+      },
+      "description": {
+       "ko": "Counseling"
+      }
+     },
+     {
+      "name": "page5",
+      "elements": [
+       {
+        "type": "rating",
+        "name": "question6",
+        "title": {
+         "ko": "학과의 세미나, 현장 견학 참여"
+        },
+        "rateValues": [
+         1,
+         2,
+         3,
+         4,
+         5
+        ]
+       },
+       {
+        "type": "rating",
+        "name": "question8",
+        "title": {
+         "ko": "학과의 행사에 참여"
+        },
+        "rateMax": 8
+       }
+      ],
+      "title": {
+       "ko": "학과 행사 참여 실적"
+      },
+      "description": {
+       "ko": "Event"
+      }
+     },
+     {
+      "name": "page6",
+      "elements": [
+       {
+        "type": "rating",
+        "name": "question1",
+        "title": {
+         "ko": "취업훈련 참가 횟수"
+        }
+       }
+      ],
+      "title": {
+       "ko": "취업훈련 참가 실적"
+      },
+      "description": {
+       "ko": "학생인재개발처, 취업지원본부, 취업지원팀의 취업훈련, 교육프로그램에 한함"
+      }
+     },
+     {
+      "name": "page7",
+      "elements": [
+       {
+        "type": "text",
+        "name": "question9",
+        "title": {
+         "ko": "해외연수 기간"
+        },
+        "inputType": "number",
+        "min": 0,
+        "max": 100,
+        "step": 1
+       }
+      ],
+      "title": {
+       "ko": "해외연수 실적"
+      }
+     },
+     {
+      "name": "page8",
+      "elements": [
+       {
+        "type": "text",
+        "name": "question10",
+        "title": {
+         "ko": "인턴십 기간"
+        },
+        "inputType": "number",
+        "min": 0,
+        "max": 150,
+        "step": 1
+       }
+      ],
+      "title": {
+       "ko": "인턴십"
+      },
+      "description": {
+       "ko": "장기현장실습 참가의 인턴십 점수는 인정하지 않음."
+      }
+     },
+     {
+      "name": "page9",
+      "elements": [
+       {
+        "type": "checkbox",
+        "name": "question11",
+        "title": {
+         "ko": "전국 공모전"
+        },
+        "choices": [
+         {
+          "value": "600",
+          "text": {
+           "ko": "1등"
+          }
+         },
+         {
+          "value": "400",
+          "text": {
+           "ko": "2등"
+          }
+         },
+         {
+          "value": "300",
+          "text": {
+           "ko": "3등"
+          }
+         }
+        ]
+       },
+       {
+        "type": "checkbox",
+        "name": "question12",
+        "title": {
+         "ko": "교내 공모전"
+        },
+        "choices": [
+         {
+          "value": "300",
+          "text": {
+           "ko": "1등"
+          }
+         },
+         {
+          "value": "200",
+          "text": {
+           "ko": "2등"
+          }
+         },
+         {
+          "value": "100",
+          "text": {
+           "ko": "3등"
+          }
+         }
+        ]
+       },
+       {
+        "type": "boolean",
+        "name": "question14",
+        "title": {
+         "ko": "졸업작품전(캡스톤디자인 학술제)에 입상하셨습니까?"
+        }
+       }
+      ],
+      "title": {
+       "ko": "S/W 공모전 및 졸업 작품전 입상"
+      }
+     }
+    ]
+   }
