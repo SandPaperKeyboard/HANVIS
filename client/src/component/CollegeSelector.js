@@ -21,7 +21,7 @@ function CollegeSelector() {
             <li>전기전자공학과</li>
             <li>[토목건축공학부] 건축공학전공</li>
             <li>[토목건축공학부] 토목환경공학전공</li>
-            <li>신소재공학과</li>
+              <Link to="/MaSE"><li>신소재공학과</li></Link>
             <li>화학공학과</li>
             <li>기계공학과</li>
           </ul>
