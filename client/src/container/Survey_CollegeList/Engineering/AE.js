@@ -1,9 +1,9 @@
-//Information and Communication
-//정보통신학과
+//architectural engineering
+//[토목건축공학부] 건축공학전공
 
 import SurveyQuestion from '../../SurveyQuestion'
 
-const IaC = () => {
+const AE = () => {
   return (
     <div>
       <SurveyQuestion />
@@ -11,4 +11,4 @@ const IaC = () => {
   )
 }
 
-export default IaC;
+export default AE;

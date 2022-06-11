@@ -1,0 +1,1223 @@
+{
+  "locale": "ko",
+  "title": "정보통신학과",
+  "description": "정보통신학과 졸업점수 계산하기",
+  "logoPosition": "right",
+  "completedHtml": "<h3>Thank you for your feedback.</h3> <h5>Your thoughts and ideas will help us to create a great product!</h5><div style=\"margin: 32px 0;\"><button class=\"rounded-button rounded-button--small\" onclick=\"reRunSurvey();\">Run survey again</button></div>",
+  "completedHtmlOnCondition": [
+    {
+      "html": "<h3>Thank you for your feedback.</h3> <h5>We glad that you love our product. Your ideas and suggestions will help us to make our product even better!</h5>"
+    },
+    {
+      "html": "<h3>Thank you for your feedback.</h3> <h5> We are glad that you share with us your ideas.We highly value all suggestions from our customers. We do our best to improve the product and reach your expectation.</h5><br/>"
+    }
+  ],
+  "pages": [
+    {
+      "name": "교과 과정 항목",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "Grade",
+          "title": "성적 (학교 졸업 요건은 평점 2.0 이상)",
+          "choices": [
+            {
+              "value": "300",
+              "text": "4.0 이상"
+            },
+            {
+              "value": "250",
+              "text": "3.5 ~ 4.0"
+            },
+            {
+              "value": "200",
+              "text": "3.0 ~ 3.5"
+            },
+            {
+              "value": "150",
+              "text": "2.5 ~ 3.0"
+            },
+            {
+              "value": "100",
+              "text": "2.0 ~ 2.5"
+            },
+            {
+              "value": "0",
+              "text": "2.0 이하"
+            }
+          ],
+          "noneText": "2.0"
+        },
+        {
+          "type": "radiogroup",
+          "name": "Capstone",
+          "title": {
+            "ko": "캡스톤 디자인"
+          },
+          "choices": [
+            {
+              "value": "300",
+              "text": {
+                "ko": "A 이상"
+              }
+            },
+            {
+              "value": "200",
+              "text": {
+                "ko": "B 이상"
+              }
+            },
+            {
+              "value": "100",
+              "text": {
+                "ko": "C 이상"
+              }
+            },
+            {
+              "value": "0",
+              "text": {
+                "ko": "미참"
+              }
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "Engineering_Certification",
+          "title": {
+            "ko": "공학인증 학습성과 평가"
+          },
+          "choices": [
+            {
+              "value": "200",
+              "text": {
+                "ko": "참여 여부"
+              }
+            }
+          ]
+        }
+      ],
+      "title": {
+        "default": "교과 과정 항목",
+        "ko": "1. 교과 과정 항목"
+      },
+      "description": {
+        "ko": "본인에게 해당되는 사항을 넣어주세요"
+      }
+    },
+    {
+      "name": "국제화",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "TOEIC",
+          "choices": [
+            {
+              "value": "900",
+              "text": {
+                "ko": "900점 이상"
+              }
+            },
+            {
+              "value": "800",
+              "text": {
+                "ko": "800 ~ 895점"
+              }
+            },
+            {
+              "value": "700",
+              "text": {
+                "ko": "700 ~ 795점"
+              }
+            },
+            {
+              "value": "600",
+              "text": {
+                "ko": "600 ~ 695점"
+              }
+            },
+            {
+              "value": "500",
+              "text": {
+                "ko": "500 ~ 595점"
+              }
+            },
+            {
+              "value": "400",
+              "text": {
+                "ko": "400 ~ 495점"
+              }
+            },
+            {
+              "value": "0",
+              "text": {
+                "ko": "400점 미만 또는 미응시"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "TOEIC_Speaking",
+          "choices": [
+            {
+              "value": "900",
+              "text": {
+                "ko": "160점 이상"
+              }
+            },
+            {
+              "value": "800",
+              "text": {
+                "ko": "150 ~ 159점"
+              }
+            },
+            {
+              "value": "700",
+              "text": {
+                "ko": "130 ~ 149점"
+              }
+            },
+            {
+              "value": "600",
+              "text": {
+                "ko": "110 ~ 129점"
+              }
+            },
+            {
+              "value": "500",
+              "text": {
+                "ko": "90 ~ 109점"
+              }
+            },
+            {
+              "value": "400",
+              "text": {
+                "ko": "70 ~ 89점"
+              }
+            },
+            {
+              "value": "0",
+              "text": {
+                "ko": "70점 미만 또는 미응시"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "TOEFL_iBT",
+          "choices": [
+            {
+              "value": "900",
+              "text": {
+                "ko": "105점 이상"
+              }
+            },
+            {
+              "value": "800",
+              "text": {
+                "ko": "91 ~ 104점"
+              }
+            },
+            {
+              "value": "700",
+              "text": {
+                "ko": "80 ~ 90점"
+              }
+            },
+            {
+              "value": "600",
+              "text": {
+                "ko": "68 ~ 79점"
+              }
+            },
+            {
+              "value": "500",
+              "text": {
+                "ko": "57 ~ 67점"
+              }
+            },
+            {
+              "value": "400",
+              "text": {
+                "ko": "40 ~ 56점"
+              }
+            },
+            {
+              "value": "0",
+              "text": {
+                "ko": "40점 미만 또는 미응시"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "TEPS",
+          "choices": [
+            {
+              "value": "900",
+              "text": {
+                "ko": "766이상"
+              }
+            },
+            {
+              "value": "800",
+              "text": {
+                "ko": "637 ~ 765점"
+              }
+            },
+            {
+              "value": "700",
+              "text": {
+                "ko": "555 ~ 636점"
+              }
+            },
+            {
+              "value": "600",
+              "text": {
+                "ko": "482 ~ 554점"
+              }
+            },
+            {
+              "value": "500",
+              "text": {
+                "ko": "416 ~ 481점"
+              }
+            },
+            {
+              "value": "400",
+              "text": {
+                "ko": "334 ~ 415점"
+              }
+            },
+            {
+              "value": "0",
+              "text": {
+                "ko": "334점 미만 또는 미응시"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "OPIc",
+          "choices": [
+            {
+              "value": "900",
+              "text": {
+                "ko": "AL"
+              }
+            },
+            {
+              "value": "700",
+              "text": {
+                "ko": "IH"
+              }
+            },
+            {
+              "value": "600",
+              "text": {
+                "ko": "IM"
+              }
+            },
+            {
+              "value": "500",
+              "text": {
+                "ko": "IL"
+              }
+            },
+            {
+              "value": "400",
+              "text": {
+                "ko": "NH"
+              }
+            },
+            {
+              "value": "0",
+              "text": {
+                "ko": "미응시"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "KTEST",
+          "title": {
+            "ko": "한국어 능력시험"
+          },
+          "description": {
+            "ko": "외국인만 입력하세요"
+          },
+          "choices": [
+            {
+              "value": "800",
+              "text": {
+                "ko": "6급"
+              }
+            },
+            {
+              "value": "700",
+              "text": {
+                "ko": "5급"
+              }
+            },
+            {
+              "value": "600",
+              "text": {
+                "ko": "4급"
+              }
+            },
+            {
+              "value": "500",
+              "text": {
+                "ko": "3급"
+              }
+            },
+            {
+              "value": "0",
+              "text": {
+                "ko": "미응시"
+              }
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "overseas_study",
+          "title": {
+            "ko": "해외 연수"
+          },
+          "description": {
+            "ko": "연수 증빙 자료 필수"
+          },
+          "choices": [
+            {
+              "value": "300",
+              "text": {
+                "ko": "참여 여부"
+              }
+            }
+          ]
+        }
+      ],
+      "title": {
+        "ko": "2. 국제화"
+      }
+    },
+    {
+      "name": "취업",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "employment",
+          "title": {
+            "ko": "취업 여부"
+          },
+          "choices": [
+            {
+              "value": "600",
+              "text": {
+                "ko": "전공 분야"
+              }
+            },
+            {
+              "value": "400",
+              "text": {
+                "ko": "비전공 분야"
+              }
+            },
+            {
+              "value": "0",
+              "text": {
+                "ko": "미응시"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "graduate_school",
+          "title": {
+            "ko": "대학원 진학"
+          },
+          "choices": [
+            {
+              "value": "500",
+              "text": {
+                "ko": "국외"
+              }
+            },
+            {
+              "value": "300",
+              "text": {
+                "ko": "국내"
+              }
+            },
+            {
+              "value": "0",
+              "text": {
+                "ko": "미진학"
+              }
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "Certificate",
+          "title": {
+            "ko": "전공 관련 자격증"
+          },
+          "choices": [
+            {
+              "value": "400",
+              "text": {
+                "ko": "기사자격증"
+              }
+            },
+            {
+              "value": "400",
+              "text": {
+                "ko": "ocjp"
+              }
+            },
+            {
+              "value": "400",
+              "text": {
+                "ko": "ocp"
+              }
+            },
+            {
+              "value": "200",
+              "text": {
+                "ko": "산업기사자격증"
+              }
+            },
+            {
+              "value": "200",
+              "text": {
+                "ko": "기능사자격증"
+              }
+            },
+            {
+              "value": "100",
+              "text": {
+                "ko": "컴퓨터활용능력"
+              }
+            },
+            {
+              "value": "100",
+              "text": {
+                "ko": "MOS"
+              }
+            },
+            {
+              "value": "100",
+              "text": {
+                "ko": "ITQ"
+              }
+            }
+          ],
+          "hasNone": true,
+          "hasSelectAll": true
+        },
+        {
+          "type": "checkbox",
+          "name": "Certificate2",
+          "title": {
+            "ko": "정보화 자격증"
+          },
+          "choices": [
+            {
+              "value": "100",
+              "text": {
+                "ko": "워드프로세서 1급, 워드프로세서"
+              }
+            },
+            {
+              "value": "100",
+              "text": {
+                "ko": "컴퓨터활용능력 1급"
+              }
+            },
+            {
+              "value": "100",
+              "text": {
+                "ko": "MOS MASTER"
+              }
+            },
+            {
+              "value": "100",
+              "text": {
+                "ko": "인터넷정보관리사 전문가"
+              }
+            },
+            {
+              "value": "100",
+              "text": {
+                "ko": "PC활용능력평가시험(PCT) A급"
+              }
+            },
+            {
+              "value": "100",
+              "text": {
+                "ko": "정보기술자격(ITQ) A급"
+              }
+            },
+            {
+              "value": "100",
+              "text": {
+                "ko": "디지털정보활용능력(DIAT) 고급"
+              }
+            },
+            {
+              "value": "100",
+              "text": {
+                "ko": "아이티플러스 Level 4~5"
+              }
+            }
+          ],
+          "hasNone": true,
+          "hasSelectAll": true
+        }
+      ],
+      "title": {
+        "ko": "3. 취업"
+      }
+    },
+    {
+      "name": "인성",
+      "elements": [
+        {
+          "type": "checkbox",
+          "name": "subject",
+          "title": {
+            "ko": "취업/창업 관련 정규 교과목 이수"
+          },
+          "description": {
+            "ko": "30점 목록"
+          },
+          "choices": [
+            {
+              "value": "30",
+              "text": {
+                "ko": "해외취업역량개발"
+              }
+            },
+            {
+              "value": "30",
+              "text": {
+                "ko": "국내취업역량개발"
+              }
+            },
+            {
+              "value": "30",
+              "text": {
+                "ko": "취업전략"
+              }
+            },
+            {
+              "value": "30",
+              "text": {
+                "ko": "취업과 경제경영(TESAT)"
+              }
+            },
+            {
+              "value": "30",
+              "text": {
+                "ko": "중소(강소)기업의 이해"
+              }
+            },
+            {
+              "value": "30",
+              "text": {
+                "ko": "NCS기반 채용준비"
+              }
+            },
+            {
+              "value": "30",
+              "text": {
+                "ko": "직업탐색과 준비역량"
+              }
+            },
+            {
+              "value": "30",
+              "text": {
+                "ko": "신문읽기와 경력개발"
+              }
+            },
+            {
+              "value": "30",
+              "text": {
+                "ko": "비즈니스훈련 BTC(Businessman Training Course)"
+              }
+            },
+            {
+              "value": "30",
+              "text": {
+                "ko": "현장실무능력1,2,3"
+              }
+            },
+            {
+              "value": "30",
+              "text": {
+                "ko": "대학생진로지도과정(CDP-C)"
+              }
+            }
+          ],
+          "hasNone": true,
+          "hasSelectAll": true
+        },
+        {
+          "type": "checkbox",
+          "name": "program",
+          "title": {
+            "ko": "진로/취업 프로그램"
+          },
+          "description": {
+            "ko": "20점 목록"
+          },
+          "choices": [
+            {
+              "value": "20",
+              "text": {
+                "ko": "취업동아리"
+              }
+            },
+            {
+              "value": "20",
+              "text": {
+                "ko": "NCS기반 즐기면서 진로찾기"
+              }
+            },
+            {
+              "value": "20",
+              "text": {
+                "ko": "NCS기반 즐기면서 취업하기"
+              }
+            },
+            {
+              "value": "20",
+              "text": "Hannam Local Career Frontier(HLCF)"
+            },
+            {
+              "value": "20",
+              "text": "고학년 취업캠프"
+            },
+            {
+              "value": "20",
+              "text": "외국인유학생 취업캠프"
+            },
+            {
+              "value": "20",
+              "text": "해외취업동아리"
+            },
+            {
+              "value": "20",
+              "text": "Job 서포터즈"
+            },
+            {
+              "value": "20",
+              "text": "글로벌 해외기업탐방"
+            },
+            {
+              "value": "20",
+              "text": "여대생 항공승무원 양성과정"
+            },
+            {
+              "value": "20",
+              "text": "NCS기반 직무적성검사 캠프"
+            },
+            {
+              "value": "20",
+              "text": "여대생 직무적성검사캠프"
+            },
+            {
+              "value": "20",
+              "text": "일본취업 특별반"
+            },
+            {
+              "value": "20",
+              "text": "데일카네기리더십과정"
+            },
+            {
+              "value": "20",
+              "text": "Hannam Global Career Frontier(HGCF)"
+            },
+            {
+              "value": "20",
+              "text": "외국인 유학생 진로캠프"
+            },
+            {
+              "value": "20",
+              "text": "저학년 진로캠프"
+            },
+            {
+              "value": "20",
+              "text": "진로가 어렵군 힘든걸 모여라"
+            },
+            {
+              "value": "20",
+              "text": "취업 Job Go! 인사팀장 Job Go!"
+            }
+          ],
+          "hasNone": true,
+          "hasSelectAll": true
+        },
+        {
+          "type": "checkbox",
+          "name": "program2",
+          "title": {
+            "ko": "진로/취업 프로그램 2"
+          },
+          "description": {
+            "ko": "5점 목록"
+          },
+          "choices": [
+            {
+              "value": "5",
+              "text": {
+                "ko": "한남커리어네비게이션맵 공모전"
+              }
+            },
+            {
+              "value": "5",
+              "text": {
+                "ko": "해외취업특강"
+              }
+            },
+            {
+              "value": "5",
+              "text": {
+                "ko": "자기소개서 워크숍"
+              }
+            },
+            {
+              "value": "5",
+              "text": "취업 멘토링"
+            },
+            {
+              "value": "5",
+              "text": "여대생 멘토특강"
+            },
+            {
+              "value": "5",
+              "text": "여대생 멘토링 프로그램"
+            },
+            {
+              "value": "5",
+              "text": "리쿠르팅 노마드(채용박람회 참가)"
+            },
+            {
+              "value": "5",
+              "text": "진로(NCS) Day"
+            },
+            {
+              "value": "5",
+              "text": "입사서류(직무) Day"
+            },
+            {
+              "value": "5",
+              "text": "면점 Day"
+            },
+            {
+              "value": "5",
+              "text": "해외취업 Day"
+            }
+          ],
+          "hasNone": true,
+          "hasSelectAll": true
+        },
+        {
+          "type": "dropdown",
+          "name": "Field",
+          "title": {
+            "ko": "현장 실습"
+          },
+          "description": {
+            "ko": "최대 4회"
+          },
+          "choices": [
+            {
+              "value": "100",
+              "text": {
+                "ko": "1번"
+              }
+            },
+            {
+              "value": "200",
+              "text": {
+                "ko": "2번"
+              }
+            },
+            {
+              "value": "300",
+              "text": {
+                "ko": "3번"
+              }
+            },
+            {
+              "value": "400",
+              "text": "4번"
+            }
+          ],
+          "hasNone": true
+        },
+        {
+          "type": "checkbox",
+          "name": "Resume",
+          "title": {
+            "ko": "자기소개서 및 이력서"
+          },
+          "choices": [
+            {
+              "value": "100",
+              "text": {
+                "ko": "작성 경험 있음"
+              }
+            }
+          ],
+          "hasNone": true,
+          "noneText": {
+            "ko": "작성 경험 없음"
+          }
+        },
+        {
+          "type": "checkbox",
+          "name": "Internet_Certificate",
+          "title": {
+            "ko": "인터넷윤리 자격증"
+          },
+          "choices": [
+            {
+              "value": "50",
+              "text": {
+                "ko": "1번이라도 작성했을 경우"
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "Volunteer",
+          "title": {
+            "ko": "사회봉사활동"
+          },
+          "description": {
+            "ko": "72시간 초과한것만 인정 / 예시) 77시간이면 '5'"
+          },
+          "inputType": "number",
+          "min": 0,
+          "max": 20,
+          "step": 1
+        },
+        {
+          "type": "text",
+          "name": "Counseling",
+          "title": {
+            "ko": "상담 실적"
+          },
+          "description": {
+            "ko": "횟수만 적어주세요 / 숫자로만 입력가능 / 최소 6부터 인정"
+          },
+          "inputType": "number",
+          "min": 6,
+          "max": 10,
+          "step": 1
+        }
+      ],
+      "title": {
+        "ko": "4. 인성"
+      }
+    },
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "checkbox",
+          "name": "Conference",
+          "title": {
+            "ko": "학과학술제 출품"
+          },
+          "choices": [
+            {
+              "value": "300",
+              "text": {
+                "ko": "참여"
+              }
+            }
+          ],
+          "hasNone": true,
+          "noneText": {
+            "ko": "미참"
+          }
+        },
+        {
+          "type": "checkbox",
+          "name": "intramural contest",
+          "title": {
+            "ko": "교내 공모전 출품"
+          },
+          "hasComment": true,
+          "commentText": {
+            "ko": "5회 이상"
+          },
+          "choices": [
+            {
+              "value": "100",
+              "text": {
+                "ko": "1회"
+              }
+            },
+            {
+              "value": "100",
+              "text": {
+                "ko": "2회"
+              }
+            },
+            {
+              "value": "100",
+              "text": {
+                "ko": "3회"
+              }
+            },
+            {
+              "value": "100",
+              "text": "4회"
+            },
+            {
+              "value": "100",
+              "text": "5회"
+            }
+          ],
+          "hasNone": true,
+          "commentPlaceHolder": {
+            "ko": "숫자로만 적어주세요"
+          },
+          "maxSelectedChoices": 1
+        },
+        {
+          "type": "checkbox",
+          "name": "intramural contest awarded",
+          "title": {
+            "ko": "교내 공모전 수상"
+          },
+          "hasComment": true,
+          "commentText": {
+            "ko": "5회 이상"
+          },
+          "choices": [
+            {
+              "value": "100",
+              "text": {
+                "ko": "1회"
+              }
+            },
+            {
+              "value": "200",
+              "text": {
+                "ko": "2회"
+              }
+            },
+            {
+              "value": "300",
+              "text": {
+                "ko": "3회"
+              }
+            },
+            {
+              "value": "400",
+              "text": "4회"
+            },
+            {
+              "value": "500",
+              "text": "5회"
+            }
+          ],
+          "hasNone": true,
+          "commentPlaceHolder": {
+            "ko": "숫자로만 적어주세요"
+          },
+          "maxSelectedChoices": 1
+        },
+        {
+          "type": "checkbox",
+          "name": "suburban_contest",
+          "title": {
+            "ko": "교외 공모전 출품"
+          },
+          "choices": [
+            {
+              "value": "400",
+              "text": {
+                "ko": "참여"
+              }
+            }
+          ],
+          "hasNone": true,
+          "noneText": {
+            "ko": "미참"
+          }
+        },
+        {
+          "type": "checkbox",
+          "name": "suburban_contest_awarded",
+          "title": {
+            "ko": "교외 공모전 수상"
+          },
+          "choices": [
+            {
+              "value": "200",
+              "text": {
+                "ko": "참여"
+              }
+            }
+          ],
+          "hasNone": true,
+          "noneText": {
+            "ko": "미참"
+          }
+        },
+        {
+          "type": "checkbox",
+          "name": "domestic_patent_application",
+          "title": {
+            "ko": "국내 학술대회 논문발표 또는 특허 출원"
+          },
+          "hasComment": true,
+          "commentText": {
+            "ko": "5회 이상"
+          },
+          "choices": [
+            {
+              "value": "200",
+              "text": {
+                "ko": "1회"
+              }
+            },
+            {
+              "value": "400",
+              "text": {
+                "ko": "2회"
+              }
+            },
+            {
+              "value": "600",
+              "text": {
+                "ko": "3회"
+              }
+            },
+            {
+              "value": "800",
+              "text": "4회"
+            },
+            {
+              "value": "1000",
+              "text": "5회"
+            }
+          ],
+          "hasNone": true,
+          "commentPlaceHolder": {
+            "ko": "숫자로만 적어주세요"
+          },
+          "maxSelectedChoices": 1
+        },
+        {
+          "type": "checkbox",
+          "name": "international_patent_registration",
+          "title": {
+            "ko": "국제 학술대회 논문발표 또는 특허 등록"
+          },
+          "hasComment": true,
+          "commentText": {
+            "ko": "5회 이상"
+          },
+          "choices": [
+            {
+              "value": "400",
+              "text": {
+                "ko": "1회"
+              }
+            },
+            {
+              "value": "800",
+              "text": {
+                "ko": "2회"
+              }
+            },
+            {
+              "value": "1200",
+              "text": {
+                "ko": "3회"
+              }
+            },
+            {
+              "value": "1600",
+              "text": "4회"
+            },
+            {
+              "value": "2000",
+              "text": "5회"
+            }
+          ],
+          "hasNone": true,
+          "commentPlaceHolder": {
+            "ko": "숫자로만 적어주세요"
+          },
+          "maxSelectedChoices": 1
+        },
+        {
+          "type": "checkbox",
+          "name": "academic_paper",
+          "title": {
+            "ko": "학술지 논문 게재"
+          },
+          "hasComment": true,
+          "commentText": {
+            "ko": "5회 이상"
+          },
+          "choices": [
+            {
+              "value": "400",
+              "text": {
+                "ko": "1회"
+              }
+            },
+            {
+              "value": "800",
+              "text": {
+                "ko": "2회"
+              }
+            },
+            {
+              "value": "1200",
+              "text": {
+                "ko": "3회"
+              }
+            },
+            {
+              "value": "1600",
+              "text": "4회"
+            },
+            {
+              "value": "2000",
+              "text": "5회"
+            }
+          ],
+          "hasNone": true,
+          "commentPlaceHolder": {
+            "ko": "숫자로만 적어주세요"
+          },
+          "maxSelectedChoices": 1
+        }
+      ],
+      "title": {
+        "ko": "5. 교내 외 작품"
+      }
+    }
+  ],
+  "cookieName": "IaC",
+  "showQuestionNumbers": "off"
+}

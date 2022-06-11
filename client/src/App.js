@@ -10,6 +10,11 @@ import Survey from './container/Survey';
 import Result from './container/Result';
 import NextPage1 from './component/next1';
 
+//대학목록
+import IaC from './component/collegeList/Engineering/IaC/IaC';
+import MaSE from './component/collegeList/Engineering/MaSE/MaSE';
+
+
 class App extends Component {
   render() {
     return (
@@ -19,7 +24,8 @@ class App extends Component {
             <Route path="/" element={<Main />} ></Route>
             <Route path="/college" element={<College />} />
 
-            <Route path="/LiberalArts" element={<College />} />
+            <Route path="/IaC" element={<IaC />} />
+            <Route path="/MaSE" element={<MaSE />} />
 
             <Route path="/next1" element={<NextPage1 />} />
             <Route path="/service_center" element={<ServiceCenter />} />
