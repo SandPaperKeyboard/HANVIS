@@ -1,0 +1,447 @@
+{
+  "locale": "ko",
+  "title": "화학공학과",
+  "description": "화학공학과 졸업점수 계산하기",
+  "logoPosition": "right",
+  "pages": [
+    {
+      "name": "전공 학습",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "Grade",
+          "title": "성적",
+          "description": { "ko": "100 ~ 200 / 20점단위" },
+          "hideNumber": true,
+          "choices": [
+            { "value": "item1", "text": "A+" },
+            { "value": "item2", "text": "A0" },
+            { "value": "item3", "text": "A-" },
+            { "value": "item4", "text": "B+" },
+            { "value": "item5", "text": "B0" },
+            { "value": "item6", "text": "B-이하" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "Graduation_thesis",
+          "title": { "default": "성적", "ko": "졸업 논문" },
+          "description": { "ko": "200 ~ 300 / 20점단위" },
+          "hideNumber": true,
+          "choices": [
+            { "value": "item1", "text": "A+" },
+            { "value": "item2", "text": "A0" },
+            { "value": "item3", "text": "A-" },
+            { "value": "item4", "text": "B+" },
+            { "value": "item5", "text": "B0" },
+            { "value": "item6", "text": "B-이하" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "graduation_examination",
+          "title": { "default": "성적", "ko": "졸업 시험" },
+          "description": { "ko": "140 ~ 300" },
+          "hideNumber": true,
+          "choices": [
+            { "value": "300", "text": { "default": "A+", "ko": "100" } },
+            { "value": "280", "text": { "default": "A0", "ko": "90" } },
+            { "value": "240", "text": { "default": "A-", "ko": "80" } },
+            { "value": "200", "text": { "default": "B+", "ko": "70" } },
+            { "value": "140", "text": { "default": "B0", "ko": "60" } }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "field_practice",
+          "title": { "default": "성적", "ko": "현장 실습" },
+          "description": { "ko": "200 ~ 300 / 20점단위" },
+          "hideNumber": true,
+          "choices": [
+            { "value": "300", "text": "A+" },
+            { "value": "280", "text": "A0" },
+            { "value": "260", "text": "A-" },
+            { "value": "240", "text": "B+" },
+            { "value": "220", "text": "B0" },
+            { "value": "200", "text": "B-이하" }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "Academic activities",
+          "title": { "ko": "학술 활동" },
+          "hideNumber": true,
+          "choices": [
+            { "value": "item1", "text": { "ko": "학술지 논문게재" } },
+            { "value": "item2", "text": { "ko": "특허출원" } },
+            { "value": "item3", "text": { "ko": "학술대회 발표" } },
+            { "value": "item4", "text": { "ko": "보고서" } }
+          ]
+        }
+      ],
+      "title": "1. 전공 학습"
+    },
+    {
+      "name": "취업",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "job_training",
+          "title": { "ko": "취업훈련 참가" },
+          "description": { "ko": "1회이상 필수" },
+          "hideNumber": true,
+          "choices": [
+            { "value": "item1", "text": { "ko": "1회" } },
+            { "value": "item2", "text": { "ko": "2회" } },
+            { "value": "item3", "text": { "ko": "3회" } },
+            { "value": "item4", "text": { "ko": "4회" } },
+            { "value": "item5", "text": { "ko": "5회" } },
+            { "value": "item6", "text": { "ko": "6회" } },
+            { "value": "item7", "text": { "ko": "7회" } },
+            { "value": "item8", "text": { "ko": "8회" } }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "Employment",
+          "title": { "ko": "취업" },
+          "description": { "ko": "4대보험가입내역서, 재직증명서" },
+          "hideNumber": true,
+          "choices": [{ "value": "item1", "text": { "ko": "취업" } }],
+          "hasNone": true,
+          "noneText": { "ko": "미 취업" }
+        },
+        {
+          "type": "radiogroup",
+          "name": "graduate_school",
+          "title": { "ko": "대학원 진학" },
+          "description": { "ko": "대학원 합격통지서" },
+          "hideNumber": true,
+          "choices": [{ "value": "item1", "text": { "ko": "대학원 진학" } }],
+          "hasNone": true,
+          "noneText": { "ko": "미 진학" }
+        },
+        {
+          "type": "radiogroup",
+          "name": "state_examination",
+          "title": { "ko": "국가고시" },
+          "description": {
+            "ko": "공무원 시험(합격 통지서 - 최종합격), \nROTC(임관예정 확인서)"
+          },
+          "hideNumber": true,
+          "choices": [{ "value": "item1", "text": { "ko": "합격 완료" } }],
+          "hasNone": true,
+          "noneText": { "ko": "미응시" }
+        }
+      ],
+      "title": { "ko": "2. 취업" }
+    },
+    {
+      "name": "자기 계발",
+      "elements": [
+        {
+          "type": "paneldynamic",
+          "name": "외국어 능력",
+          "hideNumber": true,
+          "templateElements": [
+            {
+              "type": "radiogroup",
+              "name": "TOEIC",
+              "description": { "ko": "300 ~ 100점" },
+              "hideNumber": true,
+              "choices": [
+                { "value": "item1", "text": { "ko": "950~990" } },
+                { "value": "item2", "text": { "ko": "900~949" } },
+                { "value": "item3", "text": { "ko": "850~899" } },
+                { "value": "item4", "text": { "ko": "800~849" } },
+                { "value": "item5", "text": { "ko": "750~799" } },
+                { "value": "item6", "text": { "ko": "700~749" } },
+                { "value": "item7", "text": { "ko": "650~699" } },
+                { "value": "item8", "text": { "ko": "600~649" } },
+                { "value": "item9", "text": { "ko": "550~599" } },
+                { "value": "item10", "text": { "ko": "500~549" } },
+                { "value": "item11", "text": { "ko": "500 미만" } }
+              ],
+              "hasNone": true,
+              "noneText": { "ko": "미응시" }
+            },
+            {
+              "type": "radiogroup",
+              "name": "TOEFL_iBT",
+              "title": { "ko": "TOEFL iBT" },
+              "description": { "ko": "300 ~ 100점" },
+              "hideNumber": true,
+              "choices": [
+                { "value": "item1", "text": { "ko": "90이상" } },
+                { "value": "item2", "text": { "ko": "88~89" } },
+                { "value": "item3", "text": { "ko": "86~87" } },
+                { "value": "item4", "text": { "ko": "84~85" } },
+                { "value": "item5", "text": { "ko": "82~83" } },
+                { "value": "item6", "text": { "ko": "80~81" } },
+                { "value": "item7", "text": { "ko": "78~79" } },
+                { "value": "item8", "text": { "ko": "76~77" } },
+                { "value": "item9", "text": { "ko": "74~75" } },
+                { "value": "item10", "text": { "ko": "72~73" } },
+                { "value": "item11", "text": { "ko": "71 미만" } }
+              ],
+              "hasNone": true,
+              "noneText": { "ko": "미응시" }
+            },
+            {
+              "type": "radiogroup",
+              "name": "TOEFL_CBT",
+              "title": { "ko": "TOEFL CBT" },
+              "description": { "ko": "300 ~ 100점" },
+              "hideNumber": true,
+              "choices": [
+                { "value": "item1", "text": { "ko": "256이상" } },
+                { "value": "item2", "text": { "ko": "250~255" } },
+                { "value": "item3", "text": { "ko": "244~249" } },
+                { "value": "item4", "text": { "ko": "238~243" } },
+                { "value": "item5", "text": { "ko": "232~237" } },
+                { "value": "item6", "text": { "ko": "226~231" } },
+                { "value": "item7", "text": { "ko": "220~225" } },
+                { "value": "item8", "text": { "ko": "214~219" } },
+                { "value": "item9", "text": { "ko": "208~213" } },
+                { "value": "item10", "text": { "ko": "202~207" } },
+                { "value": "item11", "text": { "ko": "201 미만" } }
+              ],
+              "hasNone": true,
+              "noneText": { "ko": "미응시" }
+            },
+            {
+              "type": "radiogroup",
+              "name": "TEPS",
+              "description": { "ko": "300 ~ 100점" },
+              "hideNumber": true,
+              "choices": [
+                { "value": "item1", "text": { "ko": "793 이상" } },
+                { "value": "item2", "text": { "ko": "771~792" } },
+                { "value": "item3", "text": { "ko": "749~770" } },
+                { "value": "item4", "text": { "ko": "727~748" } },
+                { "value": "item5", "text": { "ko": "705~726" } },
+                { "value": "item6", "text": { "ko": "683~704" } },
+                { "value": "item7", "text": { "ko": "661~682" } },
+                { "value": "item8", "text": { "ko": "639~660" } },
+                { "value": "item9", "text": { "ko": "617~638" } },
+                { "value": "item10", "text": { "ko": "595~616" } },
+                { "value": "item11", "text": { "ko": "594 미만" } }
+              ],
+              "hasNone": true,
+              "noneText": { "ko": "미응시" }
+            },
+            {
+              "type": "radiogroup",
+              "name": "IELTS",
+              "description": { "ko": "300 / 240 / 180 / 120" },
+              "choices": [
+                { "value": "item1", "text": { "ko": "6.5이상" } },
+                { "value": "item2", "text": { "ko": "6.0" } },
+                { "value": "item3", "text": { "ko": "5.5" } },
+                { "value": "item4", "text": { "ko": "5.0" } }
+              ],
+              "hasNone": true,
+              "noneText": { "ko": "미응시" }
+            }
+          ]
+        },
+        {
+          "type": "paneldynamic",
+          "name": "Certificate",
+          "title": { "ko": "전공 자격증" },
+          "description": { "ko": "기사, 산업기사 총합 200점까지만" },
+          "hideNumber": true,
+          "templateElements": [
+            {
+              "type": "dropdown",
+              "name": "기사/1급",
+              "description": { "ko": "개당 200점" },
+              "choices": [
+                { "value": "item1", "text": { "ko": "생물공학기사" } },
+                { "value": "item2", "text": { "ko": "화공기사" } },
+                { "value": "item3", "text": { "ko": "화학분석기사" } },
+                { "value": "item4", "text": { "ko": "공업화학기사" } },
+                { "value": "item5", "text": { "ko": "열관리기사" } },
+                { "value": "item6", "text": { "ko": "원자력기사" } },
+                { "value": "item7", "text": { "ko": "가스기사" } },
+                { "value": "item8", "text": { "ko": "대기환경기사" } },
+                { "value": "item9", "text": { "ko": "소음진동기사" } },
+                { "value": "item10", "text": { "ko": "수질환경기사" } },
+                { "value": "item11", "text": { "ko": "토양환경기사" } },
+                { "value": "item12", "text": { "ko": "폐기물처리기사" } },
+                { "value": "item13", "text": { "ko": "방사선취급감독자면허" } },
+                { "value": "item14", "text": { "ko": "원자로조종감독자면허" } },
+                { "value": "item15", "text": { "ko": "핵연로물질취급면허" } },
+                {
+                  "value": "item16",
+                  "text": { "ko": "방사성동위원소취급면허" }
+                }
+              ],
+              "hasNone": true
+            },
+            {
+              "type": "checkbox",
+              "name": "산업기사/2급",
+              "visibleIf": "{Certificate[0].기사/1급} = 'none'",
+              "description": { "ko": "개당 100점 (최대 200점)" },
+              "choices": [
+                { "value": "item1", "text": { "ko": "화약류제조산업기사" } },
+                { "value": "item2", "text": { "ko": "열관리산업기사" } },
+                { "value": "item3", "text": { "ko": "위험물관리산업기사" } },
+                { "value": "item4", "text": { "ko": "가스산업기사" } },
+                {
+                  "value": "item5",
+                  "text": { "ko": "농림토양평가관리산업기사" }
+                },
+                { "value": "item6", "text": { "ko": "대기환경산업기사" } },
+                { "value": "item7", "text": { "ko": "소음진동산업기사" } },
+                { "value": "item8", "text": { "ko": "수질환경산업기사" } },
+                { "value": "item9", "text": { "ko": "폐기물처리산업기사" } }
+              ],
+              "hasNone": true,
+              "maxSelectedChoices": 2
+            }
+          ]
+        },
+        {
+          "type": "paneldynamic",
+          "name": "informatization_certificate",
+          "title": { "ko": "정보화 자격증" },
+          "description": { "ko": "A, B그룹 중 총합 100점까지만" },
+          "hideNumber": true,
+          "templateElements": [
+            {
+              "type": "dropdown",
+              "name": "GroupA",
+              "title": { "ko": "A 그룹" },
+              "description": { "ko": "개당 100점" },
+              "choices": [
+                { "value": "item1", "text": { "ko": "컴퓨터활용능력 1급" } },
+                { "value": "item2", "text": { "ko": "문서 실무사 1,2급" } },
+                { "value": "item3", "text": { "ko": "인터넷정보검색사 1급" } },
+                { "value": "item4", "text": { "ko": "공업화학기사" } },
+                {
+                  "value": "item5",
+                  "text": { "ko": "정보처리기사, 정보처리산업기사" }
+                },
+                { "value": "item6", "text": { "ko": "사무자동화산업기사" } },
+                {
+                  "value": "item7",
+                  "text": { "ko": "PC활용능력평가시험(PCT)" }
+                },
+                { "value": "item8", "text": { "ko": "정보기기운용기능사" } },
+                {
+                  "value": "item9",
+                  "text": { "ko": "디지털정보활용능력(DIAT)" }
+                }
+              ],
+              "hasOther": true,
+              "hasNone": true,
+              "otherText": { "ko": "기타" }
+            },
+            {
+              "type": "checkbox",
+              "name": "GroupB",
+              "visibleIf": "{Certificate[0].기사/1급} = 'none'",
+              "title": { "ko": "B 그룹" },
+              "description": { "ko": "개당 50점 (최대 100점)" },
+              "choices": [
+                { "value": "item1", "text": { "ko": "워드프로세서" } },
+                { "value": "item2", "text": { "ko": "컴퓨터활용능력 2급" } },
+                { "value": "item3", "text": { "ko": "문서실무사 3,4급" } },
+                { "value": "item4", "text": { "ko": "인터넷정보검색사 2급" } },
+                { "value": "item5", "text": { "ko": "정보처리기능사" } }
+              ],
+              "hasOther": true,
+              "hasNone": true,
+              "maxSelectedChoices": 2
+            }
+          ]
+        }
+      ],
+      "title": { "ko": "3. 자기 계발" }
+    },
+    {
+      "name": "봉사",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "Volunteer",
+          "title": { "ko": "사회봉사 활동" },
+          "description": { "ko": "100 / 80 / 60 / 40 / 20" },
+          "hideNumber": true,
+          "choices": [
+            { "value": "item1", "text": { "ko": "400시간 이상" } },
+            { "value": "item2", "text": { "ko": "300~399 시간" } },
+            { "value": "item3", "text": { "ko": "200~299 시간" } },
+            { "value": "item4", "text": { "ko": "100~199 시간" } },
+            { "value": "item5", "text": { "ko": "72~92시간" } }
+          ],
+          "hasNone": true,
+          "noneText": { "ko": "72시간 미만" }
+        },
+        {
+          "type": "text",
+          "name": "Counseling",
+          "title": { "ko": "상담 실적" },
+          "description": { "ko": "매회 10점 / 최대 200점" },
+          "hideNumber": true,
+          "inputType": "number",
+          "min": 0,
+          "max": 20,
+          "step": 1
+        },
+        {
+          "type": "text",
+          "name": "department_events",
+          "title": { "ko": "학과 행사 참여" },
+          "description": {
+            "ko": "매회 20점 / 최대 200점 / 학과 학생회, MT, 체육대회, 학술제 등"
+          },
+          "hideNumber": true,
+          "inputType": "number",
+          "min": 0,
+          "max": 10,
+          "step": 1
+        }
+      ],
+      "title": { "ko": "4. 봉사" }
+    },
+    {
+      "name": "Social_Experience",
+      "elements": [
+        {
+          "type": "boolean",
+          "name": "Overseas_training",
+          "title": { "ko": "해외연수" },
+          "description": { "ko": "100점" },
+          "hideNumber": true
+        },
+        {
+          "type": "boolean",
+          "name": "internship",
+          "title": { "ko": "인턴십" },
+          "description": { "ko": "100점" },
+          "hideNumber": true
+        },
+        {
+          "type": "boolean",
+          "name": "question3",
+          "title": { "ko": "수상(상훈)" },
+          "description": { "ko": "100점" },
+          "hideNumber": true
+        },
+        {
+          "type": "boolean",
+          "name": "Startups",
+          "title": { "ko": "창업" },
+          "description": { "ko": "300점" },
+          "hideNumber": true
+        }
+      ],
+      "title": { "ko": "5. 사회 경험" }
+    }
+  ],
+  "showNavigationButtons": "both",
+  "showProgressBar": "both"
+}

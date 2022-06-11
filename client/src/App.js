@@ -11,8 +11,11 @@ import Result from './container/Result';
 import NextPage1 from './component/next1';
 
 //대학목록
+//공과대학
 import IaC from './component/collegeList/Engineering/IaC/IaC';
-import MaSE from './component/collegeList/Engineering/MaSE/MaSE';
+import AE from './component/collegeList/Engineering/AE/AE';
+import CaEE from './component/collegeList/Engineering/CaEE/CaEE';
+import CE from './component/collegeList/Engineering/CE/CE';
 
 
 class App extends Component {
@@ -25,8 +28,10 @@ class App extends Component {
             <Route path="/college" element={<College />} />
 
             <Route path="/IaC" element={<IaC />} />
-            <Route path="/MaSE" element={<MaSE />} />
-
+            <Route path="/AE" element={<AE />} />
+            <Route path="/CaEE" element={<CaEE />} />
+            <Route path="/CE" element={<CE />} />
+            
             <Route path="/next1" element={<NextPage1 />} />
             <Route path="/service_center" element={<ServiceCenter />} />
             <Route path="/survey/:surveyCode" element={<Survey />} />

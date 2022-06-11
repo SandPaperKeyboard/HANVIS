@@ -1,7 +1,7 @@
-import React from 'react';
-import './CollegeSelector.css'
+import React from "react";
+import "./CollegeSelector.css";
 import { Link } from "react-router-dom";
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 
 //import styled from "styled-components";
 
@@ -18,12 +18,15 @@ function CollegeSelector() {
             <li>
               <Link to="/IaC">정보통신학과</Link>
             </li>
-            <li>전기전자공학과</li>
-            <li>[토목건축공학부] 건축공학전공</li>
-            <li>[토목건축공학부] 토목환경공학전공</li>
-              <Link to="/MaSE"><li>신소재공학과</li></Link>
-            <li>화학공학과</li>
-            <li>기계공학과</li>
+            <li>
+              <Link to="/AE">[토목건축공학부] 건축공학전공</Link>
+            </li>
+            <li>
+              <Link to="/CaEE">[토목건축공학부] 토목환경공학전공</Link>
+            </li>
+            <li>
+              <Link to="/CE">화학공학과</Link>
+            </li>
           </ul>
         </details>
       </div>
@@ -44,7 +47,6 @@ function CollegeSelector() {
 }
 
 export default CollegeSelector;
-
 
 /*  //2022-06-07 내가 트라이한 방법
 const CollegeSelector = () => (
