@@ -9,6 +9,10 @@ import ServiceCenter from './container/ServiceCenter';
 import Survey from './container/Survey';
 import Result from './container/Result';
 import NextPage1 from './component/next1';
+import COM from './component/collegeList/Smart/COM';
+import IaC from './component/collegeList/Engineering/IaC';
+import AI from './component/collegeList/Smart/AI';
+import BIDT from './component/collegeList/Smart/BIDT';
 
 class App extends Component {
   render() {
@@ -25,6 +29,10 @@ class App extends Component {
             <Route path="/service_center" element={<ServiceCenter />} />
             <Route path="/survey/:surveyCode" element={<Survey />} />
             <Route path="/result" element={<Result />} />
+            <Route path="/COM" element={<COM />} />
+            <Route path="/AI" element={<AI />} />
+            <Route path="/IaC" element={<IaC />} />
+            <Route path="/BIDT" element={< BIDT/>} />
           </Routes>
         </Router>
       </div>

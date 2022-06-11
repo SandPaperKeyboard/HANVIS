@@ -1,9 +1,9 @@
-//electrical and electronic engineering
-//전기전자공학
+// Department of Economy, Trade and Industry
+// 중국경제통상학전공
 
 import SurveyQuestion from '../../SurveyQuestion'
 
-const EEE = () => {
+const ETI = () => {
   return (
     <div>
       <SurveyQuestion />
@@ -11,4 +11,4 @@ const EEE = () => {
   )
 }
 
-export default EEE;
+export default ETI;

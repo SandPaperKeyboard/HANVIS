@@ -1,9 +1,9 @@
-//electrical and electronic engineering
-//전기전자공학
+// Department of Mathematics Education
+// 수학교육학과
 
 import SurveyQuestion from '../../SurveyQuestion'
 
-const EEE = () => {
+const DME = () => {
   return (
     <div>
       <SurveyQuestion />
@@ -11,4 +11,4 @@ const EEE = () => {
   )
 }
 
-export default EEE;
+export default DME;

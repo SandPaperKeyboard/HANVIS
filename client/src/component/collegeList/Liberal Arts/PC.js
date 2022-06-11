@@ -1,9 +1,9 @@
-//electrical and electronic engineering
-//전기전자공학
+// Philosophical counseling
+// 철학상담학과
 
 import SurveyQuestion from '../../SurveyQuestion'
 
-const EEE = () => {
+const PC = () => {
   return (
     <div>
       <SurveyQuestion />
@@ -11,4 +11,4 @@ const EEE = () => {
   )
 }
 
-export default EEE;
+export default PC;

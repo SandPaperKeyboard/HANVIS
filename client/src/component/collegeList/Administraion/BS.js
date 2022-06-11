@@ -1,9 +1,9 @@
-//electrical and electronic engineering
-//전기전자공학
+// Department of Business Statistics
+// 비즈니스통계학과
 
 import SurveyQuestion from '../../SurveyQuestion'
 
-const EEE = () => {
+const BS = () => {
   return (
     <div>
       <SurveyQuestion />
@@ -11,4 +11,4 @@ const EEE = () => {
   )
 }
 
-export default EEE;
+export default BS;

@@ -1,9 +1,9 @@
-//electrical and electronic engineering
-//전기전자공학
+// Department of Japanese Language and Literature
+// 일어일문학과
 
 import SurveyQuestion from '../../SurveyQuestion'
 
-const EEE = () => {
+const JLL = () => {
   return (
     <div>
       <SurveyQuestion />
@@ -11,4 +11,4 @@ const EEE = () => {
   )
 }
 
-export default EEE;
+export default JLL;

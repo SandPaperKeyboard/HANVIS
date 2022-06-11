@@ -1,9 +1,9 @@
-//electrical and electronic engineering
-//전기전자공학
+// the Department of Library and Information science
+// 문헌정보학과
 
 import SurveyQuestion from '../../SurveyQuestion'
 
-const EEE = () => {
+const LI = () => {
   return (
     <div>
       <SurveyQuestion />
@@ -11,4 +11,4 @@ const EEE = () => {
   )
 }
 
-export default EEE;
+export default LI;

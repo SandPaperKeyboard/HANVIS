@@ -1,9 +1,9 @@
-//electrical and electronic engineering
-//전기전자공학
+// Industry & Management
+// 산업경영공학과
 
 import SurveyQuestion from '../../SurveyQuestion'
 
-const EEE = () => {
+const IM = () => {
   return (
     <div>
       <SurveyQuestion />
@@ -11,4 +11,4 @@ const EEE = () => {
   )
 }
 
-export default EEE;
+export default IM;

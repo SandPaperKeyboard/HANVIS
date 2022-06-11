@@ -1,9 +1,9 @@
-//electrical and electronic engineering
-//전기전자공학
+// Korean Language Education
+// 국어교육학과
 
 import SurveyQuestion from '../../SurveyQuestion'
 
-const EEE = () => {
+const KE = () => {
   return (
     <div>
       <SurveyQuestion />
@@ -11,4 +11,4 @@ const EEE = () => {
   )
 }
 
-export default EEE;
+export default KE;

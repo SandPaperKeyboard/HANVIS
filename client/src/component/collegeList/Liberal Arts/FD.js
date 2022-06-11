@@ -1,9 +1,9 @@
-//electrical and electronic engineering
-//전기전자공학
+// French department
+// 프랑스어학과
 
 import SurveyQuestion from '../../SurveyQuestion'
 
-const EEE = () => {
+const FD = () => {
   return (
     <div>
       <SurveyQuestion />
@@ -11,4 +11,4 @@ const EEE = () => {
   )
 }
 
-export default EEE;
+export default FD;

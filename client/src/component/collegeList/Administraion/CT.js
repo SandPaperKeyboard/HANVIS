@@ -1,9 +1,9 @@
-//electrical and electronic engineering
-//전기전자공학
+// Department of Commerce and Trade
+// 무역학과
 
 import SurveyQuestion from '../../SurveyQuestion'
 
-const EEE = () => {
+const CT = () => {
   return (
     <div>
       <SurveyQuestion />
@@ -11,4 +11,4 @@ const EEE = () => {
   )
 }
 
-export default EEE;
+export default CT;

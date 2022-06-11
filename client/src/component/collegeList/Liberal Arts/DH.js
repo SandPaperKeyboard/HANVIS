@@ -1,9 +1,9 @@
-//electrical and electronic engineering
-//전기전자공학
+// Department of History
+// 사학과
 
 import SurveyQuestion from '../../SurveyQuestion'
 
-const EEE = () => {
+const DH = () => {
   return (
     <div>
       <SurveyQuestion />
@@ -11,4 +11,4 @@ const EEE = () => {
   )
 }
 
-export default EEE;
+export default DH;
