@@ -15,8 +15,10 @@ function CollegeSelector() {
         <details>
           <summary>공과대학</summary>
           <ul>
+
             <li>
-              <Link to="/IaC">정보통신학과</Link>
+              <Link to="/IaC" style={{ textDecoration: 'none' }}>정보통신학과
+              </Link>
             </li>
             <li>
               <Link to="/AE">[토목건축공학부] 건축공학전공</Link>
@@ -34,11 +36,30 @@ function CollegeSelector() {
         <details>
           <summary>스마트융합대학</summary>
           <ul>
-            <li>컴퓨터공학과</li>
-            <li>산업경영공학과</li>
-            <li>AI융합학과</li>
-            <li>수학과</li>
-            <li>빅데이터응용학과</li>
+            <li>
+              <Link to="/COM" style={{ textDecoration: 'none' }}>컴퓨터공학과
+              </Link>
+            </li>
+            <li>
+              <Link to="/IM" style={{ textDecoration: 'none' }}>
+              산업경영공학과
+              </Link>
+            </li>
+            <li>
+              <Link to="/AI" style={{ textDecoration: 'none' }}>
+              AI융합학과
+              </Link>
+            </li>
+            <li>
+              <Link to="/DM" style={{ textDecoration: 'none' }}>
+              수학과
+              </Link>
+            </li>
+            <li>
+              <Link to="/BIDT" style={{ textDecoration: 'none' }}>
+              빅데이터응용학과
+              </Link>
+            </li>
           </ul>
         </details>
       </div>

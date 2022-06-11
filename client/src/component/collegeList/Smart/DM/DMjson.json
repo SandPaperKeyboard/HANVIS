@@ -1,0 +1,473 @@
+{
+    "title": "수학과",
+    "description": "수학과 졸업점수 계산하기",
+    "logoPosition": "right",
+    "pages": [
+     {
+      "name": "page1",
+      "elements": [
+       {
+        "type": "checkbox",
+        "name": "question1",
+        "title": "졸업 후 기업 취업, 대학원 진학, 군 입대 확정이 된 상태입니까?",
+        "choices": [
+         {
+          "value": "1",
+          "text": "대학원 진학"
+         },
+         {
+          "value": "2",
+          "text": "교육대학원 진학"
+         },
+         {
+          "value": "3",
+          "text": "ROTC 장교 임관"
+         },
+         {
+          "value": "4",
+          "text": "기업 취업"
+         }
+        ]
+       }
+      ],
+      "title": "취업"
+     },
+     {
+      "name": "page2",
+      "elements": [
+       {
+        "type": "boolean",
+        "name": "question2",
+        "title": "졸업시험(대학수학 & 집합론)",
+        "isRequired": true
+       },
+       {
+        "type": "checkbox",
+        "name": "question3",
+        "title": "다전공",
+        "choices": [
+         {
+          "value": "1",
+          "text": "STEM 트랙"
+         },
+         {
+          "value": "2",
+          "text": "화학트랙"
+         },
+         {
+          "value": "3",
+          "text": "전산트랙"
+         },
+         {
+          "value": "4",
+          "text": "수학과 이외의 다전공"
+         }
+        ]
+       }
+      ],
+      "title": "전공"
+     },
+     {
+      "name": "page3",
+      "elements": [
+       {
+        "type": "rating",
+        "name": "question4",
+        "title": "취업훈련 교육프로그램 참가 횟수"
+       }
+      ],
+      "title": "신학연 교육",
+      "description": "취업훈련 참가 실적"
+     },
+     {
+      "name": "page4",
+      "elements": [
+       {
+        "type": "checkbox",
+        "name": "question5",
+        "title": "A그룹",
+        "choices": [
+         {
+          "value": "1",
+          "text": "정보처리기사"
+         },
+         {
+          "value": "2",
+          "text": "정보처리산업기사"
+         },
+         {
+          "value": "3",
+          "text": "워드프로세서(구 1급)"
+         },
+         {
+          "value": "4",
+          "text": "컴퓨터활용능력 1, 2급"
+         },
+         {
+          "value": "5",
+          "text": "MOS(3과목이상)"
+         },
+         {
+          "value": "6",
+          "text": "ITQ(3과목이상)"
+         },
+         {
+          "value": "7",
+          "text": "사무자동화산업기사"
+         },
+         {
+          "value": "8",
+          "text": "기업회계 1급"
+         },
+         {
+          "value": "9",
+          "text": "전산회계 1급"
+         },
+         {
+          "value": "10",
+          "text": "회계원리 1급"
+         },
+         {
+          "value": "11",
+          "text": "GTQ 1급"
+         }
+        ]
+       },
+       {
+        "type": "checkbox",
+        "name": "question6",
+        "title": "B그룹",
+        "choices": [
+         {
+          "value": "1",
+          "text": "컴퓨터활용능력 3급"
+         },
+         {
+          "value": "2",
+          "text": "컴퓨터관련기능사 전종목"
+         },
+         {
+          "value": "3",
+          "text": "워드프로세서(구 2, 3급)"
+         },
+         {
+          "value": "4",
+          "text": "MOS(1과목만 적용)"
+         },
+         {
+          "value": "5",
+          "text": "기업회계 2급, 3급"
+         },
+         {
+          "value": "6",
+          "text": "전산회계 2급"
+         },
+         {
+          "value": "7",
+          "text": "회계원리 2급"
+         },
+         {
+          "value": "8",
+          "text": "GTQ 2급, 3급"
+         }
+        ]
+       },
+       {
+        "type": "checkbox",
+        "name": "question7",
+        "title": "C그룹",
+        "choices": [
+         {
+          "value": "1",
+          "text": "증권투자상담사"
+         },
+         {
+          "value": "2",
+          "text": "펀드투자상담사"
+         },
+         {
+          "value": "3",
+          "text": "파생상품투자상담사"
+         },
+         {
+          "value": "4",
+          "text": "자산관리사(금융FP)"
+         },
+         {
+          "value": "5",
+          "text": "보험계리사"
+         },
+         {
+          "value": "6",
+          "text": "손해사정인"
+         },
+         {
+          "value": "7",
+          "text": "AFPK"
+         }
+        ]
+       },
+       {
+        "type": "boolean",
+        "name": "question8",
+        "title": "중등학교정교사 2급 자격증을 취득하셨습니까?"
+       },
+       {
+        "type": "rating",
+        "name": "question9",
+        "title": "전공관련 스터디 그룹 참여횟수",
+        "rateMax": 4
+       }
+      ],
+      "title": "자격증",
+      "description": "정보화 및 금융 자격증"
+     },
+     {
+      "name": "page5",
+      "elements": [
+       {
+        "type": "dropdown",
+        "name": "question10",
+        "title": "TOEIC",
+        "choices": [
+         {
+          "value": "400",
+          "text": "700점 이상"
+         },
+         {
+          "value": "350",
+          "text": "650점 ~ 699점"
+         },
+         {
+          "value": "300",
+          "text": "600점 ~ 649점"
+         },
+         {
+          "value": "250",
+          "text": "550점 ~ 599점"
+         },
+         {
+          "value": "200",
+          "text": "500점 ~ 549점"
+         },
+         {
+          "value": "150",
+          "text": "500점 미만"
+         }
+        ]
+       },
+       {
+        "type": "dropdown",
+        "name": "question11",
+        "title": "TOEIC Speaking",
+        "choices": [
+         {
+          "value": "400",
+          "text": "120점 이상"
+         },
+         {
+          "value": "350",
+          "text": "110점"
+         },
+         {
+          "value": "300",
+          "text": "100점"
+         },
+         {
+          "value": "250",
+          "text": "90점"
+         },
+         {
+          "value": "200",
+          "text": "80점"
+         },
+         {
+          "value": "150",
+          "text": "70점"
+         }
+        ]
+       },
+       {
+        "type": "dropdown",
+        "name": "question12",
+        "title": "TOEFL CBT",
+        "choices": [
+         {
+          "value": "400",
+          "text": "226점 이상"
+         },
+         {
+          "value": "350",
+          "text": "220점 ~ 225점"
+         },
+         {
+          "value": "300",
+          "text": "214점 ~ 219점"
+         },
+         {
+          "value": "250",
+          "text": "208점 ~ 213점"
+         },
+         {
+          "value": "200",
+          "text": "202점 ~ 207점"
+         },
+         {
+          "value": "150",
+          "text": "202점 미만"
+         },
+         "item7"
+        ]
+       },
+       {
+        "type": "dropdown",
+        "name": "question13",
+        "title": "TOEFL IBT",
+        "choices": [
+         {
+          "value": "400",
+          "text": "80점 이상"
+         },
+         {
+          "value": "350",
+          "text": "78점 ~ 79점"
+         },
+         {
+          "value": "300",
+          "text": "76점 ~ 77점"
+         },
+         {
+          "value": "250",
+          "text": "74점 ~ 75점"
+         },
+         {
+          "value": "200",
+          "text": "72점 ~ 73점"
+         },
+         {
+          "value": "150",
+          "text": "72점 미만"
+         }
+        ]
+       },
+       {
+        "type": "dropdown",
+        "name": "question14",
+        "title": "TEPS",
+        "choices": [
+         {
+          "value": "400",
+          "text": "683점 이상"
+         },
+         {
+          "value": "350",
+          "text": "661점 ~ 682점"
+         },
+         {
+          "value": "300",
+          "text": "639점 ~ 660점"
+         },
+         {
+          "value": "250",
+          "text": "617점 ~ 638점"
+         },
+         {
+          "value": "200",
+          "text": "595점 ~ 616점"
+         },
+         {
+          "value": "150",
+          "text": "573점 미만"
+         }
+        ]
+       },
+       {
+        "type": "boolean",
+        "name": "question15",
+        "title": "본교 모의토익을 3번 이상 응시하였습니까?"
+       }
+      ],
+      "title": "어학",
+      "description": "외국어 능력"
+     },
+     {
+      "name": "page6",
+      "elements": [
+       {
+        "type": "dropdown",
+        "name": "question16",
+        "title": "봉사활동",
+        "choices": [
+         {
+          "value": "300",
+          "text": "133시간 이상"
+         },
+         {
+          "value": "250",
+          "text": "113시간 ~ 132시간"
+         },
+         {
+          "value": "200",
+          "text": "93시간 ~ 112시간"
+         },
+         {
+          "value": "150",
+          "text": "73시간 ~ 92시간"
+         },
+         {
+          "value": "100",
+          "text": "72시간"
+         }
+        ]
+       },
+       {
+        "type": "rating",
+        "name": "question17",
+        "title": "상담실적",
+        "rateMax": 10
+       },
+       {
+        "type": "rating",
+        "name": "question18",
+        "title": "학과 행사 참여 실적",
+        "rateMax": 10
+       },
+       {
+        "type": "boolean",
+        "name": "question19",
+        "title": "해외연수를 30일 이상 다녀오셨습니까?"
+       },
+       {
+        "type": "boolean",
+        "name": "question20",
+        "title": "인턴십을 30일 이상 근무하셨습니까?"
+       },
+       {
+        "type": "rating",
+        "name": "question21",
+        "title": "교내외 수상 실적(장려상 이상)"
+       },
+       {
+        "type": "dropdown",
+        "name": "question22",
+        "title": "독서문화 마일리지",
+        "choices": [
+         {
+          "value": "200",
+          "text": "200점 이상"
+         },
+         {
+          "value": "150",
+          "text": "120점 이상"
+         },
+         {
+          "value": "100",
+          "text": "80점 이상"
+         }
+        ]
+       }
+      ],
+      "title": "대학생활"
+     }
+    ]
+   }

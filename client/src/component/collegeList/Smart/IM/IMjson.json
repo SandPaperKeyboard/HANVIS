@@ -1,0 +1,233 @@
+{
+    "title": "산업경영공학과",
+    "description": "산업경영공학과 졸업점수 계산하기",
+    "logoPosition": "right",
+    "pages": [
+     {
+      "name": "page1",
+      "elements": [
+       {
+        "type": "radiogroup",
+        "name": "question1",
+        "title": "TOEIC",
+        "choices": [
+         {
+          "value": "800",
+          "text": "900점 이상"
+         },
+         {
+          "value": "750",
+          "text": "800점 ~ 900점 미만"
+         },
+         {
+          "value": "700",
+          "text": "700점 ~ 800점 미만"
+         },
+         {
+          "value": "600",
+          "text": "600점 ~ 700점 미만"
+         },
+         {
+          "value": "500",
+          "text": "500점 ~ 600점 미만"
+         },
+         {
+          "value": "400",
+          "text": "400점 ~ 500점 미만"
+         },
+         {
+          "value": "0",
+          "text": "400점 미만"
+         }
+        ]
+       }
+      ],
+      "title": "외국어 영역"
+     },
+     {
+      "name": "page2",
+      "elements": [
+       {
+        "type": "checkbox",
+        "name": "question5",
+        "title": "취업/임관/진학",
+        "choices": [
+         {
+          "value": "item1",
+          "text": "취업"
+         },
+         {
+          "value": "item2",
+          "text": "ROTC임관"
+         },
+         {
+          "value": "item3",
+          "text": "대학원 진학"
+         }
+        ]
+       },
+       {
+        "type": "rating",
+        "name": "question2",
+        "title": "학과/ 취업지원팀 주관 취업교육/ 훈련 참가",
+        "rateMax": 4
+       },
+       {
+        "type": "rating",
+        "name": "question3",
+        "title": "현장실습 이수 횟수",
+        "rateMax": 6
+       },
+       {
+        "type": "rating",
+        "name": "question4",
+        "title": "기타 산학사업 참여 횟수",
+        "rateMax": 2
+       },
+       {
+        "type": "boolean",
+        "name": "question6",
+        "title": "봉사활동을 72시간 이상 이수하셨습니까?"
+       },
+       {
+        "type": "boolean",
+        "name": "question11",
+        "title": "세미나를 이수하셨습니까?"
+       }
+      ],
+      "title": "취업 영역"
+     },
+     {
+      "name": "page3",
+      "elements": [
+       {
+        "type": "checkbox",
+        "name": "question7",
+        "title": "기사자격증 및 IT 자격증",
+        "choices": [
+         {
+          "value": "item1",
+          "text": "품질경영기사"
+         },
+         {
+          "value": "item2",
+          "text": "정보처리기사"
+         },
+         {
+          "value": "item3",
+          "text": "산업안전기사"
+         },
+         {
+          "value": "item4",
+          "text": "인간공학기사"
+         },
+         {
+          "value": "item5",
+          "text": "AFPK"
+         },
+         {
+          "value": "item6",
+          "text": "CPIM"
+         }
+        ]
+       },
+       {
+        "type": "checkbox",
+        "name": "question8",
+        "title": "금융 자격증",
+        "choices": [
+         {
+          "value": "item1",
+          "text": "증권투자상담사"
+         },
+         {
+          "value": "item2",
+          "text": "파생상품투자상담사"
+         },
+         {
+          "value": "item3",
+          "text": "투자자산운용사"
+         }
+        ]
+       },
+       {
+        "type": "checkbox",
+        "name": "question9",
+        "title": "정보화 자격증(A그룹)",
+        "choices": [
+         {
+          "value": "item1",
+          "text": "컴퓨터언어"
+         },
+         {
+          "value": "item2",
+          "text": "OS"
+         },
+         {
+          "value": "item3",
+          "text": "네트워크"
+         },
+         {
+          "value": "item4",
+          "text": "보안 관련 자격증"
+         }
+        ]
+       },
+       {
+        "type": "checkbox",
+        "name": "question10",
+        "title": "정보화 자격증 (B그룹)",
+        "choices": [
+         {
+          "value": "item1",
+          "text": "OA 관련 자격증"
+         },
+         {
+          "value": "item2",
+          "text": "그래픽 관련 자격증"
+         }
+        ]
+       }
+      ],
+      "title": "자격증"
+     },
+     {
+      "name": "page4",
+      "elements": [
+       {
+        "type": "rating",
+        "name": "question12",
+        "title": "해외 연수(건당)"
+       },
+       {
+        "type": "rating",
+        "name": "question13",
+        "title": "수상실적(대학 단위 및 외부 수상 인정)"
+       }
+      ],
+      "title": "해외연수 및 수상실적"
+     },
+     {
+      "name": "page5",
+      "elements": [
+       {
+        "type": "rating",
+        "name": "question14",
+        "title": "학과 행사 참여 실적(MT, 체육대회, 학술제, 학과세미나, 현장견학 등)"
+       },
+       {
+        "type": "rating",
+        "name": "question15",
+        "title": "실험실 안전교육 참여 실적"
+       },
+       {
+        "type": "rating",
+        "name": "question16",
+        "title": "상담 실적 횟수",
+        "rateMax": 8
+       }
+      ],
+      "title": "학과 참여 실적"
+     }
+    ]
+   }
