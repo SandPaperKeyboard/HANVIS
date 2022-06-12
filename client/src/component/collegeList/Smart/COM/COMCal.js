@@ -2,18 +2,17 @@
 
 function COMCal(props) {
 
-  const COM_sum = 0;
-
   //axios ~~~
-  var jsonArr = props;
-  //var jsonArr = JSON.parse(jsonStr); //Json형식의 String값 -> Json객체로 변환
+  var jsonStr = props;
+  var jsonArr = JSON.parse(jsonStr); //Json형식의 String값 -> Json객체로 변환
       
   var jsonObjKey = []; //jsonObj key 담을 배열
   var jsonObjVal = []; //jsonObj value 담을 배열
+  console.dir(jsonArr);
   for(var i=0; i<jsonArr.length; i++){
-      jsonObjKey.push(Object.keys(jsonArr[i])[0]); //key를 담음
+      jsonObjKey.push(Object.keys(jsonArr)[0]); //key를 담음
       //jsonObjKey.push(Object.keys(res[i])+'');
-      jsonObjVal.push(jsonArr[i][Object.keys(jsonArr[i])[0]]);//value만 담음
+      jsonObjVal.push(jsonArr[i][Object.keys(jsonArr)[0]]);//value만 담음
   };
   
   console.log(jsonObjKey);

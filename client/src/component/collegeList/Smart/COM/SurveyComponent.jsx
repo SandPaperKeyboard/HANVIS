@@ -18,7 +18,7 @@ function COMSurveyComponent() {
     const resultMessage = await Axios.post('http://localhost:5000/result', survey.data);
     const resultData = resultMessage.data["resultScore"];
 
-    COMCal(resultData);
+    await COMCal(resultData);
     //console.dirxml(resultData);
 
     // console.dir(resultMessage);
