@@ -20,39 +20,12 @@ let ResultsService = class ResultsService {
     constructor(boardModel) {
         this.boardModel = boardModel;
     }
-    async createResult(createResultDto) {
-        const createdResult = new this.boardModel(createResultDto);
-        return await createdResult.save();
+    async createResult(resultJson) {
+        await new Promise(r => setTimeout(r, 5000));
+        return await this.calcResult(resultJson);
     }
-    async updateResult(boardId, updateResultDto) {
-        const existingResult = await this.boardModel.findByIdAndUpdate(boardId, updateResultDto, {
-            new: true
-        });
-        if (!existingResult) {
-            throw new common_1.NotFoundException('Result #${boardId} not found');
-        }
-        return existingResult;
-    }
-    async getAllResults() {
-        const boardData = await this.boardModel.find();
-        if (!boardData || boardData.length == 0) {
-            throw new common_1.NotFoundException('Results data not found!');
-        }
-        return boardData;
-    }
-    async getResult(boardId) {
-        const existingResult = await this.boardModel.findById(boardId).exec();
-        if (!existingResult) {
-            throw new common_1.NotFoundException('Result #${boardId} not found');
-        }
-        return existingResult;
-    }
-    async deleteResult(boardId) {
-        const deletedResult = await this.boardModel.findByIdAndDelete(boardId);
-        if (!deletedResult) {
-            throw new common_1.NotFoundException('Result #${boardId} not found');
-        }
-        return deletedResult;
+    calcResult(resultJson) {
+        return "Yeah";
     }
 };
 ResultsService = __decorate([

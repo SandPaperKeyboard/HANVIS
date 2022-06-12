@@ -14,17 +14,16 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ResultsController = void 0;
 const common_1 = require("@nestjs/common");
-const boards_dto_1 = require("./dto/boards.dto");
 const results_service_1 = require("./results.service");
 let ResultsController = class ResultsController {
     constructor(ResultService) {
         this.ResultService = ResultService;
     }
-    async createResult(response, createResultDto) {
+    async createResult(response, resultJson) {
         try {
-            const newResult = await this.ResultService.createResult(createResultDto);
+            const resultScore = await this.ResultService.createResult(resultJson);
             return response.status(common_1.HttpStatus.CREATED).json({
-                message: 'Result has been created successfully', newResult,
+                message: 'Result has been created successfully', resultScore,
             });
         }
         catch (err) {
@@ -35,95 +34,17 @@ let ResultsController = class ResultsController {
             });
         }
     }
-    async updateResult(response, ResultId, updateResultDto) {
-        try {
-            const existingResult = await this.ResultService.updateResult(ResultId, updateResultDto);
-            return response.status(common_1.HttpStatus.OK).json({
-                message: 'Result has been successfully updated',
-                existingResult,
-            });
-        }
-        catch (err) {
-            return response.status(err.status).json(err.response);
-        }
-    }
-    async getResults(response) {
-        try {
-            const ResultData = await this.ResultService.getAllResults();
-            return response.status(common_1.HttpStatus.OK).json({
-                message: 'All Results data found successfully', ResultData,
-            });
-        }
-        catch (err) {
-            return response.status(err.status).json(err.response);
-        }
-    }
-    async getResult(response, ResultId) {
-        try {
-            const existingResult = await this.ResultService.getResult(ResultId);
-            return response.status(common_1.HttpStatus.OK).json({
-                message: 'Result found successfully', existingResult,
-            });
-        }
-        catch (err) {
-            return response.status(err.status).json(err.response);
-        }
-    }
-    async deleteResult(response, ResultId) {
-        try {
-            const deletedResult = await this.ResultService.deleteResult(ResultId);
-            return response.status(common_1.HttpStatus.OK).json({
-                message: 'Result deleted successfully',
-                deletedResult,
-            });
-        }
-        catch (err) {
-            return response.status(err.status).json(err.response);
-        }
-    }
 };
 __decorate([
     (0, common_1.Post)(),
     __param(0, (0, common_1.Res)()),
     __param(1, (0, common_1.Body)()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, boards_dto_1.CreateResultDto]),
+    __metadata("design:paramtypes", [Object, Object]),
     __metadata("design:returntype", Promise)
 ], ResultsController.prototype, "createResult", null);
-__decorate([
-    (0, common_1.Put)('/:id'),
-    __param(0, (0, common_1.Res)()),
-    __param(1, (0, common_1.Param)('id')),
-    __param(2, (0, common_1.Body)()),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, String, boards_dto_1.UpdateResultDto]),
-    __metadata("design:returntype", Promise)
-], ResultsController.prototype, "updateResult", null);
-__decorate([
-    (0, common_1.Get)(),
-    __param(0, (0, common_1.Res)()),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Promise)
-], ResultsController.prototype, "getResults", null);
-__decorate([
-    (0, common_1.Get)('/:id'),
-    __param(0, (0, common_1.Res)()),
-    __param(1, (0, common_1.Param)('id')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, String]),
-    __metadata("design:returntype", Promise)
-], ResultsController.prototype, "getResult", null);
-__decorate([
-    (0, common_1.Delete)('/:id'),
-    __param(0, (0, common_1.Res)()),
-    __param(1, (0, common_1.Param)('id')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, String]),
-    __metadata("design:returntype", Promise)
-], ResultsController.prototype, "deleteResult", null);
 ResultsController = __decorate([
-    (0, common_1.Controller)('results'),
+    (0, common_1.Controller)('result'),
     __metadata("design:paramtypes", [results_service_1.ResultsService])
 ], ResultsController);
 exports.ResultsController = ResultsController;
