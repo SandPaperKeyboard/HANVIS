@@ -1,0 +1,1 @@
+{"version":3,"file":"boards.dto.js","sourceRoot":"","sources":["../../../src/boards/dto/boards.dto.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,qDAAiE;AACjE,uDAAmD;AAEnD,MAAa,cAAc;CAQ1B;AALG;IAFC,IAAA,0BAAQ,GAAE;IACV,IAAA,4BAAU,GAAE;;6CACU;AAIvB;IAFC,IAAA,0BAAQ,GAAE;IACV,IAAA,4BAAU,GAAE;;+CACY;AAP7B,wCAQC;AAED,MAAa,cAAe,SAAQ,IAAA,0BAAW,EAAC,cAAc,CAAC;CAAG;AAAlE,wCAAkE"}

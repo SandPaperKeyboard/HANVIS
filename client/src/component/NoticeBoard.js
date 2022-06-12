@@ -9,18 +9,64 @@ function NoticeBoard() {
   const [movieContent, setMovieContent] = useState({
     title: '',
     content: ''
-  })
-
+  });
   const [viewContent, setViewContent] = useState([]);
+  const [error, setError] = useState(null);
+  const [editor, setEditor] = useState(null);
 
   useEffect(()=>{
-    Axios.get('http://localhost:8000/api/get').then((response)=>{
-      setViewContent(response.data);
-    })
-  },[viewContent])
+    loadMovieContent();
+  },[]);
+
+  const loadMovieContent = async() => {
+    try {
+      const response = await Axios.get('http://localhost:3000/boards/');
+      console.dir(response.data["BoardData"]);
+      // await setMovieContent({
+      //   title: response.data.existingBoard["title"],
+      //   content: response.data.existingBoard["content"]
+      // });
+      setEditor(<CKEditor
+        editor={ClassicEditor}
+        data=""
+        config={{
+          toolbar: [
+            "heading",
+            "|",
+            "bold", "italic", "link", "bulletedList", "numberedList", "blockQuote", "ckfinder",
+            "|",
+            "imageTextAlternative", "imageUpload", "imageStyle:full", "imageStyle:side",
+            "|",
+            "mediaEmbed", "insertTable", "tableColumn", "tableRow", "mergeTableCells",
+            "|",
+            "undo", "redo"
+          ]
+        }}
+        onReady={(editor) => {
+          console.log("Editor is ready to use!", editor);
+        }}
+        onChange={(event, editor) => {
+          const data = editor.getData();
+          console.log({ event, editor, data });
+          setMovieContent({
+            ...movieContent,
+            content: data
+          })
+        }}
+        onBlur={(event, editor) => {
+          console.log("Blur.", editor);
+        }}
+        onFocus={(event, editor) => {
+          console.log("Focus.", editor);
+        }}
+      />);
+    } catch (e) {
+      setError(e);
+    }
+  };
 
   const submitReview = ()=>{
-    Axios.post('http://localhost:8000/api/insert', {
+    Axios.post('http://localhost:3000/boards/', {
       title: movieContent.title,
       content: movieContent.content
     }).then(()=>{
@@ -57,33 +103,13 @@ function NoticeBoard() {
           onChange={getValue}
           name='title'
         />
-        <CKEditor
-          editor={ClassicEditor}
-          data="<p>Hello from CKEditor 5!</p>"
-          onReady={editor => {
-            // You can store the "editor" and use when it is needed.
-            console.log('Editor is ready to use!', editor);
-          }}
-          onChange={(event, editor) => {
-            const data = editor.getData();
-            console.log({ event, editor, data });
-            setMovieContent({
-              ...movieContent,
-              content: data
-            })
-          }}
-          onBlur={(event, editor) => {
-            console.log('Blur.', editor);
-          }}
-          onFocus={(event, editor) => {
-            console.log('Focus.', editor);
-          }}
-        />
+        {editor}
       </div>
       <button
         className="submit-button"
         onClick={submitReview}
-        >입력</button>
+        >입력
+      </button>
     </div>
   );
 }
