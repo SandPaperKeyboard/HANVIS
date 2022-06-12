@@ -19,12 +19,14 @@ function COMSurveyComponent() {
     const resultData = resultMessage.data["resultScore"];
 
     const resultScore = await COMCal(resultData);
-    console.log(resultScore);
+
+    const resultComment = resultScore >= 800 ? "축하합니다!!!\n졸업점수를 넘기셨습니다!!!\n짝짝짝!" : "좀 더 노력하셔야겠네요~";
+    //console.log(resultScore);
     //console.dirxml(resultData);
 
     // console.dir(resultMessage);
     // console.dir(JSON.stringify(survey.data));
-    navigate("/", { resultScore });
+    navigate("/result", { state: { result: resultScore, comment: resultComment} });
   }
   
   //const survey = new Model(AEJson);

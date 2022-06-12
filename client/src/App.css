@@ -167,3 +167,14 @@ ul {list-style:none; padding-left:0px;}
   font-family: 'SCDream5';
 }
 
+.Result-explain-text>li {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.Result-explain-text>li:nth-child(4) {
+  font-style: italic;
+  font-size: 60px;
+  font-weight: 1000;
+  color: #001F1D;
+}

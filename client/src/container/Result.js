@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
+import { useLocation, useNavigate } from "react-router-dom";
 
 import Header from "../component/Header";
 //import EagleLookDown from '../component/EagleLookDown';
 import CollegeResult from '../component/CollegeResult'
 
-class Result extends Component {
+const Result = () => {
+    const location = useLocation();
 
-    render() {
-        return (
-            <div className='Background'>
-                <Header />
-                <CollegeResult />
-            </div>
-        )
-    }
+    return (
+        <div className='Background'>
+            <Header />
+            <CollegeResult result={location.state}/>
+        </div>
+    )
 }
 
 export default Result;
