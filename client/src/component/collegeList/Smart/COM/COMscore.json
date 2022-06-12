@@ -1,28 +1,76 @@
 {
-    "ResultCOM_Jobs": true,
-    "ResultCOM_IM_Certificate": [
-        "2"
-    ],
-    "ResultCOM_IN_Certificate": [
-        "3"
-    ],
-    "ResultCOM_CO_Certificate": "4",
-    "ResultCOM_TOEIC": [
-        "300"
-    ],
-    "ResultCOM_JLPT": "350",
-    "ResultCOM_Counseling": 4,
-    "ResultCOM_Seminar": "item3",
-    "ResultCOM_Festival": "item2",
-    "ResultCOM_Training": "item4",
-    "ResultCOM_Foreign": 3,
-    "ResultCOM_Intemship": 4,
-    "ResultCOM_CO_Contest": [
-        "400"
-    ],
-    "ResultCOM_SC_Contest": [
-        "300"
-    ],
-    "ResultCOM_Capstone": true
+    "ResultCOM_Jobs": 850,
+    "ResultCOM_IM_Certificate": {
+        "key" : ["C_item1", "C_item2", "C_item3", "C_item4", "C_item5", "C_item6", "C_item7", "C_item8",
+            "C_item9", "C_item10", "C_item11", "C_item12", "C_item13", "C_item14", "C_item15",
+            "C_item16", "C_item17", "C_item18", "C_item19", "C_item20", "none"],
+        "value" : [400, 400, 300, 300, 300, 300, 300, 300, 
+            300, 300, 300, 300, 300, 300, 300,
+            300, 300, 300, 300, 300, 0]
+    },
+    "ResultCOM_IN_Certificate": {
+        "key" : ["IC_item1",
+            "IC_item2", "IC_item3", "IC_item4", "IC_item5", "IC_item6", "IC_item7", "IC_item8", "IC_item9",
+            "IC_item10", "IC_item11", "IC_item12", "IC_item13", "IC_item14", "IC_item15", "IC_item16","IC_item17",
+            "IC_item18", "IC_item19", "IC_item20","IC_item21","IC_item22","IC_item23","IC_item24","IC_item25", "IC_item26",
+            "IC_item27", "IC_item28", "IC_item29", "IC_item30", "IC_item31", "IC_item32", "none"],
+        "value" : [300, 300, 300, 300, 300, 300, 300, 300, 
+            300, 100, 100, 100, 100, 100, 100,
+            100, 100, 100, 50, 50, 50, 50, 50, 50, 
+            50, 50, 50, 50, 50, 50, 50, 50, 0]
+    },
+    "ResultCOM_CO_Certificate": {
+        "key" : ["CC_Item1",
+            "CC_Item2",
+            "CC_Item3",
+            "CC_Item4",
+            "CC_Item5",
+            "CC_Item6",
+            "none"],
+        "value" : [700, 1000, 800, 1000, 900, 1000, 0]
+    },
+    "ResultCOM_TOEIC": {
+        "key" : ["T_item1", "T_item2", "T_item3", "T_item4", "T_item5", "none"],
+        "value" : [100, 200, 300, 400, 500, 0]
+    },
+    "ResultCOM_JLPT": {
+        "key" : ["J_Item1", "J_Item2", "none"],
+        "value" : [500, 350, 0]
+    },
+    "ResultCOM_Counseling": 10,
+    "ResultCOM_Seminar": {
+        "key" : ["S_item1", "S_item2", "S_item3",
+            "S_item4", "S_item5", "none"],
+        "value": [30, 60, 90, 120, 150, 0]
+    },
+    "ResultCOM_Festival": {
+        "key" : [
+            "F_item1",
+            "F_item2",
+            "F_item3",
+            "F_item4",
+            "F_item5",
+            "F_item6",
+            "F_item7",
+            "F_item8",
+            "none"
+        ],
+        "value": [20, 40, 60, 80, 100, 120, 140, 150, 0]
+    },
+    "ResultCOM_Training": {
+        "key" : ["TR_item1", "TR_item2", "TR_item3", "none"],
+        "value" : [50, 100, 150, 0]
+    },
+    "ResultCOM_Foreign": 0,
+    "ResultCOM_Intemship": 0,
+    "ResultCOM_CO_Contest": {
+        "key" : ["CCon_item1", "CCon_item2", "CCon_item3", "none"],
+        "value" : [600, 400, 300, 0]
+    },
+    "ResultCOM_SC_Contest": {
+        "key" : ["SCon_item1", "SCon_item2", "SCon_item3", "none"],
+        "value" : [300, 200, 100, 0]
+    },
+    "ResultCOM_Capstone": 100
 }
 

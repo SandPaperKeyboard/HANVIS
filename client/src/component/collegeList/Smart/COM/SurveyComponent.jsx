@@ -18,12 +18,13 @@ function COMSurveyComponent() {
     const resultMessage = await Axios.post('http://localhost:5000/result', survey.data);
     const resultData = resultMessage.data["resultScore"];
 
-    await COMCal(resultData);
+    const resultScore = await COMCal(resultData);
+    console.log(resultScore);
     //console.dirxml(resultData);
 
     // console.dir(resultMessage);
     // console.dir(JSON.stringify(survey.data));
-    navigate("/");
+    navigate("/", { resultScore });
   }
   
   //const survey = new Model(AEJson);
