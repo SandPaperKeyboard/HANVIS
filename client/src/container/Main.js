@@ -2,8 +2,8 @@ import React from 'react';
 
 import Header from "../component/Header";
 import Starter from '../component/Starter';
-import Eagle from '../component/Eagle';
-import NavBar from '../component/navbar/NavBar';
+import EagleLookUp from '../component/EagleLookUp';
+
 //import Footer from '../component/Footer';
 
 const Main = () => {
@@ -11,7 +11,7 @@ const Main = () => {
         <div className='Background'>
             <Header />
             <Starter/>
-            <Eagle />
+            <EagleLookUp />
         </div>
     );
 }
