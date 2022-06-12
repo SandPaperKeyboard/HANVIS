@@ -15,8 +15,9 @@ function COMSurveyComponent() {
   async function sendDataToServer(survey) {
     alert("결과를 계산합니다");
     const resultMessage = await Axios.post('http://localhost:5000/result', survey.data);
-    const resultData = JSON.stringify(resultMessage.data["resultScore"]);
+    const resultData = resultMessage.data["resultScore"];
 
+    COMCal(resultData);
     //console.dirxml(resultData);
 
     // console.dir(resultMessage);
