@@ -22,7 +22,6 @@ import DM from './component/collegeList/Smart/DM/DM';
 import IM from './component/collegeList/Smart/IM/IM';
 import AI from './component/collegeList/Smart/AI/AI';
 import BIDT from './component/collegeList/Smart/BIDT/BIDT';
-import ResultCOM from './component/collegeList/Smart/ResultCOM';
 
 class App extends Component {
   render() {

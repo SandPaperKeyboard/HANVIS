@@ -1,18 +1,16 @@
-import { Injectable, NotFoundException } from '@nestjs/common';
-import { InjectModel } from '@nestjs/mongoose';
-import { Model } from 'mongoose';
-import { Result } from './schema/boards.schema';
+import { Injectable, Logger } from '@nestjs/common';
 
 @Injectable()
 export class ResultsService {
-    constructor(@InjectModel('Result') private readonly boardModel: Model<Result>) {}
+    private readonly logger = new Logger(ResultsService.name);
 
     async createResult(resultJson) {
-        await new Promise(r => setTimeout(r, 5000));
-        return await this.calcResult(resultJson);
+        //await new Promise(r => setTimeout(r, 1000));
+        this.logger.log(resultJson);
+        return resultJson;
     }
     
-    calcResult(resultJson): string {
-        return "Yeah";
+    calcResult(resultJson) {
+        return resultJson;
     }
 }
