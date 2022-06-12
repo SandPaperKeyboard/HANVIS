@@ -14,6 +14,7 @@ const app_controller_1 = require("./app.controller");
 const app_service_1 = require("./app.service");
 const user_module_1 = require("./user/user.module");
 const boards_module_1 = require("./boards/boards.module");
+const results_module_1 = require("./results/results.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -21,12 +22,13 @@ AppModule = __decorate([
         imports: [
             config_1.ConfigModule.forRoot(),
             mongoose_1.MongooseModule.forRoot(process.env.MONGODB_URI, {
-                dbName: 'userdb',
+                dbName: 'hanvis',
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
             }),
             user_module_1.UserModule,
             boards_module_1.BoardsModule,
+            results_module_1.ResultsModule,
         ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
