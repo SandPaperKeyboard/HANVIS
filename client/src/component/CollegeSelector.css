@@ -28,6 +28,6 @@ details > summary {
   line-height: 35px;
 }
 
-li:hover {
+.list li:hover {
   color: #8c1cd1
 }

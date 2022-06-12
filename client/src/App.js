@@ -7,7 +7,7 @@ import Main from "./container/Main";
 import College from './container/College';
 import ServiceCenter from './container/ServiceCenter';
 import Survey from './container/Survey';
-import Result from './container/result';
+import Result from './container/Result';
 import NextPage1 from './component/next1';
 
 //대학목록

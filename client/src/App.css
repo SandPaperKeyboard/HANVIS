@@ -122,6 +122,11 @@ ul {list-style:none; padding-left:0px;}
   max-height: 50vh;
 }
 
+.Eagle-picture2 {
+  max-width: 30vw;
+  max-height: 30vh;
+}
+
 .SurveyQuestion {
   position: relative;
   display: flex;
@@ -131,5 +136,34 @@ ul {list-style:none; padding-left:0px;}
   padding-right: 15%;
   border: #001F1D;
   border-width: thick;
+}
+
+.Result {
+  position: relative;
+  display: block;
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Result .Result-explain {
+  position: relative;
+  display: flex;
+  overflow: auto;
+  border: 5px solid #855600;
+  background-color: bisque;
+  height: auto;
+  min-width: 50vw;
+  z-index: 500;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Result .Result-explain .Result-explain-text {
+  align-items: center;
+  font-family: 'SCDream5';
 }
 

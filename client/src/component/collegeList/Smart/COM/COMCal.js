@@ -1,19 +1,24 @@
 //import 계산결과 from COMJson
 
+
 function COMCal(props) {
 
   //axios ~~~
-  var jsonStr = props;
-  var jsonArr = JSON.parse(jsonStr); //Json형식의 String값 -> Json객체로 변환
+  var jsonArr = props;
+  //var jsonArr = JSON.parse(jsonStr); //Json형식의 String값 -> Json객체로 변환
+
       
   var jsonObjKey = []; //jsonObj key 담을 배열
   var jsonObjVal = []; //jsonObj value 담을 배열
-  console.dir(jsonArr);
-  for(var i=0; i<jsonArr.length; i++){
-      jsonObjKey.push(Object.keys(jsonArr)[0]); //key를 담음
+  console.dir(Object.keys(jsonArr).length);
+  for(let i=0; i<Object.keys(jsonArr).length; i++){
+      jsonObjKey.push(Object.keys(jsonArr)[i]); //key를 담음
       //jsonObjKey.push(Object.keys(res[i])+'');
-      jsonObjVal.push(jsonArr[i][Object.keys(jsonArr)[0]]);//value만 담음
   };
+
+  for(let key in jsonArr) {
+    jsonObjVal.push(jsonArr[key]);
+  }
   
   console.log(jsonObjKey);
   console.log(jsonObjVal);
