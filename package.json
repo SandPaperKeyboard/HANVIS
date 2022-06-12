@@ -1,0 +1,13 @@
+{
+    "scripts" : {
+        "dev" : "nest dev",
+        "build": "nest build",
+        "lint" : "nest lint",
+        "start" : "nest start -p $PORT",
+        "heroku-postbuild" : "npm run build"
+    },
+    "engine" : {
+        "node" : "16.14.2",
+        "npm" : "8.5.0"
+    }
+}
