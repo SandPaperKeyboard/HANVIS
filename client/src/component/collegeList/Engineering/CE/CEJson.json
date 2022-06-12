@@ -442,6 +442,5 @@
       "title": { "ko": "5. 사회 경험" }
     }
   ],
-  "showNavigationButtons": "both",
-  "showProgressBar": "both"
+  "showProgressBar": "bottom"
 }

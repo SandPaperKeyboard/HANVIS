@@ -2,6 +2,7 @@
   "locale": "ko",
   "title": "정보통신학과",
   "description": "정보통신학과 졸업점수 계산하기",
+  "logoPosition": "right",
   "pages": [
     {
       "name": "교과 과정 항목",
@@ -41,7 +42,6 @@
       "title": { "default": "교과 과정 항목", "ko": "1. 교과 과정 항목" },
       "description": { "ko": "본인에게 해당되는 사항을 넣어주세요" }
     },
-
     {
       "name": "국제화",
       "elements": [
@@ -132,8 +132,6 @@
       ],
       "title": { "ko": "2. 국제화" }
     },
-
-
     {
       "name": "취업",
       "elements": [
@@ -197,8 +195,6 @@
       ],
       "title": { "ko": "3. 취업" }
     },
-
-
     {
       "name": "인성",
       "elements": [
@@ -332,8 +328,6 @@
       ],
       "title": { "ko": "4. 인성" }
     },
-
-
     {
       "name": "page1",
       "elements": [
@@ -450,9 +444,8 @@
       "title": { "ko": "5. 교내 외 작품" }
     }
   ],
-  "showNavigationButtons": "both",
   "showCompletedPage": false,
   "showQuestionNumbers": "off",
-  "showProgressBar": "both",
+  "showProgressBar": "bottom",
   "widthMode": "static"
 }

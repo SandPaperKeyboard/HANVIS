@@ -211,6 +211,6 @@
       "title": { "ko": "4. 학과 행사 / 봉사" }
     }
   ],
-  "showNavigationButtons": "both",
+  "showProgressBar": "bottom",
   "widthMode": "static"
 }
