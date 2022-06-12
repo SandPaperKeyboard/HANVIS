@@ -1,6 +1,5 @@
 import ScoreData from "./COMscore.json"
 
-<<<<<<< HEAD
 function COMCal(props) {
   var COM_sum = 0;
   var jsonArr = props;
@@ -29,10 +28,6 @@ function COM_Jobs(inputData) {
   const Value = inputData["ResultCOM_Jobs"];
   return (Value) ? Table : 0;
 }
-=======
-
-function COMCal(props) {
->>>>>>> 46647696c7780ab0b08279bb9cfe0c2adb0b1357
 
 // 국제 자격증
 function COM_IM_Certificate(inputData) {
