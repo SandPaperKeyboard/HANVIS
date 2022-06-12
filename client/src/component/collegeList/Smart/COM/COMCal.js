@@ -19,7 +19,6 @@ function COMCal(props) {
   console.log(jsonObjKey);
   console.log(jsonObjVal);
   
-  
 
 }
 

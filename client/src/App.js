@@ -23,7 +23,6 @@ import IM from './component/collegeList/Smart/IM/IM';
 import AI from './component/collegeList/Smart/AI/AI';
 import BIDT from './component/collegeList/Smart/BIDT/BIDT';
 
-
 class App extends Component {
   render() {
     return (
