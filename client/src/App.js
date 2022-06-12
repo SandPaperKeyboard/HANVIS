@@ -15,27 +15,25 @@ import IaC from './component/collegeList/Engineering/IaC/IaC';
 import MaSE from './component/collegeList/Engineering/MaSE/MaSE';
 
 
-class App extends Component {
-  render() {
-    return (
-      <div className='App'>
-        <Router>
-          <Routes>
-            <Route path="/" element={<Main />} ></Route>
-            <Route path="/college" element={<College />} />
+const App = () => {
+  return (
+    <div className='App'>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Main />} ></Route>
+          <Route path="/college" element={<College />} />
 
-            <Route path="/IaC" element={<IaC />} />
-            <Route path="/MaSE" element={<MaSE />} />
+          <Route path="/IaC" element={<IaC />} />
+          <Route path="/MaSE" element={<MaSE />} />
 
-            <Route path="/next1" element={<NextPage1 />} />
-            <Route path="/service_center" element={<ServiceCenter />} />
-            <Route path="/survey/:surveyCode" element={<Survey />} />
-            <Route path="/result" element={<Result />} />
-          </Routes>
-        </Router>
-      </div>
-    );
-  }
+          <Route path="/next1" element={<NextPage1 />} />
+          <Route path="/service_center" element={<ServiceCenter />} />
+          <Route path="/survey/:surveyCode" element={<Survey />} />
+          <Route path="/result" element={<Result />} />
+        </Routes>
+      </Router>
+    </div>
+  );
 }
 
 

@@ -5,12 +5,18 @@
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@ckeditor/ckeditor5-build-classic": "^34.1.0",
+    "@ckeditor/ckeditor5-build-decoupled-document": "^34.1.0",
+    "@ckeditor/ckeditor5-dev-utils": "^30.3.0",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "^30.3.0",
+    "@ckeditor/ckeditor5-editor-inline": "^34.1.0",
     "@ckeditor/ckeditor5-react": "^5.0.2",
+    "@ckeditor/ckeditor5-theme-lark": "^34.1.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "antd": "^4.20.7",
     "axios": "^0.27.2",
+    "ckeditor4-react": "^3.1.0",
     "framer-motion": "^6.3.10",
     "html-react-parser": "^1.4.14",
     "react": "^18.1.0",
@@ -51,6 +57,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
+    "style-loader": "^3.3.1",
     "tailwindcss": "^3.0.24"
   }
 }
