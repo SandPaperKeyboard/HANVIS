@@ -1,0 +1,17 @@
+{
+  "ResultCOM_Jobs": true,
+  "ResultCOM_IM_Certificate": ["none"],
+  "ResultCOM_IN_Certificate": ["none"],
+  "ResultCOM_CO_Certificate": "none",
+  "ResultCOM_TOEIC": "none",
+  "ResultCOM_JLPT": "none",
+  "ResultCOM_Counseling": 3,
+  "ResultCOM_Seminar": "none",
+  "ResultCOM_Festival": "none",
+  "ResultCOM_Training": "none",
+  "ResultCOM_Foreign": 1,
+  "ResultCOM_Intemship": 1,
+  "ResultCOM_CO_Contest": ["none"],
+  "ResultCOM_SC_Contest": ["none"],
+  "ResultCOM_Capstone": true
+}

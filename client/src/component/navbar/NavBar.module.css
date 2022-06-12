@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Kdam';
+  src: url('../../fonts/Kdam_Thmor_Pro/KdamThmorPro-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Anurati';
+  src: url('../../fonts/ANURATI_Free_Font/Anurati-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../../fonts/Kanit/Kanit-Bold.ttf');
+}
+
 .NavBar {
   background: #001F1D;
   height: 80px;
@@ -25,19 +40,34 @@
 .NavBar nav ul li a {
   text-decoration: none;
   color: white;
+  font-size: 110%;
 }
 
 .NavBar a:hover {
   border-bottom: 5px solid #8c1cd1;
 }
 
+.NavBar .Navigation {
+  font-family: 'Kanit';
+}
+
 .NavBar .MobileNavigation {
   display: none;
 }
 
-.hanvis {
-  margin-left: 20px;
+.NavBar .MobileNavigation .hanvis {
+  font-family: 'Anurati';
+  font-weight: 900;
+  font-size: 140%;
+  text-decoration-line: none;
+  color: white;
+  margin-left: 38px;
   float: left;
+}
+
+.NavBar .MobileNavigation .hanvis:hover {
+  border-bottom: none;
+  color: #8c1cd1;
 }
 
 @media (max-width: 990px) {
@@ -46,6 +76,8 @@
   }
 
   .NavBar .MobileNavigation {
+    font-size: 90%;
+    font-family: 'Kdam';
     display: flex;
     align-items: center;
     z-index: 999;
@@ -61,7 +93,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 80px;
+    top: 100px;
     right: 0;
     width: 100%;
     background: #001F1D;

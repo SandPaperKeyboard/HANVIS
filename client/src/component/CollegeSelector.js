@@ -1,7 +1,6 @@
 import React from "react";
 import "./CollegeSelector.css";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
 
 //import styled from "styled-components";
 
@@ -9,25 +8,25 @@ import { motion } from "framer-motion";
 //아코디언 메뉴 활용
 
 function CollegeSelector() {
+  
   return (
     <>
       <div>
         <details>
           <summary>공과대학</summary>
-          <ul>
-
+          <ul className="list">
             <li>
-              <Link to="/IaC" style={{ textDecoration: 'none' }}>정보통신학과
+              <Link to="/IaC" style={{ textDecoration: 'none', color: 'inherit' }}>정보통신학과
               </Link>
             </li>
             <li>
-              <Link to="/AE"style={{ textDecoration: 'none' }}>[토목건축공학부] 건축공학전공</Link>
+              <Link to="/AE"style={{ textDecoration: 'none', color: 'inherit' }}>[토목건축공학부] 건축공학전공</Link>
             </li>
             <li>
-              <Link to="/CaEE"style={{ textDecoration: 'none' }}>[토목건축공학부] 토목환경공학전공</Link>
+              <Link to="/CaEE"style={{ textDecoration: 'none', color: 'inherit' }}>[토목건축공학부] 토목환경공학전공</Link>
             </li>
             <li>
-              <Link to="/CE"style={{ textDecoration: 'none' }}>화학공학과</Link>
+              <Link to="/CE"style={{ textDecoration: 'none', color: 'inherit' }}>화학공학과</Link>
             </li>
           </ul>
         </details>
@@ -35,28 +34,28 @@ function CollegeSelector() {
       <div>
         <details>
           <summary>스마트융합대학</summary>
-          <ul>
+          <ul className="list">
             <li>
-              <Link to="/COM" style={{ textDecoration: 'none' }}>컴퓨터공학과
+              <Link to="/COM" style={{ textDecoration: 'none', color: 'inherit' }}>컴퓨터공학과
               </Link>
             </li>
             <li>
-              <Link to="/IM" style={{ textDecoration: 'none' }}>
+              <Link to="/IM" style={{ textDecoration: 'none', color: 'inherit' }}>
               산업경영공학과
               </Link>
             </li>
             <li>
-              <Link to="/AI" style={{ textDecoration: 'none' }}>
+              <Link to="/AI" style={{ textDecoration: 'none', color: 'inherit' }}>
               AI융합학과
               </Link>
             </li>
             <li>
-              <Link to="/DM" style={{ textDecoration: 'none' }}>
+              <Link to="/DM" style={{ textDecoration: 'none', color: 'inherit' }}>
               수학과
               </Link>
             </li>
             <li>
-              <Link to="/BIDT" style={{ textDecoration: 'none' }}>
+              <Link to="/BIDT" style={{ textDecoration: 'none', color: 'inherit' }}>
               빅데이터응용학과
               </Link>
             </li>

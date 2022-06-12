@@ -23,6 +23,11 @@ details > summary {
   padding: 15px 0;
 }
 
-li {
-  padding-bottom: 5px;
+.list li {
+  font-weight: 800;
+  line-height: 35px;
+}
+
+li:hover {
+  color: #8c1cd1
 }

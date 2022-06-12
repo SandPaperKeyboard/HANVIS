@@ -7,7 +7,7 @@ import Main from "./container/Main";
 import College from './container/College';
 import ServiceCenter from './container/ServiceCenter';
 import Survey from './container/Survey';
-import Result from './container/Result';
+import Result from './container/result';
 import NextPage1 from './component/next1';
 
 //대학목록
@@ -22,7 +22,7 @@ import DM from './component/collegeList/Smart/DM/DM';
 import IM from './component/collegeList/Smart/IM/IM';
 import AI from './component/collegeList/Smart/AI/AI';
 import BIDT from './component/collegeList/Smart/BIDT/BIDT';
-import ResultCOM from './component/collegeList/Smart/ResultCOM';
+
 
 class App extends Component {
   render() {
