@@ -22,6 +22,7 @@ import DM from './component/collegeList/Smart/DM/DM';
 import IM from './component/collegeList/Smart/IM/IM';
 import AI from './component/collegeList/Smart/AI/AI';
 import BIDT from './component/collegeList/Smart/BIDT/BIDT';
+import ResultCOM from './component/collegeList/Smart/ResultCOM';
 
 class App extends Component {
   render() {
@@ -44,9 +45,12 @@ class App extends Component {
             <Route path="/BIDT" element={< BIDT/>} />
             
             <Route path="/next1" element={<NextPage1 />} />
+
             <Route path="/service_center" element={<ServiceCenter />} />
             <Route path="/survey/:surveyCode" element={<Survey />} />
+
             <Route path="/result" element={<Result />} />
+
           </Routes>
         </Router>
       </div>

@@ -3,14 +3,14 @@
 
 import React from 'react';
 import Header from "../../../Header";
-import COMSurveyComponent from "./SurveyComponent";
+import IMSurveyComponent from "./SurveyComponent";
 
 const IM = () => {
 
   return (
     <>
       <Header />
-      <COMSurveyComponent />
+      <IMSurveyComponent />
     </>
   );
 };

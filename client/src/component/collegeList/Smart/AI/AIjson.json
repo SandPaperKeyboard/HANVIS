@@ -10,6 +10,8 @@
         "type": "radiogroup",
         "name": "question1",
         "title": "성적",
+        "hideNumber": true,
+        "valueName": "ResultAI_Grade",
         "choices": [
          {
           "value": "200",
@@ -37,6 +39,8 @@
         "type": "radiogroup",
         "name": "question17",
         "title": "캡스톤디자인",
+        "hideNumber": true,
+        "valueName": "ResultAI_Capstone",
         "choices": [
          {
           "value": "200",
@@ -62,6 +66,8 @@
         "type": "checkbox",
         "name": "question5",
         "title": "TOEIC",
+        "hideNumber": true,
+        "valueName": "ResultAI_TOEIC",
         "choices": [
          {
           "value": "200",
@@ -93,6 +99,8 @@
         "type": "boolean",
         "name": "question2",
         "title": "취업(건강보험에 가입된 경우에 한함)",
+        "hideNumber": true,
+        "valueName": "ResultAI_Jobs",
         "labelTrue": "Yes",
         "labelFalse": "No"
        },
@@ -100,6 +108,8 @@
         "type": "checkbox",
         "name": "question7",
         "title": "대학원 진학",
+        "hideNumber": true,
+        "valueName": "ResultAI_Grad_School",
         "choices": [
          {
           "value": "item1",
@@ -115,18 +125,24 @@
         "type": "rating",
         "name": "question3",
         "title": "전공 관련 기사자격증",
+        "hideNumber": true,
+        "valueName": "ResultAI_Certification_A",
         "rateMax": 4
        },
        {
         "type": "rating",
         "name": "question4",
         "title": "전공 관련 산업기사자격증",
+        "hideNumber": true,
+        "valueName": "ResultAI_Certification_B",
         "rateMax": 4
        },
        {
         "type": "rating",
         "name": "question6",
         "title": "전공 관련 기능사자격증",
+        "hideNumber": true,
+        "valueName": "ResultAI_Certification_C",
         "rateMax": 4
        }
       ],
@@ -139,6 +155,8 @@
         "type": "dropdown",
         "name": "question8",
         "title": "타학과 전공 이수",
+        "hideNumber": true,
+        "valueName": "ResultAI_Tracks",
         "choices": [
          {
           "value": "item1",
@@ -157,5 +175,7 @@
       ],
       "title": "다전공 관련"
      }
-    ]
+    ],
+    "showProgressBar": "top",
+    "widthMode": "static"
    }
