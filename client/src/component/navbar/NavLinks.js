@@ -64,7 +64,7 @@ const NavLinks = (props) => {
         transition={{ delay: 0.3 }}
         onClick={() => props.isMobile && props.closeMobileMenu()}
       >
-        <Link to="/service_center">service Center</Link>
+        <Link to="/service_center">Service Center</Link>
       </motion.li>
     </ul>
   );

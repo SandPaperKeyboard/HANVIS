@@ -24,7 +24,7 @@ const MobileNavigation = () => {
   return (
     <nav className={classes.MobileNavigation}>
       <div className={classes.hanvis}>
-        <Link to="/">
+        <Link to="/" style={{ textDecoration: 'none' }}>
           HANVIS
         </Link>
       </div>
