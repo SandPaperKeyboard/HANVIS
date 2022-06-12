@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Request, response } from 'express';
 import { Body, Controller, Delete, Get, HttpStatus, Param, Post, Put, Req, Res } from '@nestjs/common';
 import { UserService } from './user.service';

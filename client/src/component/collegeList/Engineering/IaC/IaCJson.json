@@ -11,6 +11,7 @@
           "type": "radiogroup",
           "name": "Grade",
           "title": "성적 (학교 졸업 요건은 평점 2.0 이상)",
+          "valueName": "ResultIaC_Grade",
           "choices": [
             { "value": "300", "text": "4.0 이상" },
             { "value": "250", "text": "3.5 ~ 4.0" },
@@ -25,6 +26,7 @@
           "type": "radiogroup",
           "name": "Capstone",
           "title": { "ko": "캡스톤 디자인" },
+          "valueName": "ResultIaC_Capstone",
           "choices": [
             { "value": "300", "text": { "ko": "A 이상" } },
             { "value": "200", "text": { "ko": "B 이상" } },
@@ -36,6 +38,7 @@
           "type": "checkbox",
           "name": "Engineering_Certification",
           "title": { "ko": "공학인증 학습성과 평가" },
+          "valueName": "ResultIaC_Engineering_Certification",
           "choices": [{ "value": "200", "text": { "ko": "참여 여부" } }]
         }
       ],
@@ -48,6 +51,7 @@
         {
           "type": "radiogroup",
           "name": "TOEIC",
+          "valueName": "ResultIaC_TOEIC",
           "choices": [
             { "value": "900", "text": { "ko": "900점 이상" } },
             { "value": "800", "text": { "ko": "800 ~ 895점" } },
@@ -61,6 +65,7 @@
         {
           "type": "radiogroup",
           "name": "TOEIC_Speaking",
+          "valueName": "ResultIaC_TOEIC_Speaking",
           "choices": [
             { "value": "900", "text": { "ko": "160점 이상" } },
             { "value": "800", "text": { "ko": "150 ~ 159점" } },
@@ -74,6 +79,7 @@
         {
           "type": "radiogroup",
           "name": "TOEFL_iBT",
+          "valueName": "ResultIaC_TOEFL_iBT",
           "choices": [
             { "value": "900", "text": { "ko": "105점 이상" } },
             { "value": "800", "text": { "ko": "91 ~ 104점" } },
@@ -87,6 +93,7 @@
         {
           "type": "radiogroup",
           "name": "TEPS",
+          "valueName": "ResultIaC_TEPS",
           "choices": [
             { "value": "900", "text": { "ko": "766이상" } },
             { "value": "800", "text": { "ko": "637 ~ 765점" } },
@@ -100,6 +107,7 @@
         {
           "type": "radiogroup",
           "name": "OPIc",
+          "valueName": "ResultIaC_OPIc",
           "choices": [
             { "value": "900", "text": { "ko": "AL" } },
             { "value": "700", "text": { "ko": "IH" } },
@@ -114,6 +122,7 @@
           "name": "KTEST",
           "title": { "ko": "한국어 능력시험" },
           "description": { "ko": "외국인만 입력하세요" },
+          "valueName": "ResultIaC_KTEST",
           "choices": [
             { "value": "800", "text": { "ko": "6급" } },
             { "value": "700", "text": { "ko": "5급" } },
@@ -127,6 +136,7 @@
           "name": "overseas_study",
           "title": { "ko": "해외 연수" },
           "description": { "ko": "연수 증빙 자료 필수" },
+          "valueName": "ResultIaC_overseas_study",
           "choices": [{ "value": "300", "text": { "ko": "참여 여부" } }]
         }
       ],
@@ -139,6 +149,7 @@
           "type": "radiogroup",
           "name": "employment",
           "title": { "ko": "취업 여부" },
+          "valueName": "ResultIaC_employment",
           "choices": [
             { "value": "600", "text": { "ko": "전공 분야" } },
             { "value": "400", "text": { "ko": "비전공 분야" } },
@@ -149,6 +160,7 @@
           "type": "radiogroup",
           "name": "graduate_school",
           "title": { "ko": "대학원 진학" },
+          "valueName": "ResultIaC_graduate_school",
           "choices": [
             { "value": "500", "text": { "ko": "국외" } },
             { "value": "300", "text": { "ko": "국내" } },
@@ -159,6 +171,7 @@
           "type": "checkbox",
           "name": "Certificate",
           "title": { "ko": "전공 관련 자격증" },
+          "valueName": "ResultIaC_major_Certificate",
           "choices": [
             { "value": "1", "text": { "ko": "기사자격증" } },
             { "value": "2", "text": { "ko": "ocjp" } },
@@ -176,6 +189,7 @@
           "type": "checkbox",
           "name": "Certificate2",
           "title": { "ko": "정보화 자격증" },
+          "valueName": "ResultIaC_info_Certificate",
           "choices": [
             {
               "value": "1",
@@ -203,6 +217,7 @@
           "name": "subject",
           "title": { "ko": "취업/창업 관련 정규 교과목 이수" },
           "description": { "ko": "30점 목록" },
+          "valueName": "ResultIaC_employ_subject",
           "choices": [
             { "value": "1", "text": { "ko": "해외취업역량개발" } },
             { "value": "2", "text": { "ko": "국내취업역량개발" } },
@@ -227,6 +242,7 @@
           "name": "program",
           "title": { "ko": "진로/취업 프로그램" },
           "description": { "ko": "20점 목록" },
+          "valueName": "ResultIaC_employ_program",
           "choices": [
             { "value": "1", "text": { "ko": "취업동아리" } },
             { "value": "2", "text": { "ko": "NCS기반 즐기면서 진로찾기" } },
@@ -256,6 +272,7 @@
           "name": "program2",
           "title": { "ko": "진로/취업 프로그램 2" },
           "description": { "ko": "5점 목록" },
+          "valueName": "ResultIaC_employ_program2",
           "choices": [
             { "value": "1", "text": { "ko": "한남커리어네비게이션맵 공모전" } },
             { "value": "2", "text": { "ko": "해외취업특강" } },
@@ -277,6 +294,7 @@
           "name": "Field",
           "title": { "ko": "현장 실습" },
           "description": { "ko": "최대 4회" },
+          "valueName": "ResultIaC_field",
           "choices": [
             { "value": "100", "text": { "ko": "1번" } },
             { "value": "200", "text": { "ko": "2번" } },
@@ -289,6 +307,7 @@
           "type": "checkbox",
           "name": "Resume",
           "title": { "ko": "자기소개서 및 이력서" },
+          "valueName": "ResultIaC_resume",
           "choices": [{ "value": "100", "text": { "ko": "작성 경험 있음" } }],
           "hasNone": true,
           "noneText": { "ko": "작성 경험 없음" }
@@ -297,6 +316,7 @@
           "type": "checkbox",
           "name": "Internet_Certificate",
           "title": { "ko": "인터넷윤리 자격증" },
+          "valueName": "ResultIaC_Internet_Certificate",
           "choices": [
             { "value": "50", "text": { "ko": "1번이라도 작성했을 경우" } }
           ]
@@ -308,6 +328,7 @@
           "description": {
             "ko": "72시간 초과한것만 인정 / 예시) 77시간이면 '5'"
           },
+          "valueName": "ResultIaC_Volunteer",
           "inputType": "number",
           "min": 0,
           "max": 20,
@@ -320,6 +341,7 @@
           "description": {
             "ko": "횟수만 적어주세요 / 숫자로만 입력가능 / 최소 6부터 인정"
           },
+          "valueName": "ResultIaC_Counseling",
           "inputType": "number",
           "min": 6,
           "max": 10,
@@ -335,6 +357,7 @@
           "type": "checkbox",
           "name": "Conference",
           "title": { "ko": "학과학술제 출품" },
+          "valueName": "ResultIaC_Conference",
           "choices": [{ "value": "300", "text": { "ko": "참여" } }],
           "hasNone": true,
           "noneText": { "ko": "미참" }
@@ -343,6 +366,7 @@
           "type": "checkbox",
           "name": "intramural_contest",
           "title": { "ko": "교내 공모전 출품" },
+          "valueName": "ResultIaC_Intra_Contest",
           "hasComment": true,
           "commentText": { "ko": "5회 이상" },
           "choices": [
@@ -360,6 +384,7 @@
           "type": "checkbox",
           "name": "intramural_contest_awarded",
           "title": { "ko": "교내 공모전 수상" },
+          "valueName": "ResultIaC_Intra_Contest_awarded",
           "hasComment": true,
           "commentText": { "ko": "5회 이상" },
           "choices": [
@@ -377,6 +402,7 @@
           "type": "checkbox",
           "name": "suburban_contest",
           "title": { "ko": "교외 공모전 출품" },
+          "valueName": "ResultIaC_sub_Contest",
           "choices": [{ "value": "400", "text": { "ko": "참여" } }],
           "hasNone": true,
           "noneText": { "ko": "미참" }
@@ -385,6 +411,7 @@
           "type": "checkbox",
           "name": "suburban_contest_awarded",
           "title": { "ko": "교외 공모전 수상" },
+          "valueName": "ResultIaC_sub_Contest_awarded",
           "choices": [{ "value": "200", "text": { "ko": "참여" } }],
           "hasNone": true,
           "noneText": { "ko": "미참" }
@@ -393,6 +420,7 @@
           "type": "checkbox",
           "name": "domestic_patent_application",
           "title": { "ko": "국내 학술대회 논문발표 또는 특허 출원" },
+          "valueName": "ResultIaC_domestic_patent_application",
           "hasComment": true,
           "commentText": { "ko": "5회 이상" },
           "choices": [
@@ -410,6 +438,7 @@
           "type": "checkbox",
           "name": "international_patent_registration",
           "title": { "ko": "국제 학술대회 논문발표 또는 특허 등록" },
+          "valueName": "ResultIaC_international_patent_registration",
           "hasComment": true,
           "commentText": { "ko": "5회 이상" },
           "choices": [
@@ -427,6 +456,7 @@
           "type": "checkbox",
           "name": "academic_paper",
           "title": { "ko": "학술지 논문 게재" },
+          "valueName": "ResultIaC_academic_paper",
           "hasComment": true,
           "commentText": { "ko": "5회 이상" },
           "choices": [

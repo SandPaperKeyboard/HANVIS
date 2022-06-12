@@ -15,7 +15,7 @@
           "name": "TOEIC",
           "description": { "ko": "영어" },
           "hideNumber": true,
-          "valueName": "ResultAE_TOEIC.json",
+          "valueName": "ResultAE_TOEIC",
           "choices": [
             { "value": "Toiec_item1", "text": { "ko": "800 이상" } },
             { "value": "Toiec_item2", "text": { "ko": "700 이상 800 미만" } },
@@ -30,7 +30,7 @@
           "title": { "ko": "TOEIC Speacking" },
           "description": { "ko": "영어" },
           "hideNumber": true,
-          "valueName": "ResultAE_TOEIC_Speacking.json",
+          "valueName": "ResultAE_TOEIC_Speacking",
           "choices": [
             { "value": "ToiecS_item1", "text": { "ko": "Level 6 이상" } },
             { "value": "ToiecS_item2", "text": { "ko": "Level 5" } },
@@ -45,7 +45,7 @@
           "title": { "ko": "TOEFL iBT" },
           "description": { "ko": "영어" },
           "hideNumber": true,
-          "valueName": "ResultAE_TOEFL_iBT.json",
+          "valueName": "ResultAE_TOEFL_iBT",
           "choices": [
             { "value": "Toefl_iBT_item1", "text": { "ko": "91 이상" } },
             { "value": "Toefl_iBT_item2", "text": { "ko": "79 ~ 90" } },
@@ -60,7 +60,7 @@
           "title": { "ko": "OPIc (Listening&Reading)" },
           "description": { "ko": "영어" },
           "hideNumber": true,
-          "valueName": "ResultAE_OPIc_LR.json",
+          "valueName": "ResultAE_OPIc_LR",
           "choices": [
             { "value": "OPIcLR_item1", "text": { "ko": "350 이상" } },
             { "value": "OPIcLR_item2", "text": { "ko": "300 이상 350 미만" } },
@@ -74,7 +74,7 @@
           "name": "OPIc",
           "description": { "ko": "영어" },
           "hideNumber": true,
-          "valueName": "ResultAE_OPIc.json",
+          "valueName": "ResultAE_OPIc",
           "choices": [
             { "value": "OPIc_item1", "text": { "ko": "AL" } },
             { "value": "OPIc_item2", "text": { "ko": "IH" } },
@@ -88,7 +88,7 @@
           "name": "TEPS",
           "description": { "ko": "영어" },
           "hideNumber": true,
-          "valueName": "ResultAE_TEPs.json",
+          "valueName": "ResultAE_TEPs",
           "choices": [
             { "value": "TEPS_item1", "text": { "ko": " 637 이상" } },
             { "value": "TEPS_item2", "text": { "ko": " 555 이상 637 미만" } },
@@ -102,7 +102,7 @@
           "name": "G-TELP",
           "description": { "ko": "영어" },
           "hideNumber": true,
-          "valueName": "ResultAE_G-TELP.json",
+          "valueName": "ResultAE_G-TELP",
           "choices": [
             { "value": "G-Telp_item1", "text": { "ko": " Level 1" } },
             { "value": "G-Telp_item2", "text": { "ko": " Level 2" } },
@@ -117,7 +117,7 @@
           "title": { "ko": "IELTS(Academic module)" },
           "description": { "ko": "영어" },
           "hideNumber": true,
-          "valueName": "ResultAE_IELTS.json",
+          "valueName": "ResultAE_IELTS",
           "choices": [
             { "value": "IELTS_item1", "text": { "ko": " 6.5" } },
             { "value": "IELTS_item2", "text": { "ko": " 6.0" } },
@@ -131,7 +131,7 @@
           "name": "JPT",
           "description": { "ko": "일본어" },
           "hideNumber": true,
-          "valueName": "ResultAE_JPT.json",
+          "valueName": "ResultAE_JPT",
           "labelTrue": { "ko": "600점 이상" },
           "labelFalse": { "ko": "600점 미만 혹은 미취득" }
         },
@@ -140,7 +140,7 @@
           "name": "HSK",
           "description": { "ko": "중국어" },
           "hideNumber": true,
-          "valueName": "ResultAE_HSK.json",
+          "valueName": "ResultAE_HSK",
           "labelTrue": { "ko": "6급 이상" },
           "labelFalse": { "ko": "6급 미만 혹은 미취득" }
         },
@@ -150,7 +150,7 @@
           "title": { "ko": "외국어교육원 어학강좌" },
           "description": { "ko": "인증 필요 (최소 3개월 이상)" },
           "hideNumber": true,
-          "valueName": "ResultAE_FL.json"
+          "valueName": "ResultAE_FL"
         }
       ],
       "title": { "ko": "1.외국어 영역" },
@@ -166,7 +166,7 @@
           "name": "major_area",
           "title": { "ko": "2-1. 전공 영역" },
           "hideNumber": true,
-          "valueName": "ResultAE_CM.json",
+          "valueName": "ResultAE_CM",
           "choices": [
             { "value": "Certi_major_item1", "text": { "ko": "건축기사" } },
             { "value": "Certi_major_item2", "text": { "ko": "건설안전기사" } },
@@ -182,7 +182,7 @@
           "title": { "ko": "2-2. 정보화영역" },
           "description": { "ko": "택 1 (150점 까지만 가능하므로)" },
           "hideNumber": true,
-          "valueName": "ResultAE_CI.json",
+          "valueName": "ResultAE_CI",
           "choices": [
             { "value": "Certi_info_item1", "text": { "ko": "정보처리기사" } },
             {
@@ -212,14 +212,14 @@
           "title": { "ko": "법인취업 (전공관련업체)" },
           "description": { "ko": "조건: 4대 보험 적용" },
           "hideNumber": true,
-          "valueName": "ResultAE_employ.json"
+          "valueName": "ResultAE_employ"
         },
         {
           "type": "radiogroup",
           "name": "employment2",
           "title": { "ko": "취업 관련2" },
           "hideNumber": true,
-          "valueName": "ResultAE_employ2.json",
+          "valueName": "ResultAE_employ2",
           "choices": [
             { "value": "employment2_item1", "text": { "ko": "공무원" } },
             { "value": "employment2_item2", "text": { "ko": "군무원" } },
@@ -232,7 +232,7 @@
           "name": "graduate_school",
           "title": { "ko": "대학원 진학" },
           "hideNumber": true,
-          "valueName": "ResultAE_graduate.json",
+          "valueName": "ResultAE_graduate",
           "choices": [
             { "value": "graduate_item1", "text": { "ko": "국내 진학" } },
             { "value": "graduate_item2", "text": { "ko": "해외 진학" } }
@@ -246,7 +246,7 @@
           "title": { "ko": "창업" },
           "description": { "ko": "등록법인(4대 보험) 적용" },
           "hideNumber": true,
-          "valueName": "ResultAE_Startups.json"
+          "valueName": "ResultAE_Startups"
         },
         {
           "type": "boolean",
@@ -254,7 +254,7 @@
           "title": { "ko": "전공 무관업체 취업" },
           "description": { "ko": "4대 보험 적용" },
           "hideNumber": true,
-          "valueName": "ResultAE_employ2.json"
+          "valueName": "ResultAE_employ2"
         }
       ],
       "title": { "ko": "3. 취업/진학 영역" },
@@ -271,7 +271,7 @@
             "ko": "학생인재개발처 취업지원본부 취업지원팀의 취업훈련-교육프로그램에 한함"
           },
           "hideNumber": true,
-          "valueName": "ResultAE_program.json",
+          "valueName": "ResultAE_program",
           "inputType": "number",
           "min": 0,
           "max": 2,
@@ -292,7 +292,7 @@
             "ko": "선·후배 소그룹 활동: 동아리 포함 / 참여 회당 10점"
           },
           "hideNumber": true,
-          "valueName": "ResultAE_Mentor.json",
+          "valueName": "ResultAE_Mentor",
           "inputType": "number",
           "min": 0,
           "max": 30,
@@ -304,7 +304,7 @@
           "title": { "ko": "교외 학술대회 및 교내·외 세미나 참가" },
           "description": { "ko": "1회당 50점" },
           "hideNumber": true,
-          "valueName": "ResultAE_contest.json",
+          "valueName": "ResultAE_contest",
           "inputType": "number",
           "min": 0,
           "max": 6,
@@ -318,7 +318,7 @@
             "ko": "캡스톤디자인 작품 포함 / 참가 100점, 입상 200점"
           },
           "hideNumber": true,
-          "valueName": "ResultAE_in_contest.json",
+          "valueName": "ResultAE_in_contest",
           "choices": [
             { "value": "in_contest_item1", "text": { "ko": "참가" } },
             { "value": "in_contest_item2", "text": { "ko": "입상" } }
@@ -332,7 +332,7 @@
           "title": { "ko": "교외 경진대회 " },
           "description": { "ko": "참가 200점, 입상 300점" },
           "hideNumber": true,
-          "valueName": "ResultAE_sub_contest.json",
+          "valueName": "ResultAE_sub_contest",
           "choices": [
             { "value": "sub_contest_item1", "text": { "ko": "참가" } },
             { "value": "sub_contest_item2", "text": { "ko": "입상" } }

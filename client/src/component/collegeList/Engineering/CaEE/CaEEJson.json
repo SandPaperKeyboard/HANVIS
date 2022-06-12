@@ -12,6 +12,7 @@
           "name": "employment",
           "title": "취업",
           "hideNumber": true,
+          "valueName": "ReactCaEE_employment",
           "choices": [
             { "value": "500", "text": "전공 관련 취업" },
             { "value": "300", "text": "비전공 관련 취업" }
@@ -25,6 +26,7 @@
           "title": { "ko": "취업훈련 참가실적" },
           "description": { "ko": "1회당 50점 / 최대3회 / 최대 90점" },
           "hideNumber": true,
+          "valueName": "ReactCaEE_employment_progam",
           "choices": [
             { "value": "1", "text": { "ko": "1회" } },
             { "value": "2", "text": { "ko": "2회" } },
@@ -34,10 +36,11 @@
         },
         {
           "type": "radiogroup",
-          "name": "question3",
+          "name": "Employment3",
           "title": { "ko": "해외연수, 인턴십, 수상실적" },
-          "description": { "ko": "택1 100점" },
+          "description": { "ko": "택1 / 100점" },
           "hideNumber": true,
+          "valueName": "ReactCaEE_Employment3",
           "choices": [
             { "value": "item1", "text": { "ko": "해외연수 30일 이상" } },
             { "value": "item2", "text": { "ko": "인턴십 30일 이상" } },
@@ -62,6 +65,7 @@
             "ko": "기사: 1차합격(300점) 최종합격(500점)\n / 산업기사: 최종합격(500점)"
           },
           "hideNumber": true,
+          "valueName": "ReactCaEE_major_certifi",
           "columns": ["1차합격", "2차합격"],
           "rows": [
             { "value": "1", "text": { "ko": "토목기사" } },
@@ -86,6 +90,7 @@
               "type": "checkbox",
               "name": "GroupA",
               "title": { "ko": "A 그룹" },
+              "valueName": "ReactCaEE_infoCertifi_GroupA",
               "choices": [
                 { "value": "Aitem1", "text": { "ko": "정보처리기사" } },
                 { "value": "Aitem2", "text": { "ko": "전자계산조직응용기사" } },
@@ -104,6 +109,7 @@
               "type": "checkbox",
               "name": "GroupB",
               "title": { "ko": "B 그룹" },
+              "valueName": "ReactCaEE_infoCertifi_GroupB",
               "choices": [
                 { "value": "Bitem1", "text": { "ko": "워드포로세서 1급" } },
                 { "value": "Bitem2", "text": { "ko": "컴퓨터활용능력 2급" } },
@@ -121,6 +127,7 @@
           "name": "state_examination",
           "title": { "ko": "국가고시" },
           "hideNumber": true,
+          "valueName": "ReactCaEE_state_examination",
           "columns": ["1차 합격", "2차 합격"],
           "rows": ["9급 공무원", "7급 공무원", "5급 공무원"]
         }
@@ -134,6 +141,7 @@
           "type": "checkbox",
           "name": "TOEIC",
           "hideNumber": true,
+          "valueName": "ReactCaEE_TOEIC",
           "choices": [
             { "value": "450", "text": { "ko": "800이상" } },
             { "value": "400", "text": { "ko": "700~799" } },
@@ -159,9 +167,10 @@
           "templateElements": [
             {
               "type": "text",
-              "name": "question1",
+              "name": "seminar-field",
               "title": { "ko": "학과의 세미나, 현장견학" },
               "description": { "ko": "건당 30점" },
+              "valueName": "ReactCaEE_seminar-field",
               "inputType": "number",
               "min": 0,
               "step": 1
@@ -173,6 +182,7 @@
                 "ko": "학과 임원활동, MT, 체육대회, 학술제 등 학과행사"
               },
               "description": { "ko": "건당 20점" },
+              "valueName": "ReactCaEE_Event",
               "inputType": "number",
               "min": 0,
               "step": 1
@@ -184,6 +194,7 @@
           "name": "Volunteer",
           "title": { "ko": "봉사 활동" },
           "hideNumber": true,
+          "valueName": "ReactCaEE_Volunteer",
           "choices": [
             { "value": "300", "text": { "ko": "133시간이상" } },
             { "value": "250", "text": { "ko": "113~132시간" } },
@@ -202,6 +213,7 @@
             "ko": "매학기 1회당 10점 / (추가상담 포함) 최대 100점"
           },
           "hideNumber": true,
+          "valueName": "ReactCaEE_Counseling",
           "inputType": "number",
           "min": 0,
           "max": 10,

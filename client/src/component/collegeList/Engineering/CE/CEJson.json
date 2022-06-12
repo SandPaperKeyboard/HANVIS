@@ -13,6 +13,7 @@
           "title": "성적",
           "description": { "ko": "100 ~ 200 / 20점단위" },
           "hideNumber": true,
+          "valueName": "ReactCE_Grade",
           "choices": [
             { "value": "item1", "text": "A+" },
             { "value": "item2", "text": "A0" },
@@ -28,6 +29,7 @@
           "title": { "default": "성적", "ko": "졸업 논문" },
           "description": { "ko": "200 ~ 300 / 20점단위" },
           "hideNumber": true,
+          "valueName": "ReactCE_Graduation_thesis",
           "choices": [
             { "value": "item1", "text": "A+" },
             { "value": "item2", "text": "A0" },
@@ -43,6 +45,7 @@
           "title": { "default": "성적", "ko": "졸업 시험" },
           "description": { "ko": "140 ~ 300" },
           "hideNumber": true,
+          "valueName": "ReactCE_graduation_examination",
           "choices": [
             { "value": "300", "text": { "default": "A+", "ko": "100" } },
             { "value": "280", "text": { "default": "A0", "ko": "90" } },
@@ -57,6 +60,7 @@
           "title": { "default": "성적", "ko": "현장 실습" },
           "description": { "ko": "200 ~ 300 / 20점단위" },
           "hideNumber": true,
+          "valueName": "ReactCE_field_practice",
           "choices": [
             { "value": "300", "text": "A+" },
             { "value": "280", "text": "A0" },
@@ -71,6 +75,7 @@
           "name": "Academic activities",
           "title": { "ko": "학술 활동" },
           "hideNumber": true,
+          "valueName": "ReactCE_Academic_activities",
           "choices": [
             { "value": "item1", "text": { "ko": "학술지 논문게재" } },
             { "value": "item2", "text": { "ko": "특허출원" } },
@@ -90,6 +95,7 @@
           "title": { "ko": "취업훈련 참가" },
           "description": { "ko": "1회이상 필수" },
           "hideNumber": true,
+          "valueName": "ReactCE_job_training",
           "choices": [
             { "value": "item1", "text": { "ko": "1회" } },
             { "value": "item2", "text": { "ko": "2회" } },
@@ -107,6 +113,7 @@
           "title": { "ko": "취업" },
           "description": { "ko": "4대보험가입내역서, 재직증명서" },
           "hideNumber": true,
+          "valueName": "ReactCE_Employment",
           "choices": [{ "value": "item1", "text": { "ko": "취업" } }],
           "hasNone": true,
           "noneText": { "ko": "미 취업" }
@@ -117,6 +124,7 @@
           "title": { "ko": "대학원 진학" },
           "description": { "ko": "대학원 합격통지서" },
           "hideNumber": true,
+          "valueName": "ReactCE_graduate_school",
           "choices": [{ "value": "item1", "text": { "ko": "대학원 진학" } }],
           "hasNone": true,
           "noneText": { "ko": "미 진학" }
@@ -129,6 +137,7 @@
             "ko": "공무원 시험(합격 통지서 - 최종합격), \nROTC(임관예정 확인서)"
           },
           "hideNumber": true,
+          "valueName": "ReactCE_state_examination",
           "choices": [{ "value": "item1", "text": { "ko": "합격 완료" } }],
           "hasNone": true,
           "noneText": { "ko": "미응시" }
@@ -149,6 +158,7 @@
               "name": "TOEIC",
               "description": { "ko": "300 ~ 100점" },
               "hideNumber": true,
+              "valueName": "ReactCE_TOEIC",
               "choices": [
                 { "value": "item1", "text": { "ko": "950~990" } },
                 { "value": "item2", "text": { "ko": "900~949" } },
@@ -171,6 +181,7 @@
               "title": { "ko": "TOEFL iBT" },
               "description": { "ko": "300 ~ 100점" },
               "hideNumber": true,
+              "valueName": "ReactCE_TOEFL_iBT",
               "choices": [
                 { "value": "item1", "text": { "ko": "90이상" } },
                 { "value": "item2", "text": { "ko": "88~89" } },
@@ -193,6 +204,7 @@
               "title": { "ko": "TOEFL CBT" },
               "description": { "ko": "300 ~ 100점" },
               "hideNumber": true,
+              "valueName": "ReactCE_TOEFL_CBT",
               "choices": [
                 { "value": "item1", "text": { "ko": "256이상" } },
                 { "value": "item2", "text": { "ko": "250~255" } },
@@ -214,6 +226,7 @@
               "name": "TEPS",
               "description": { "ko": "300 ~ 100점" },
               "hideNumber": true,
+              "valueName": "ReactCE_TEPS",
               "choices": [
                 { "value": "item1", "text": { "ko": "793 이상" } },
                 { "value": "item2", "text": { "ko": "771~792" } },
@@ -234,6 +247,7 @@
               "type": "radiogroup",
               "name": "IELTS",
               "description": { "ko": "300 / 240 / 180 / 120" },
+              "valueName": "ReactCE_IELTS",
               "choices": [
                 { "value": "item1", "text": { "ko": "6.5이상" } },
                 { "value": "item2", "text": { "ko": "6.0" } },
@@ -256,6 +270,7 @@
               "type": "dropdown",
               "name": "기사/1급",
               "description": { "ko": "개당 200점" },
+              "valueName": "ReactCE_Certificate",
               "choices": [
                 { "value": "item1", "text": { "ko": "생물공학기사" } },
                 { "value": "item2", "text": { "ko": "화공기사" } },
@@ -284,6 +299,7 @@
               "name": "산업기사/2급",
               "visibleIf": "{Certificate[0].기사/1급} = 'none'",
               "description": { "ko": "개당 100점 (최대 200점)" },
+              "valueName": "ReactCE_industry_Certificate",
               "choices": [
                 { "value": "item1", "text": { "ko": "화약류제조산업기사" } },
                 { "value": "item2", "text": { "ko": "열관리산업기사" } },
@@ -315,6 +331,7 @@
               "name": "GroupA",
               "title": { "ko": "A 그룹" },
               "description": { "ko": "개당 100점" },
+              "valueName": "ReactCE_infoCerti_GroupA",
               "choices": [
                 { "value": "item1", "text": { "ko": "컴퓨터활용능력 1급" } },
                 { "value": "item2", "text": { "ko": "문서 실무사 1,2급" } },
@@ -345,6 +362,7 @@
               "visibleIf": "{Certificate[0].기사/1급} = 'none'",
               "title": { "ko": "B 그룹" },
               "description": { "ko": "개당 50점 (최대 100점)" },
+              "valueName": "ReactCE_infoCerti_GroupB",
               "choices": [
                 { "value": "item1", "text": { "ko": "워드프로세서" } },
                 { "value": "item2", "text": { "ko": "컴퓨터활용능력 2급" } },
@@ -370,6 +388,7 @@
           "title": { "ko": "사회봉사 활동" },
           "description": { "ko": "100 / 80 / 60 / 40 / 20" },
           "hideNumber": true,
+          "valueName": "ReactCE_Volunteer",
           "choices": [
             { "value": "item1", "text": { "ko": "400시간 이상" } },
             { "value": "item2", "text": { "ko": "300~399 시간" } },
@@ -386,6 +405,7 @@
           "title": { "ko": "상담 실적" },
           "description": { "ko": "매회 10점 / 최대 200점" },
           "hideNumber": true,
+          "valueName": "ReactCE_Counseling",
           "inputType": "number",
           "min": 0,
           "max": 20,
@@ -399,6 +419,7 @@
             "ko": "매회 20점 / 최대 200점 / 학과 학생회, MT, 체육대회, 학술제 등"
           },
           "hideNumber": true,
+          "valueName": "ReactCE_department_events",
           "inputType": "number",
           "min": 0,
           "max": 10,
@@ -415,28 +436,32 @@
           "name": "Overseas_training",
           "title": { "ko": "해외연수" },
           "description": { "ko": "100점" },
-          "hideNumber": true
+          "hideNumber": true,
+          "valueName": "ReactCE_Overseas_training"
         },
         {
           "type": "boolean",
           "name": "internship",
           "title": { "ko": "인턴십" },
           "description": { "ko": "100점" },
-          "hideNumber": true
+          "hideNumber": true,
+          "valueName": "ReactCE_internship"
         },
         {
           "type": "boolean",
-          "name": "question3",
+          "name": "award",
           "title": { "ko": "수상(상훈)" },
           "description": { "ko": "100점" },
-          "hideNumber": true
+          "hideNumber": true,
+          "valueName": "ReactCE_award"
         },
         {
           "type": "boolean",
           "name": "Startups",
           "title": { "ko": "창업" },
           "description": { "ko": "300점" },
-          "hideNumber": true
+          "hideNumber": true,
+          "valueName": "ReactCE_Startups"
         }
       ],
       "title": { "ko": "5. 사회 경험" }
