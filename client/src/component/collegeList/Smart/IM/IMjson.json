@@ -11,6 +11,7 @@
         "name": "question1",
         "title": "TOEIC",
         "hideNumber": true,
+        "valueName": "ResultIM_TOEIC",
         "choices": [
          {
           "value": "800",
@@ -53,6 +54,7 @@
         "name": "question5",
         "title": "취업/임관/진학",
         "hideNumber": true,
+        "valueName": "ResultIM_Jobs",
         "choices": [
          {
           "value": "item1",
@@ -73,6 +75,7 @@
         "name": "question2",
         "title": "학과/ 취업지원팀 주관 취업교육/ 훈련 참가",
         "hideNumber": true,
+        "valueName": "ResultIM_Training",
         "rateMax": 4
        },
        {
@@ -80,6 +83,7 @@
         "name": "question3",
         "title": "현장실습 이수 횟수",
         "hideNumber": true,
+        "valueName": "ResultIM_Practice",
         "rateMax": 6
        },
        {
@@ -87,19 +91,22 @@
         "name": "question4",
         "title": "기타 산학사업 참여 횟수",
         "hideNumber": true,
+        "valueName": "ResultIM_Business",
         "rateMax": 2
        },
        {
         "type": "boolean",
         "name": "question6",
         "title": "봉사활동을 72시간 이상 이수하셨습니까?",
-        "hideNumber": true
+        "hideNumber": true,
+        "valueName": "ResultIM_Volunteer"
        },
        {
         "type": "boolean",
         "name": "question11",
         "title": "세미나를 이수하셨습니까?",
-        "hideNumber": true
+        "hideNumber": true,
+        "valueName": "ResultIM_Seminar"
        }
       ],
       "title": "취업 영역"
@@ -112,6 +119,7 @@
         "name": "question7",
         "title": "기사자격증 및 IT 자격증",
         "hideNumber": true,
+        "valueName": "ResultIM_IT_Certification",
         "choices": [
          {
           "value": "item1",
@@ -144,6 +152,7 @@
         "name": "question8",
         "title": "금융 자격증",
         "hideNumber": true,
+        "valueName": "ResultIM_FI_Certification",
         "choices": [
          {
           "value": "item1",
@@ -164,6 +173,7 @@
         "name": "question9",
         "title": "정보화 자격증(A그룹)",
         "hideNumber": true,
+        "valueName": "ResultIM_IF_Certification_A",
         "choices": [
          {
           "value": "item1",
@@ -188,6 +198,7 @@
         "name": "question10",
         "title": "정보화 자격증 (B그룹)",
         "hideNumber": true,
+        "valueName": "ResultIM_IF_Certification_B",
         "choices": [
          {
           "value": "item1",
@@ -209,13 +220,15 @@
         "type": "rating",
         "name": "question12",
         "title": "해외 연수(건당)",
-        "hideNumber": true
+        "hideNumber": true,
+        "valueName": "ResultIM_Foreign"
        },
        {
         "type": "rating",
         "name": "question13",
         "title": "수상실적(대학 단위 및 외부 수상 인정)",
-        "hideNumber": true
+        "hideNumber": true,
+        "valueName": "ResultIM_Award"
        }
       ],
       "title": "해외연수 및 수상실적"
@@ -227,19 +240,22 @@
         "type": "rating",
         "name": "question14",
         "title": "학과 행사 참여 실적(MT, 체육대회, 학술제, 학과세미나, 현장견학 등)",
-        "hideNumber": true
+        "hideNumber": true,
+        "valueName": "ResultIM_Festival"
        },
        {
         "type": "rating",
         "name": "question15",
         "title": "실험실 안전교육 참여 실적",
-        "hideNumber": true
+        "hideNumber": true,
+        "valueName": "ResultIM_Safe_Edu"
        },
        {
         "type": "rating",
         "name": "question16",
         "title": "상담 실적 횟수",
         "hideNumber": true,
+        "valueName": "ResultIM_Counseling",
         "rateMax": 8
        }
       ],

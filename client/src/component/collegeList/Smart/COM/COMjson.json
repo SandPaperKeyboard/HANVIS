@@ -12,6 +12,7 @@
         "name": "question2",
         "title": "졸업 후 기업 취업, 대학원 진학, 군 입대 확정이 된 상태입니까?",
         "hideNumber": true,
+        "valueName": "ResultCOM_Jobs",
         "isRequired": true
        }
       ],
@@ -27,6 +28,7 @@
          "ko": "취득한 국제 자격증을 클릭해주세요."
         },
         "hideNumber": true,
+        "valueName": "ResultCOM_IM_Certificate",
         "isRequired": true,
         "choices": [
          {
@@ -159,6 +161,7 @@
          "ko": "취득한 국내 자격증을 클릭해주세요."
         },
         "hideNumber": true,
+        "valueName": "ResultCOM_IN_Certificate",
         "isRequired": true,
         "choices": [
          {
@@ -363,6 +366,7 @@
          "ko": "취득한 국가고시를 클릭해주세요."
         },
         "hideNumber": true,
+        "valueName": "ResultCOM_CO_Certificate",
         "isRequired": true,
         "choices": [
          {
@@ -422,6 +426,7 @@
          "ko": "TOEIC 점수"
         },
         "hideNumber": true,
+        "valueName": "ResultCOM_TOEIC",
         "isRequired": true,
         "choices": [
          {
@@ -464,6 +469,7 @@
          "ko": "JLPT"
         },
         "hideNumber": true,
+        "valueName": "ResultCOM_JLPT",
         "isRequired": true,
         "choices": [
          {
@@ -499,6 +505,7 @@
          "ko": "상담횟수"
         },
         "hideNumber": true,
+        "valueName": "ResultCOM_Counseling",
         "isRequired": true,
         "rateValues": [
          {
@@ -615,6 +622,7 @@
          "ko": "학과의 세미나, 현장 견학 참여"
         },
         "hideNumber": true,
+        "valueName": "ResultCOM_Seminar",
         "isRequired": true,
         "choices": [
          {
@@ -657,6 +665,7 @@
          "ko": "학과의 행사에 참여"
         },
         "hideNumber": true,
+        "valueName": "ResultCOM_Festival",
         "isRequired": true,
         "choices": [
          {
@@ -725,6 +734,7 @@
          "ko": "취업훈련 참가 횟수"
         },
         "hideNumber": true,
+        "valueName": "ResultCOM_Training",
         "isRequired": true,
         "choices": [
          {
@@ -778,6 +788,7 @@
          "ko": "해외연수 기간"
         },
         "hideNumber": true,
+        "valueName": "ResultCOM_Foreign",
         "inputType": "number",
         "min": 0,
         "max": 100,
@@ -798,6 +809,7 @@
          "ko": "인턴십 기간"
         },
         "hideNumber": true,
+        "valueName": "ResultCOM_Intemship",
         "inputType": "number",
         "min": 0,
         "max": 150,
@@ -821,6 +833,7 @@
          "ko": "전국 공모전"
         },
         "hideNumber": true,
+        "valueName": "ResultCOM_CO_Contest",
         "choices": [
          {
           "value": "600",
@@ -849,6 +862,7 @@
          "ko": "교내 공모전"
         },
         "hideNumber": true,
+        "valueName": "ResultCOM_SC_Contest",
         "choices": [
          {
           "value": "300",
@@ -877,6 +891,7 @@
          "ko": "졸업작품전(캡스톤디자인 학술제)에 입상하셨습니까?"
         },
         "hideNumber": true,
+        "valueName": "ResultCOM_Capstone",
         "isRequired": true
        }
       ],

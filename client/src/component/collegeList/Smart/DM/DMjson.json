@@ -11,6 +11,7 @@
         "name": "question1",
         "title": "졸업 후 기업 취업, 대학원 진학, 군 입대 확정이 된 상태입니까?",
         "hideNumber": true,
+        "valueName": "ResultDM_Jobs",
         "isRequired": true,
         "choices": [
          {
@@ -44,6 +45,7 @@
         "name": "question2",
         "title": "졸업시험(대학수학 & 집합론)",
         "hideNumber": true,
+        "valueName": "ResultDM_FinalTest",
         "isRequired": true
        },
        {
@@ -51,6 +53,7 @@
         "name": "question3",
         "title": "다전공",
         "hideNumber": true,
+        "valueName": "ResultDM_Track",
         "isRequired": true,
         "choices": [
          {
@@ -84,6 +87,7 @@
         "name": "question4",
         "title": "취업훈련 교육프로그램 참가 횟수",
         "hideNumber": true,
+        "valueName": "ResultDM_Education",
         "isRequired": true,
         "rateValues": [
          {
@@ -125,6 +129,7 @@
         "name": "question5",
         "title": "A그룹",
         "hideNumber": true,
+        "valueName": "ResultDM_Certification_A",
         "isRequired": true,
         "choices": [
          {
@@ -180,6 +185,7 @@
         "name": "question6",
         "title": "B그룹",
         "hideNumber": true,
+        "valueName": "ResultDM_Certification_B",
         "isRequired": true,
         "choices": [
          {
@@ -223,6 +229,7 @@
         "name": "question7",
         "title": "C그룹",
         "hideNumber": true,
+        "valueName": "ResultDM_Certification_C",
         "isRequired": true,
         "choices": [
          {
@@ -262,6 +269,7 @@
         "name": "question8",
         "title": "중등학교정교사 2급 자격증을 취득하셨습니까?",
         "hideNumber": true,
+        "valueName": "ResultDM_MD_Teacher",
         "isRequired": true
        },
        {
@@ -269,6 +277,7 @@
         "name": "question9",
         "title": "전공관련 스터디 그룹 참여횟수",
         "hideNumber": true,
+        "valueName": "ResultDM_StudyGroup",
         "isRequired": true,
         "rateValues": [
          {
@@ -305,6 +314,7 @@
         "name": "question10",
         "title": "TOEIC",
         "hideNumber": true,
+        "valueName": "ResultDM_TOEIC",
         "isRequired": true,
         "choices": [
          {
@@ -340,6 +350,7 @@
         "name": "question11",
         "title": "TOEIC Speaking",
         "hideNumber": true,
+        "valueName": "ResultDM_TOEIC Speaking",
         "isRequired": true,
         "choices": [
          {
@@ -375,6 +386,7 @@
         "name": "question12",
         "title": "TOEFL CBT",
         "hideNumber": true,
+        "valueName": "ResultDM_TOEFL CBT",
         "isRequired": true,
         "choices": [
          {
@@ -410,6 +422,7 @@
         "name": "question13",
         "title": "TOEFL IBT",
         "hideNumber": true,
+        "valueName": "ResultDM_TOEFL IBT",
         "isRequired": true,
         "choices": [
          {
@@ -445,6 +458,7 @@
         "name": "question14",
         "title": "TEPS",
         "hideNumber": true,
+        "valueName": "ResultDM_TEPS",
         "isRequired": true,
         "choices": [
          {
@@ -480,6 +494,7 @@
         "name": "question15",
         "title": "본교 모의토익을 3번 이상 응시하였습니까?",
         "hideNumber": true,
+        "valueName": "ResultDM_School TOEIC",
         "isRequired": true
        }
       ],
@@ -494,6 +509,7 @@
         "name": "question16",
         "title": "봉사활동",
         "hideNumber": true,
+        "valueName": "ResultDM_Volunteer",
         "isRequired": true,
         "choices": [
          {
@@ -525,6 +541,7 @@
         "name": "question17",
         "title": "상담실적",
         "hideNumber": true,
+        "valueName": "ResultDM_Counseling",
         "rateValues": [
          {
           "value": 1,
@@ -578,6 +595,7 @@
         "name": "question18",
         "title": "학과 행사 참여 실적",
         "hideNumber": true,
+        "valueName": "ResultDM_Festival",
         "rateValues": [
          {
           "value": 1,
@@ -631,6 +649,7 @@
         "name": "question19",
         "title": "해외연수를 30일 이상 다녀오셨습니까?",
         "hideNumber": true,
+        "valueName": "ResultDM_Foreign",
         "isRequired": true
        },
        {
@@ -638,6 +657,7 @@
         "name": "question20",
         "title": "인턴십을 30일 이상 근무하셨습니까?",
         "hideNumber": true,
+        "valueName": "ResultDM_internship",
         "isRequired": true
        },
        {
@@ -645,6 +665,7 @@
         "name": "question21",
         "title": "교내외 수상 실적(장려상 이상)",
         "hideNumber": true,
+        "valueName": "ResultDM_Award",
         "isRequired": true,
         "choices": [
          {
@@ -672,6 +693,7 @@
         "name": "question22",
         "title": "독서문화 마일리지",
         "hideNumber": true,
+        "valueName": "ResultDM_BookMileage",
         "isRequired": true,
         "choices": [
          {
