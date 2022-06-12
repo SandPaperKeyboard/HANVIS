@@ -21,13 +21,13 @@ function CollegeSelector() {
               </Link>
             </li>
             <li>
-              <Link to="/AE">[토목건축공학부] 건축공학전공</Link>
+              <Link to="/AE"style={{ textDecoration: 'none' }}>[토목건축공학부] 건축공학전공</Link>
             </li>
             <li>
-              <Link to="/CaEE">[토목건축공학부] 토목환경공학전공</Link>
+              <Link to="/CaEE"style={{ textDecoration: 'none' }}>[토목건축공학부] 토목환경공학전공</Link>
             </li>
             <li>
-              <Link to="/CE">화학공학과</Link>
+              <Link to="/CE"style={{ textDecoration: 'none' }}>화학공학과</Link>
             </li>
           </ul>
         </details>
