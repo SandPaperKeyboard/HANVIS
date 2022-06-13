@@ -15,7 +15,7 @@ function COMCal(props) {
   COM_sum += COM_Training(jsonArr);
   COM_sum += COM_Foreign(jsonArr);
   COM_sum += COM_Intemship(jsonArr);
-  COM_sum += COM_CO_Certificate(jsonArr);
+  COM_sum += COM_CO_Contest(jsonArr);
   COM_sum += COM_SC_Contest(jsonArr);
   COM_sum += COM_Capstone(jsonArr);
 
@@ -212,7 +212,11 @@ function COM_CO_Contest(inputData) {
   const Table = ScoreData["ResultCOM_CO_Contest"];
   const Value = inputData["ResultCOM_CO_Contest"];
   var sum = 0;
-  sum = typeof Value === "string" ? Table["value"][Value] : 0;
+  if (Array.isArray(Value))
+  {
+    const ind = Table["key"].indexOf(Value[0]);
+    sum = Table["value"][ind];
+  }
 
   return sum;
 }
@@ -222,7 +226,12 @@ function COM_SC_Contest(inputData) {
   const Table = ScoreData["ResultCOM_SC_Contest"];
   const Value = inputData["ResultCOM_SC_Contest"];
   var sum = 0;
-  sum = typeof Value === "string" ? Table["value"][Value] : 0;
+  
+  if (Array.isArray(Value))
+  {
+    const ind = Table["key"].indexOf(Value[0]);
+    sum = Table["value"][ind];
+  }
 
   return sum;
 }

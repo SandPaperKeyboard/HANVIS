@@ -33,18 +33,23 @@
 }
 
 .NavBar nav ul li {
+  text-decoration: none;
+  text-decoration-line: none;
   display: inline-block;
   margin: 1.5vw;
 }
 
 .NavBar nav ul li a {
   text-decoration: none;
+  text-decoration-line: none;
   color: white;
   font-size: 110%;
 }
 
 .NavBar a:hover {
-  border-bottom: 5px solid #8c1cd1;
+  text-decoration: none;
+  text-decoration-line: none;
+  border-bottom: 5px double #8c1cd1;
 }
 
 .NavBar .Navigation {
@@ -66,6 +71,8 @@
 }
 
 .NavBar .MobileNavigation .hanvis:hover {
+  text-decoration: none;
+  text-decoration-line: none;
   border-bottom: none;
   color: #8c1cd1;
 }
@@ -111,6 +118,8 @@
   }
 
   .NavBar a:hover {
+    text-decoration: none;
+    text-decoration-line: none;
     border-bottom: none;
     color: #8c1cd1;
   }

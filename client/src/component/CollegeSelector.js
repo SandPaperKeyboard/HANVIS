@@ -62,9 +62,9 @@ function CollegeSelector() {
           </ul>
         </details>
       </div>
-      <div>
+      {/* <div>
         <button><Link to='/result'>결과</Link></button>
-      </div>
+      </div> */}
       
     </>
   );
