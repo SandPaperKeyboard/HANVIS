@@ -3,7 +3,8 @@
         "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
         "dev:server": "cd server && npm start",
         "dev:client": "cd client && npm start",
-        "heroku-postbuild": "cd client && npm install --save --legacy-peer-deps && npm run build"
+        "heroku-postbuild": "cd client && npm install --save --legacy-peer-deps && npm run build",
+        "prestart:prod": "cd server && rimraf dist && npm run build"
     },
     "dependencies": {
         "concurrently": "^7.2.1",
