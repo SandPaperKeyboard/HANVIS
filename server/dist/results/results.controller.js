@@ -44,7 +44,7 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], ResultsController.prototype, "createResult", null);
 ResultsController = __decorate([
-    (0, common_1.Controller)('result'),
+    (0, common_1.Controller)('api/result'),
     __metadata("design:paramtypes", [results_service_1.ResultsService])
 ], ResultsController);
 exports.ResultsController = ResultsController;

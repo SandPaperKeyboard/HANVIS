@@ -123,7 +123,7 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], BoardsController.prototype, "deleteBoard", null);
 BoardsController = __decorate([
-    (0, common_1.Controller)('boards'),
+    (0, common_1.Controller)('api/boards'),
     __metadata("design:paramtypes", [boards_service_1.BoardsService])
 ], BoardsController);
 exports.BoardsController = BoardsController;

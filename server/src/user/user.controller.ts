@@ -4,7 +4,7 @@ import { Body, Controller, Delete, Get, HttpStatus, Param, Post, Put, Req, Res }
 import { UserService } from './user.service';
 import { CreateUserDto, UpdateUserDto } from './dto/user.dto';
 
-@Controller('user')
+@Controller('api/user')
 export class UserController {
     constructor(private readonly userService: UserService) {}
 

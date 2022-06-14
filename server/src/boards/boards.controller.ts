@@ -3,7 +3,7 @@ import { Body, Controller, Delete, Get, HttpStatus, Param, Post, Put, Res } from
 import { BoardsService } from './boards.service';
 import { CreateBoardDto, UpdateBoardDto } from './dto/boards.dto';
 
-@Controller('boards')
+@Controller('api/boards')
 export class BoardsController {
     constructor(private readonly BoardService: BoardsService) {}
 

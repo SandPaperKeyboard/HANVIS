@@ -23,7 +23,8 @@ AppModule = __decorate([
     (0, common_1.Module)({
         imports: [
             serve_static_1.ServeStaticModule.forRoot({
-                rootPath: (0, path_1.join)(__dirname, '..', 'client/build')
+                rootPath: (0, path_1.join)(process.cwd(), '..', 'client/build'),
+                exclude: ['*']
             }),
             config_1.ConfigModule.forRoot(),
             mongoose_1.MongooseModule.forRoot(process.env.MONGODB_URI, {

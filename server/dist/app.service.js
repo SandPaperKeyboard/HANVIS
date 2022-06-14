@@ -8,10 +8,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppService = void 0;
 const common_1 = require("@nestjs/common");
-const path_1 = require("path");
 let AppService = class AppService {
     getHello() {
-        return (0, path_1.join)(__dirname, '..', 'client/build');
+        return 'hello';
     }
 };
 AppService = __decorate([

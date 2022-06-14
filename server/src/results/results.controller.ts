@@ -3,7 +3,7 @@ import { json } from 'stream/consumers';
 import { CreateResultDto, UpdateResultDto } from './dto/boards.dto';
 import { ResultsService } from './results.service';
 
-@Controller('result')
+@Controller('api/result')
 export class ResultsController {
     constructor(private readonly ResultService: ResultsService) {}
 
