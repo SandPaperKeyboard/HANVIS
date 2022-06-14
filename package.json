@@ -4,8 +4,7 @@
         "dev:server": "cd server && npm start",
         "dev:client": "cd client && npm start",
         "heroku-postbuild": "cd client && npm install --save --legacy-peer-deps && npm run build",
-        "prestart:prod": "cd server && prestart:prod",
-        "prebuild": "rimraf -G dist"
+        "prestart:prod": "cd server && prestart:prod"
     },
     "dependencies": {
         "concurrently": "^7.2.1",
