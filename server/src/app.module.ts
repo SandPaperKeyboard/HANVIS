@@ -15,8 +15,7 @@ import { join } from 'path';
   imports: [
     // 클라이언트 정적 모듈
     ServeStaticModule.forRoot({
-      rootPath: join(process.cwd(), '..', 'client/build'),
-      exclude: ['*']
+      rootPath: join(process.cwd(), '..', 'client/build')
     }),
     ConfigModule.forRoot(),
     MongooseModule.forRoot(process.env.MONGODB_URI, {
