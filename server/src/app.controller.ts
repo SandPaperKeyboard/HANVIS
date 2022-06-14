@@ -1,16 +1,17 @@
 /* eslint-disable prettier/prettier */
 import { Request } from 'express';
-import { Controller, Get, Req, Res } from '@nestjs/common';
+import { Controller, Get, Redirect, Req, Res } from '@nestjs/common';
 import { AppService } from './app.service';
+import { join } from 'path';
 
 
-@Controller()
+@Controller('*')
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  getHello(@Req() req: Request): string {
-    console.log(req);
-    return this.appService.getHello();
+  @Redirect(join(__dirname, '..', 'client/build/index.html'))
+  getHello(): string {
+    return '';
   }
 }

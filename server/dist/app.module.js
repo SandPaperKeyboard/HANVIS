@@ -15,11 +15,16 @@ const app_service_1 = require("./app.service");
 const user_module_1 = require("./user/user.module");
 const boards_module_1 = require("./boards/boards.module");
 const results_module_1 = require("./results/results.module");
+const serve_static_1 = require("@nestjs/serve-static");
+const path_1 = require("path");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     (0, common_1.Module)({
         imports: [
+            serve_static_1.ServeStaticModule.forRoot({
+                rootPath: (0, path_1.join)(__dirname, '..', 'client/build')
+            }),
             config_1.ConfigModule.forRoot(),
             mongoose_1.MongooseModule.forRoot(process.env.MONGODB_URI, {
                 dbName: 'hanvis',
