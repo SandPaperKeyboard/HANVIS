@@ -1,14 +1,14 @@
 /* eslint-disable prettier/prettier */
-import { Request } from 'express';
-import { Controller, Get, Redirect, Res } from '@nestjs/common';
+import { Controller, Get, HttpStatus, Res } from '@nestjs/common';
+import { Response } from 'express';
 import { AppService } from './app.service';
-import { dirname, join } from 'path';
-
 
 @Controller('api')
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  redirect() { }
+  getHello(@Res() res: Response) { 
+    return res.status(HttpStatus.OK).json([]);
+  }
 }
