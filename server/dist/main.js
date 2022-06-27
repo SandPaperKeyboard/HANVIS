@@ -6,6 +6,7 @@ const axios_1 = require("axios");
 const app_module_1 = require("./app.module");
 const sec = 1000;
 const min = 60 * sec;
+var url;
 async function bootstrap() {
     const app = await core_1.NestFactory.create(app_module_1.AppModule);
     app.useGlobalPipes(new common_1.ValidationPipe({
@@ -20,10 +21,11 @@ async function bootstrap() {
         credentials: true,
     });
     await app.listen(process.env.PORT || 3000);
+    url = await app.getUrl();
 }
 bootstrap();
-setInterval(() => {
-    console.log(axios_1.default.get("http://localhost:5000/api")
+setInterval(async () => {
+    console.log(await axios_1.default.get(url + "/api")
         .then().catch());
-}, sec);
+}, 1 * sec);
 //# sourceMappingURL=main.js.map

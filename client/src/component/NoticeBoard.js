@@ -53,7 +53,7 @@ function NoticeBoard() {
 
   const loadMovieContent = async() => {
     try {
-      const response = await Axios.get('http://localhost:5000/boards/');
+      const response = await Axios.get(window.location.origin+'/api/boards/');
       setMovieContent({
         title: response.data.existingBoard["title"],
         content: response.data.existingBoard["content"]
@@ -67,7 +67,7 @@ function NoticeBoard() {
   console.dir(editor.props["data"]);
 
   const submitReview = ()=>{
-    Axios.post('http://localhost:5000/boards/', {
+    Axios.post(window.location.origin+'/api/boards/', {
       title: movieContent.title,
       content: movieContent.content
     }).then(()=>{

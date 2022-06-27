@@ -1,11 +1,12 @@
 /* eslint-disable prettier/prettier */
-import { ValidationPipe } from '@nestjs/common';
+import { Req, ValidationPipe } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import axios from 'axios';
 import { AppModule } from './app.module';
 
 const sec = 1000;
 const min = 60 * sec;
+var url;
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -26,11 +27,12 @@ async function bootstrap() {
   });
 
   await app.listen(process.env.PORT || 3000);
+  url = await app.getUrl();
 }
 bootstrap();
 
-setInterval(() => {
-  axios.get("http://hanvis.herokuapp.com/api")
+setInterval(async () => {
+  await axios.get(url + "/api")
   .then().catch();
   
 }, 25*min);
